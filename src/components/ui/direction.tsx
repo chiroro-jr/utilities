@@ -17,6 +17,6 @@ function DirectionProvider({
   )
 }
 
-const useDirection = Direction.useDirection
+const {useDirection} = Direction
 
 export { DirectionProvider, useDirection }

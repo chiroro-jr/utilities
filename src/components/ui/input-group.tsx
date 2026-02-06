@@ -1,5 +1,5 @@
 import * as React from "react"
-import { cva, type VariantProps } from "class-variance-authority"
+import { type VariantProps, cva } from "class-variance-authority"
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -37,6 +37,9 @@ function InputGroup({ className, ...props }: React.ComponentProps<"div">) {
 const inputGroupAddonVariants = cva(
   "text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium select-none [&>svg:not([class*='size-'])]:size-4 [&>kbd]:rounded-[calc(var(--radius)-5px)] group-data-[disabled=true]/input-group:opacity-50",
   {
+    defaultVariants: {
+      align: "inline-start",
+    },
     variants: {
       align: {
         "inline-start":
@@ -48,9 +51,6 @@ const inputGroupAddonVariants = cva(
         "block-end":
           "order-last w-full justify-start px-3 pb-3 [.border-t]:pt-3 group-has-[>input]/input-group:pb-2.5",
       },
-    },
-    defaultVariants: {
-      align: "inline-start",
     },
   }
 )
@@ -80,6 +80,9 @@ function InputGroupAddon({
 const inputGroupButtonVariants = cva(
   "text-sm shadow-none flex gap-2 items-center",
   {
+    defaultVariants: {
+      size: "xs",
+    },
     variants: {
       size: {
         xs: "h-6 gap-1 px-2 rounded-[calc(var(--radius)-5px)] [&>svg:not([class*='size-'])]:size-3.5 has-[>svg]:px-2",
@@ -88,9 +91,6 @@ const inputGroupButtonVariants = cva(
           "size-6 rounded-[calc(var(--radius)-5px)] p-0 has-[>svg]:p-0",
         "icon-sm": "size-8 p-0 has-[>svg]:p-0",
       },
-    },
-    defaultVariants: {
-      size: "xs",
     },
   }
 )
