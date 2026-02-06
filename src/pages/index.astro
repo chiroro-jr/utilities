@@ -6,10 +6,8 @@ import MobileNav from "@/components/MobileNav";
 
 <BaseLayout title="Home">
     <!-- ===== HEADER ===== -->
-    <header class="bg-[#111111] sticky top-0 z-40">
-        <div
-            class="max-w-[1440px] mx-auto flex items-center justify-between px-5 lg:px-16 py-4 lg:py-5"
-        >
+    <header class="bg-foreground sticky top-0 z-40">
+        <div class="max-w-360 mx-auto flex items-center justify-between px-5 lg:px-16 py-4 lg:py-5">
             <!-- Logo -->
             <a href="/" class="flex items-center gap-2.5">
                 <svg
@@ -23,8 +21,7 @@ import MobileNav from "@/components/MobileNav";
                         d="M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z"
                         fill="#FF8400"></path>
                 </svg>
-                <span
-                    class="text-white text-sm lg:text-base font-bold tracking-[0.1em] font-[family-name:var(--font-primary)]"
+                <span class="text-white text-sm lg:text-base font-bold tracking-widest font-primary"
                     >UTILITIES</span
                 >
             </a>
@@ -33,22 +30,22 @@ import MobileNav from "@/components/MobileNav";
             <nav class="hidden lg:flex items-center gap-8">
                 <a
                     href="#features"
-                    class="text-[#888] text-sm font-medium font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                    class="text-[#888] text-sm font-medium font-secondary hover:text-white transition-colors"
                     >Features</a
                 >
                 <a
                     href="#pricing"
-                    class="text-[#888] text-sm font-medium font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                    class="text-[#888] text-sm font-medium font-secondary hover:text-white transition-colors"
                     >Pricing</a
                 >
                 <a
                     href="#about"
-                    class="text-[#888] text-sm font-medium font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                    class="text-[#888] text-sm font-medium font-secondary hover:text-white transition-colors"
                     >About</a
                 >
                 <a
                     href="#docs"
-                    class="text-[#888] text-sm font-medium font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                    class="text-[#888] text-sm font-medium font-secondary hover:text-white transition-colors"
                     >Docs</a
                 >
             </nav>
@@ -57,12 +54,12 @@ import MobileNav from "@/components/MobileNav";
             <div class="hidden lg:flex items-center gap-4">
                 <a
                     href="#login"
-                    class="text-[#888] text-sm font-medium font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                    class="text-[#888] text-sm font-medium font-secondary hover:text-white transition-colors"
                     >Log In</a
                 >
                 <a
                     href="#trial"
-                    class="bg-[#FF8400] text-[#111111] text-sm font-semibold font-[family-name:var(--font-secondary)] px-5 py-2.5 rounded-lg hover:bg-[#E67700] transition-colors"
+                    class="bg-primary text-foreground text-sm font-semibold font-secondary px-5 py-2.5 rounded-lg hover:bg-primary/85 transition-colors"
                     >Start Free Trial</a
                 >
             </div>
@@ -73,30 +70,29 @@ import MobileNav from "@/components/MobileNav";
     </header>
 
     <!-- ===== HERO ===== -->
-    <section class="bg-[#111111] pt-16 lg:pt-24 pb-16 lg:pb-24">
+    <section class="bg-foreground pt-16 lg:pt-24 pb-16 lg:pb-24">
         <div class="max-w-360 mx-auto px-5 lg:px-16">
             <div class="flex flex-col items-center text-center max-w-200 mx-auto">
                 <!-- Badge -->
                 <div
                     class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#2E2E2E] mb-6"
                 >
-                    <div class="w-2 h-2 rounded-full bg-[#FF8400]"></div>
-                    <span
-                        class="text-[#888] text-xs lg:text-sm font-medium font-[family-name:var(--font-secondary)]"
+                    <div class="w-2 h-2 rounded-full bg-primary"></div>
+                    <span class="text-[#888] text-xs lg:text-sm font-medium font-secondary"
                         >Now in Public Beta</span
                     >
                 </div>
 
                 <!-- Headline -->
                 <h1
-                    class="text-white text-4xl lg:text-6xl font-bold leading-tight font-[family-name:var(--font-primary)] mb-6"
+                    class="text-white text-4xl lg:text-6xl font-bold leading-tight font-primary mb-6"
                 >
-                    Modern Infrastructure for <span class="text-[#FF8400]">Utility</span> Companies
+                    Modern Infrastructure for <span class="text-primary">Utility</span> Companies
                 </h1>
 
                 <!-- Subline -->
                 <p
-                    class="text-[#888] text-base lg:text-lg leading-relaxed font-[family-name:var(--font-secondary)] mb-10 max-w-[600px]"
+                    class="text-[#888] text-base lg:text-lg leading-relaxed font-secondary mb-10 max-w-150"
                 >
                     Streamline operations, reduce costs, and deliver better service with our
                     all-in-one platform built specifically for modern utility providers.
@@ -106,13 +102,13 @@ import MobileNav from "@/components/MobileNav";
                 <div class="flex flex-col sm:flex-row items-center gap-4 mb-16">
                     <a
                         href="#trial"
-                        class="bg-[#FF8400] text-[#111111] text-base font-semibold font-[family-name:var(--font-secondary)] px-8 py-3.5 rounded-lg hover:bg-[#E67700] transition-colors w-full sm:w-auto text-center"
+                        class="bg-primary text-foreground text-base font-semibold font-secondary px-8 py-3.5 rounded-lg hover:bg-primary/85 transition-colors w-full sm:w-auto text-center"
                     >
                         Start Free Trial
                     </a>
                     <a
                         href="#demo"
-                        class="text-white text-base font-medium font-[family-name:var(--font-secondary)] px-8 py-3.5 rounded-lg border border-[#2E2E2E] hover:border-[#888] transition-colors w-full sm:w-auto text-center"
+                        class="text-white text-base font-medium font-secondary px-8 py-3.5 rounded-lg border border-[#2E2E2E] hover:border-[#888] transition-colors w-full sm:w-auto text-center"
                     >
                         Book a Demo
                     </a>
@@ -120,43 +116,36 @@ import MobileNav from "@/components/MobileNav";
 
                 <!-- Screenshot Placeholder -->
                 <div
-                    class="w-full aspect-[16/10] bg-[#1A1A1A] border border-[#2E2E2E] rounded-xl flex items-center justify-center"
+                    class="w-full aspect-16/10 bg-[#1A1A1A] border border-[#2E2E2E] rounded-xl flex items-center justify-center"
                 >
-                    <span class="text-[#444] text-sm font-[family-name:var(--font-primary)]"
-                        >Dashboard Preview</span
-                    >
+                    <span class="text-[#444] text-sm font-primary">Dashboard Preview</span>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ===== TRUST LOGOS ===== -->
-    <section class="bg-[#111111] border-t border-[#2E2E2E] py-12 lg:py-16">
-        <div class="max-w-[1440px] mx-auto px-5 lg:px-16">
+    <section class="bg-foreground border-t border-[#2E2E2E] py-12 lg:py-16">
+        <div class="max-w-360 mx-auto px-5 lg:px-16">
             <p
-                class="text-[#666] text-xs lg:text-sm text-center font-medium font-[family-name:var(--font-secondary)] uppercase tracking-widest mb-8"
+                class="text-muted-foreground text-xs lg:text-sm text-center font-medium font-secondary uppercase tracking-widest mb-8"
             >
                 Trusted by industry leaders
             </p>
             <div class="flex flex-wrap items-center justify-center gap-8 lg:gap-16">
-                <span
-                    class="text-[#444] text-lg lg:text-xl font-bold font-[family-name:var(--font-primary)] tracking-wider"
+                <span class="text-[#444] text-lg lg:text-xl font-bold font-primary tracking-wider"
                     >NEXTERA</span
                 >
-                <span
-                    class="text-[#444] text-lg lg:text-xl font-bold font-[family-name:var(--font-primary)] tracking-wider"
+                <span class="text-[#444] text-lg lg:text-xl font-bold font-primary tracking-wider"
                     >GRIDWISE</span
                 >
-                <span
-                    class="text-[#444] text-lg lg:text-xl font-bold font-[family-name:var(--font-primary)] tracking-wider"
+                <span class="text-[#444] text-lg lg:text-xl font-bold font-primary tracking-wider"
                     >VOLTERRA</span
                 >
-                <span
-                    class="text-[#444] text-lg lg:text-xl font-bold font-[family-name:var(--font-primary)] tracking-wider"
+                <span class="text-[#444] text-lg lg:text-xl font-bold font-primary tracking-wider"
                     >MERIDIAN</span
                 >
-                <span
-                    class="text-[#444] text-lg lg:text-xl font-bold font-[family-name:var(--font-primary)] tracking-wider"
+                <span class="text-[#444] text-lg lg:text-xl font-bold font-primary tracking-wider"
                     >CONDUIT</span
                 >
             </div>
@@ -164,21 +153,19 @@ import MobileNav from "@/components/MobileNav";
     </section>
 
     <!-- ===== HOW IT WORKS ===== -->
-    <section id="about" class="bg-[#F2F3F0] py-20 lg:py-28">
-        <div class="max-w-[1440px] mx-auto px-5 lg:px-16">
+    <section id="about" class="bg-background py-20 lg:py-28">
+        <div class="max-w-360 mx-auto px-5 lg:px-16">
             <div class="text-center mb-16">
                 <p
-                    class="text-[#FF8400] text-xs lg:text-sm font-semibold font-[family-name:var(--font-primary)] uppercase tracking-widest mb-4"
+                    class="text-primary text-xs lg:text-sm font-semibold font-primary uppercase tracking-widest mb-4"
                 >
                     How It Works
                 </p>
-                <h2
-                    class="text-[#111111] text-3xl lg:text-5xl font-bold font-[family-name:var(--font-primary)] mb-4"
-                >
+                <h2 class="text-foreground text-3xl lg:text-5xl font-bold font-primary mb-4">
                     Up and Running in Days, Not Months
                 </h2>
                 <p
-                    class="text-[#666] text-base lg:text-lg font-[family-name:var(--font-secondary)] max-w-[600px] mx-auto"
+                    class="text-muted-foreground text-base lg:text-lg font-secondary max-w-150 mx-auto"
                 >
                     Our streamlined onboarding process gets your team productive quickly with
                     minimal disruption to existing workflows.
@@ -189,17 +176,15 @@ import MobileNav from "@/components/MobileNav";
                 <!-- Step 1 -->
                 <div class="flex flex-col items-center text-center lg:items-start lg:text-left">
                     <div
-                        class="w-12 h-12 rounded-full bg-[#FF8400] text-[#111111] flex items-center justify-center text-lg font-bold font-[family-name:var(--font-primary)] mb-6"
+                        class="w-12 h-12 rounded-full bg-primary text-foreground flex items-center justify-center text-lg font-bold font-primary mb-6"
                     >
                         1
                     </div>
-                    <h3
-                        class="text-[#111111] text-xl font-bold font-[family-name:var(--font-primary)] mb-3"
-                    >
+                    <h3 class="text-foreground text-xl font-bold font-primary mb-3">
                         Connect Your Systems
                     </h3>
                     <p
-                        class="text-[#666] text-sm lg:text-base font-[family-name:var(--font-secondary)] leading-relaxed"
+                        class="text-muted-foreground text-sm lg:text-base font-secondary leading-relaxed"
                     >
                         Integrate with your existing infrastructure using our pre-built connectors.
                         Supports SCADA, AMI, GIS, and all major utility platforms.
@@ -209,17 +194,15 @@ import MobileNav from "@/components/MobileNav";
                 <!-- Step 2 -->
                 <div class="flex flex-col items-center text-center lg:items-start lg:text-left">
                     <div
-                        class="w-12 h-12 rounded-full bg-[#FF8400] text-[#111111] flex items-center justify-center text-lg font-bold font-[family-name:var(--font-primary)] mb-6"
+                        class="w-12 h-12 rounded-full bg-primary text-foreground flex items-center justify-center text-lg font-bold font-primary mb-6"
                     >
                         2
                     </div>
-                    <h3
-                        class="text-[#111111] text-xl font-bold font-[family-name:var(--font-primary)] mb-3"
-                    >
+                    <h3 class="text-foreground text-xl font-bold font-primary mb-3">
                         Configure & Customize
                     </h3>
                     <p
-                        class="text-[#666] text-sm lg:text-base font-[family-name:var(--font-secondary)] leading-relaxed"
+                        class="text-muted-foreground text-sm lg:text-base font-secondary leading-relaxed"
                     >
                         Set up dashboards, alerts, and workflows tailored to your operations. Our
                         team helps configure everything to match your needs.
@@ -229,17 +212,15 @@ import MobileNav from "@/components/MobileNav";
                 <!-- Step 3 -->
                 <div class="flex flex-col items-center text-center lg:items-start lg:text-left">
                     <div
-                        class="w-12 h-12 rounded-full bg-[#FF8400] text-[#111111] flex items-center justify-center text-lg font-bold font-[family-name:var(--font-primary)] mb-6"
+                        class="w-12 h-12 rounded-full bg-primary text-foreground flex items-center justify-center text-lg font-bold font-primary mb-6"
                     >
                         3
                     </div>
-                    <h3
-                        class="text-[#111111] text-xl font-bold font-[family-name:var(--font-primary)] mb-3"
-                    >
+                    <h3 class="text-foreground text-xl font-bold font-primary mb-3">
                         Go Live & Scale
                     </h3>
                     <p
-                        class="text-[#666] text-sm lg:text-base font-[family-name:var(--font-secondary)] leading-relaxed"
+                        class="text-muted-foreground text-sm lg:text-base font-secondary leading-relaxed"
                     >
                         Launch with confidence. Monitor performance in real-time and scale
                         seamlessly as your service territory grows.
@@ -250,22 +231,18 @@ import MobileNav from "@/components/MobileNav";
     </section>
 
     <!-- ===== CORE FEATURES ===== -->
-    <section id="features" class="bg-[#111111] py-20 lg:py-28">
-        <div class="max-w-[1440px] mx-auto px-5 lg:px-16">
+    <section id="features" class="bg-foreground py-20 lg:py-28">
+        <div class="max-w-360 mx-auto px-5 lg:px-16">
             <div class="text-center mb-16">
                 <p
-                    class="text-[#FF8400] text-xs lg:text-sm font-semibold font-[family-name:var(--font-primary)] uppercase tracking-widest mb-4"
+                    class="text-primary text-xs lg:text-sm font-semibold font-primary uppercase tracking-widest mb-4"
                 >
                     Core Features
                 </p>
-                <h2
-                    class="text-white text-3xl lg:text-5xl font-bold font-[family-name:var(--font-primary)] mb-4"
-                >
+                <h2 class="text-white text-3xl lg:text-5xl font-bold font-primary mb-4">
                     Everything You Need to Operate
                 </h2>
-                <p
-                    class="text-[#888] text-base lg:text-lg font-[family-name:var(--font-secondary)] max-w-[600px] mx-auto"
-                >
+                <p class="text-[#888] text-base lg:text-lg font-secondary max-w-150 mx-auto">
                     Purpose-built tools for utility companies, designed by industry experts who
                     understand your challenges.
                 </p>
@@ -275,35 +252,29 @@ import MobileNav from "@/components/MobileNav";
             <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20 mb-20 lg:mb-28">
                 <div class="w-full lg:w-1/2 order-2 lg:order-1">
                     <p
-                        class="text-[#FF8400] text-xs font-semibold font-[family-name:var(--font-primary)] uppercase tracking-widest mb-3"
+                        class="text-primary text-xs font-semibold font-primary uppercase tracking-widest mb-3"
                     >
                         Real-Time Dashboard
                     </p>
-                    <h3
-                        class="text-white text-2xl lg:text-3xl font-bold font-[family-name:var(--font-primary)] mb-4"
-                    >
+                    <h3 class="text-white text-2xl lg:text-3xl font-bold font-primary mb-4">
                         Complete Operational Visibility
                     </h3>
-                    <p
-                        class="text-[#888] text-sm lg:text-base font-[family-name:var(--font-secondary)] leading-relaxed mb-6"
-                    >
+                    <p class="text-[#888] text-sm lg:text-base font-secondary leading-relaxed mb-6">
                         Monitor your entire grid from a single dashboard. Track performance metrics,
                         identify anomalies, and make data-driven decisions with real-time insights
                         across all your service areas.
                     </p>
                     <a
                         href="#learn-more"
-                        class="text-[#FF8400] text-sm font-semibold font-[family-name:var(--font-secondary)] hover:underline"
+                        class="text-primary text-sm font-semibold font-secondary hover:underline"
                         >Learn more &rarr;</a
                     >
                 </div>
                 <div class="w-full lg:w-1/2 order-1 lg:order-2">
                     <div
-                        class="aspect-[4/3] bg-[#1A1A1A] border border-[#2E2E2E] rounded-xl flex items-center justify-center"
+                        class="aspect-4/3 bg-[#1A1A1A] border border-[#2E2E2E] rounded-xl flex items-center justify-center"
                     >
-                        <span class="text-[#444] text-sm font-[family-name:var(--font-primary)]"
-                            >Dashboard Screenshot</span
-                        >
+                        <span class="text-[#444] text-sm font-primary">Dashboard Screenshot</span>
                     </div>
                 </div>
             </div>
@@ -312,34 +283,29 @@ import MobileNav from "@/components/MobileNav";
             <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20 mb-20 lg:mb-28">
                 <div class="w-full lg:w-1/2">
                     <div
-                        class="aspect-[4/3] bg-[#1A1A1A] border border-[#2E2E2E] rounded-xl flex items-center justify-center"
+                        class="aspect-4/3 bg-[#1A1A1A] border border-[#2E2E2E] rounded-xl flex items-center justify-center"
                     >
-                        <span class="text-[#444] text-sm font-[family-name:var(--font-primary)]"
-                            >Smart Meters Screenshot</span
+                        <span class="text-[#444] text-sm font-primary">Smart Meters Screenshot</span
                         >
                     </div>
                 </div>
                 <div class="w-full lg:w-1/2">
                     <p
-                        class="text-[#FF8400] text-xs font-semibold font-[family-name:var(--font-primary)] uppercase tracking-widest mb-3"
+                        class="text-primary text-xs font-semibold font-primary uppercase tracking-widest mb-3"
                     >
                         Smart Metering
                     </p>
-                    <h3
-                        class="text-white text-2xl lg:text-3xl font-bold font-[family-name:var(--font-primary)] mb-4"
-                    >
+                    <h3 class="text-white text-2xl lg:text-3xl font-bold font-primary mb-4">
                         Advanced Meter Management
                     </h3>
-                    <p
-                        class="text-[#888] text-sm lg:text-base font-[family-name:var(--font-secondary)] leading-relaxed mb-6"
-                    >
+                    <p class="text-[#888] text-sm lg:text-base font-secondary leading-relaxed mb-6">
                         Manage millions of smart meters from a single platform. Automated reading
                         collection, tamper detection, and predictive maintenance keep your metering
                         infrastructure running at peak efficiency.
                     </p>
                     <a
                         href="#learn-more"
-                        class="text-[#FF8400] text-sm font-semibold font-[family-name:var(--font-secondary)] hover:underline"
+                        class="text-primary text-sm font-semibold font-secondary hover:underline"
                         >Learn more &rarr;</a
                     >
                 </div>
@@ -349,31 +315,29 @@ import MobileNav from "@/components/MobileNav";
             <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
                 <div class="w-full lg:w-1/2 order-2 lg:order-1">
                     <p
-                        class="text-[#FF8400] text-xs font-semibold font-primary uppercase tracking-widest mb-3"
+                        class="text-primary text-xs font-semibold font-primary uppercase tracking-widest mb-3"
                     >
                         Outage Management
                     </p>
                     <h3 class="text-white text-2xl lg:text-3xl font-bold font-primary mb-4">
                         Rapid Response, Faster Recovery
                     </h3>
-                    <p
-                        class="text-[#888] text-sm lg:text-base font-[family-name:var(--font-secondary)] leading-relaxed mb-6"
-                    >
+                    <p class="text-[#888] text-sm lg:text-base font-secondary leading-relaxed mb-6">
                         Detect outages before customers call. Our AI-powered system pinpoints
                         affected areas, dispatches crews automatically, and provides real-time
                         restoration updates to your customers.
                     </p>
                     <a
                         href="#learn-more"
-                        class="text-[#FF8400] text-sm font-semibold font-[family-name:var(--font-secondary)] hover:underline"
+                        class="text-primary text-sm font-semibold font-secondary hover:underline"
                         >Learn more &rarr;</a
                     >
                 </div>
                 <div class="w-full lg:w-1/2 order-1 lg:order-2">
                     <div
-                        class="aspect-[4/3] bg-[#1A1A1A] border border-[#2E2E2E] rounded-xl flex items-center justify-center"
+                        class="aspect-4/3 bg-[#1A1A1A] border border-[#2E2E2E] rounded-xl flex items-center justify-center"
                     >
-                        <span class="text-[#444] text-sm font-[family-name:var(--font-primary)]"
+                        <span class="text-[#444] text-sm font-primary"
                             >Outage Management Screenshot</span
                         >
                     </div>
@@ -383,21 +347,19 @@ import MobileNav from "@/components/MobileNav";
     </section>
 
     <!-- ===== CAPABILITIES / SECONDARY FEATURES ===== -->
-    <section class="bg-[#F2F3F0] py-20 lg:py-28">
-        <div class="max-w-[1440px] mx-auto px-5 lg:px-16">
+    <section class="bg-background py-20 lg:py-28">
+        <div class="max-w-360 mx-auto px-5 lg:px-16">
             <div class="text-center mb-16">
                 <p
-                    class="text-[#FF8400] text-xs lg:text-sm font-semibold font-[family-name:var(--font-primary)] uppercase tracking-widest mb-4"
+                    class="text-primary text-xs lg:text-sm font-semibold font-primary uppercase tracking-widest mb-4"
                 >
                     Capabilities
                 </p>
-                <h2
-                    class="text-[#111111] text-3xl lg:text-5xl font-bold font-[family-name:var(--font-primary)] mb-4"
-                >
+                <h2 class="text-foreground text-3xl lg:text-5xl font-bold font-primary mb-4">
                     Built for Every Department
                 </h2>
                 <p
-                    class="text-[#666] text-base lg:text-lg font-[family-name:var(--font-secondary)] max-w-[600px] mx-auto"
+                    class="text-muted-foreground text-base lg:text-lg font-secondary max-w-150 mx-auto"
                 >
                     From billing to field operations, every team gets purpose-built tools that work
                     together seamlessly.
@@ -406,7 +368,7 @@ import MobileNav from "@/components/MobileNav";
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
                 <!-- Card 1 -->
-                <div class="bg-white rounded-xl p-6 lg:p-8 border border-[#E7E8E5]">
+                <div class="bg-card rounded-xl p-6 lg:p-8 border border-secondary">
                     <div
                         class="w-10 h-10 rounded-lg bg-[#FFF0DB] flex items-center justify-center mb-5"
                     >
@@ -426,21 +388,17 @@ import MobileNav from "@/components/MobileNav";
                                 y2="10"></line></svg
                         >
                     </div>
-                    <h3
-                        class="text-[#111111] text-lg font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
+                    <h3 class="text-foreground text-lg font-bold font-primary mb-2">
                         Automated Billing
                     </h3>
-                    <p
-                        class="text-[#666] text-sm font-[family-name:var(--font-secondary)] leading-relaxed"
-                    >
+                    <p class="text-muted-foreground text-sm font-secondary leading-relaxed">
                         Generate accurate invoices automatically with support for complex rate
                         structures, TOU pricing, and demand charges.
                     </p>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-white rounded-xl p-6 lg:p-8 border border-[#E7E8E5]">
+                <div class="bg-card rounded-xl p-6 lg:p-8 border border-secondary">
                     <div
                         class="w-10 h-10 rounded-lg bg-[#FFF0DB] flex items-center justify-center mb-5"
                     >
@@ -460,21 +418,17 @@ import MobileNav from "@/components/MobileNav";
                                 d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg
                         >
                     </div>
-                    <h3
-                        class="text-[#111111] text-lg font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
+                    <h3 class="text-foreground text-lg font-bold font-primary mb-2">
                         Customer Portal
                     </h3>
-                    <p
-                        class="text-[#666] text-sm font-[family-name:var(--font-secondary)] leading-relaxed"
-                    >
+                    <p class="text-muted-foreground text-sm font-secondary leading-relaxed">
                         Self-service portal for customers to view usage, pay bills, report issues,
                         and manage their accounts 24/7.
                     </p>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-white rounded-xl p-6 lg:p-8 border border-[#E7E8E5]">
+                <div class="bg-card rounded-xl p-6 lg:p-8 border border-secondary">
                     <div
                         class="w-10 h-10 rounded-lg bg-[#FFF0DB] flex items-center justify-center mb-5"
                     >
@@ -495,21 +449,17 @@ import MobileNav from "@/components/MobileNav";
                                 y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg
                         >
                     </div>
-                    <h3
-                        class="text-[#111111] text-lg font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
+                    <h3 class="text-foreground text-lg font-bold font-primary mb-2">
                         Compliance Reports
                     </h3>
-                    <p
-                        class="text-[#666] text-sm font-[family-name:var(--font-secondary)] leading-relaxed"
-                    >
+                    <p class="text-muted-foreground text-sm font-secondary leading-relaxed">
                         Automatically generate regulatory compliance reports for NERC, FERC, and
                         state PUC requirements with audit trails.
                     </p>
                 </div>
 
                 <!-- Card 4 -->
-                <div class="bg-white rounded-xl p-6 lg:p-8 border border-[#E7E8E5]">
+                <div class="bg-card rounded-xl p-6 lg:p-8 border border-secondary">
                     <div
                         class="w-10 h-10 rounded-lg bg-[#FFF0DB] flex items-center justify-center mb-5"
                     >
@@ -526,21 +476,15 @@ import MobileNav from "@/components/MobileNav";
                                 points="8 6 2 12 8 18"></polyline></svg
                         >
                     </div>
-                    <h3
-                        class="text-[#111111] text-lg font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
-                        Open API
-                    </h3>
-                    <p
-                        class="text-[#666] text-sm font-[family-name:var(--font-secondary)] leading-relaxed"
-                    >
+                    <h3 class="text-foreground text-lg font-bold font-primary mb-2">Open API</h3>
+                    <p class="text-muted-foreground text-sm font-secondary leading-relaxed">
                         RESTful APIs with comprehensive documentation. Build custom integrations and
                         extend the platform to fit your workflows.
                     </p>
                 </div>
 
                 <!-- Card 5 -->
-                <div class="bg-white rounded-xl p-6 lg:p-8 border border-[#E7E8E5]">
+                <div class="bg-card rounded-xl p-6 lg:p-8 border border-secondary">
                     <div
                         class="w-10 h-10 rounded-lg bg-[#FFF0DB] flex items-center justify-center mb-5"
                     >
@@ -560,21 +504,17 @@ import MobileNav from "@/components/MobileNav";
                                 y2="18"></line></svg
                         >
                     </div>
-                    <h3
-                        class="text-[#111111] text-lg font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
+                    <h3 class="text-foreground text-lg font-bold font-primary mb-2">
                         Mobile Crews
                     </h3>
-                    <p
-                        class="text-[#666] text-sm font-[family-name:var(--font-secondary)] leading-relaxed"
-                    >
+                    <p class="text-muted-foreground text-sm font-secondary leading-relaxed">
                         Native mobile apps for field technicians with offline capability, GPS
                         tracking, and real-time work order management.
                     </p>
                 </div>
 
                 <!-- Card 6 -->
-                <div class="bg-white rounded-xl p-6 lg:p-8 border border-[#E7E8E5]">
+                <div class="bg-card rounded-xl p-6 lg:p-8 border border-secondary">
                     <div
                         class="w-10 h-10 rounded-lg bg-[#FFF0DB] flex items-center justify-center mb-5"
                     >
@@ -590,14 +530,10 @@ import MobileNav from "@/components/MobileNav";
                             ><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg
                         >
                     </div>
-                    <h3
-                        class="text-[#111111] text-lg font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
+                    <h3 class="text-foreground text-lg font-bold font-primary mb-2">
                         Enterprise Security
                     </h3>
-                    <p
-                        class="text-[#666] text-sm font-[family-name:var(--font-secondary)] leading-relaxed"
-                    >
+                    <p class="text-muted-foreground text-sm font-secondary leading-relaxed">
                         SOC 2 Type II compliant with end-to-end encryption, SSO, role-based access
                         control, and comprehensive audit logging.
                     </p>
@@ -607,49 +543,31 @@ import MobileNav from "@/components/MobileNav";
     </section>
 
     <!-- ===== SOCIAL PROOF ===== -->
-    <section class="bg-[#111111] py-20 lg:py-28">
-        <div class="max-w-[1440px] mx-auto px-5 lg:px-16">
+    <section class="bg-foreground py-20 lg:py-28">
+        <div class="max-w-360 mx-auto px-5 lg:px-16">
             <!-- Stats -->
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-16 lg:mb-20">
                 <div class="text-center">
-                    <p
-                        class="text-[#FF8400] text-3xl lg:text-5xl font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
+                    <p class="text-primary text-3xl lg:text-5xl font-bold font-primary mb-2">
                         150+
                     </p>
-                    <p class="text-[#888] text-sm font-[family-name:var(--font-secondary)]">
-                        Utility Companies
-                    </p>
+                    <p class="text-[#888] text-sm font-secondary">Utility Companies</p>
                 </div>
                 <div class="text-center">
-                    <p
-                        class="text-[#FF8400] text-3xl lg:text-5xl font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
+                    <p class="text-primary text-3xl lg:text-5xl font-bold font-primary mb-2">
                         12M+
                     </p>
-                    <p class="text-[#888] text-sm font-[family-name:var(--font-secondary)]">
-                        Meters Managed
-                    </p>
+                    <p class="text-[#888] text-sm font-secondary">Meters Managed</p>
                 </div>
                 <div class="text-center">
-                    <p
-                        class="text-[#FF8400] text-3xl lg:text-5xl font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
+                    <p class="text-primary text-3xl lg:text-5xl font-bold font-primary mb-2">
                         99.9%
                     </p>
-                    <p class="text-[#888] text-sm font-[family-name:var(--font-secondary)]">
-                        Uptime SLA
-                    </p>
+                    <p class="text-[#888] text-sm font-secondary">Uptime SLA</p>
                 </div>
                 <div class="text-center">
-                    <p
-                        class="text-[#FF8400] text-3xl lg:text-5xl font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
-                        40%
-                    </p>
-                    <p class="text-[#888] text-sm font-[family-name:var(--font-secondary)]">
-                        Cost Reduction
-                    </p>
+                    <p class="text-primary text-3xl lg:text-5xl font-bold font-primary mb-2">40%</p>
+                    <p class="text-[#888] text-sm font-secondary">Cost Reduction</p>
                 </div>
             </div>
 
@@ -660,24 +578,22 @@ import MobileNav from "@/components/MobileNav";
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
                 <div class="bg-[#1A1A1A] rounded-xl p-8 lg:p-10 border border-[#2E2E2E]">
                     <p
-                        class="text-[#CCCCCC] text-base lg:text-lg font-[family-name:var(--font-secondary)] leading-relaxed mb-8"
+                        class="text-[#CCCCCC] text-base lg:text-lg font-secondary leading-relaxed mb-8"
                     >
                         "Utilities transformed how we manage our grid. We reduced outage response
                         times by 60% and our customer satisfaction scores are at an all-time high."
                     </p>
                     <div class="flex items-center gap-4">
                         <div
-                            class="w-10 h-10 rounded-full bg-[#2E2E2E] flex items-center justify-center text-[#888] text-sm font-bold font-[family-name:var(--font-primary)]"
+                            class="w-10 h-10 rounded-full bg-[#2E2E2E] flex items-center justify-center text-[#888] text-sm font-bold font-primary"
                         >
                             SJ
                         </div>
                         <div>
-                            <p
-                                class="text-white text-sm font-semibold font-[family-name:var(--font-secondary)]"
-                            >
+                            <p class="text-white text-sm font-semibold font-secondary">
                                 Sarah Johnson
                             </p>
-                            <p class="text-[#666] text-sm font-[family-name:var(--font-secondary)]">
+                            <p class="text-muted-foreground text-sm font-secondary">
                                 VP Operations, Meridian Energy
                             </p>
                         </div>
@@ -686,24 +602,22 @@ import MobileNav from "@/components/MobileNav";
 
                 <div class="bg-[#1A1A1A] rounded-xl p-8 lg:p-10 border border-[#2E2E2E]">
                     <p
-                        class="text-[#CCCCCC] text-base lg:text-lg font-[family-name:var(--font-secondary)] leading-relaxed mb-8"
+                        class="text-[#CCCCCC] text-base lg:text-lg font-secondary leading-relaxed mb-8"
                     >
                         "The ROI was immediate. Within the first quarter, we automated 80% of our
                         billing processes and eliminated nearly all manual data entry errors."
                     </p>
                     <div class="flex items-center gap-4">
                         <div
-                            class="w-10 h-10 rounded-full bg-[#2E2E2E] flex items-center justify-center text-[#888] text-sm font-bold font-[family-name:var(--font-primary)]"
+                            class="w-10 h-10 rounded-full bg-[#2E2E2E] flex items-center justify-center text-[#888] text-sm font-bold font-primary"
                         >
                             MC
                         </div>
                         <div>
-                            <p
-                                class="text-white text-sm font-semibold font-[family-name:var(--font-secondary)]"
-                            >
+                            <p class="text-white text-sm font-semibold font-secondary">
                                 Michael Chen
                             </p>
-                            <p class="text-[#666] text-sm font-[family-name:var(--font-secondary)]">
+                            <p class="text-muted-foreground text-sm font-secondary">
                                 CTO, GridWise Solutions
                             </p>
                         </div>
@@ -714,53 +628,40 @@ import MobileNav from "@/components/MobileNav";
     </section>
 
     <!-- ===== PRICING ===== -->
-    <section id="pricing" class="bg-[#F2F3F0] py-20 lg:py-28">
-        <div class="max-w-[1440px] mx-auto px-5 lg:px-16">
+    <section id="pricing" class="bg-background py-20 lg:py-28">
+        <div class="max-w-360 mx-auto px-5 lg:px-16">
             <div class="text-center mb-16">
                 <p
-                    class="text-[#FF8400] text-xs lg:text-sm font-semibold font-[family-name:var(--font-primary)] uppercase tracking-widest mb-4"
+                    class="text-primary text-xs lg:text-sm font-semibold font-primary uppercase tracking-widest mb-4"
                 >
                     Pricing
                 </p>
-                <h2
-                    class="text-[#111111] text-3xl lg:text-5xl font-bold font-[family-name:var(--font-primary)] mb-4"
-                >
+                <h2 class="text-foreground text-3xl lg:text-5xl font-bold font-primary mb-4">
                     Simple, Transparent Pricing
                 </h2>
                 <p
-                    class="text-[#666] text-base lg:text-lg font-[family-name:var(--font-secondary)] max-w-[600px] mx-auto"
+                    class="text-muted-foreground text-base lg:text-lg font-secondary max-w-150 mx-auto"
                 >
                     Choose the plan that fits your utility. All plans include core features with no
                     hidden fees.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 max-w-[1100px] mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 max-w-275 mx-auto">
                 <!-- Starter -->
-                <div class="bg-white rounded-xl p-8 border border-[#E7E8E5] flex flex-col">
-                    <h3
-                        class="text-[#111111] text-lg font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
-                        Starter
-                    </h3>
-                    <p class="text-[#666] text-sm font-[family-name:var(--font-secondary)] mb-6">
+                <div class="bg-card rounded-xl p-8 border border-secondary flex flex-col">
+                    <h3 class="text-foreground text-lg font-bold font-primary mb-2">Starter</h3>
+                    <p class="text-muted-foreground text-sm font-secondary mb-6">
                         For small utilities getting started
                     </p>
                     <div class="mb-6">
-                        <span
-                            class="text-[#111111] text-4xl font-bold font-[family-name:var(--font-primary)]"
-                            >$499</span
-                        >
-                        <span class="text-[#666] text-sm font-[family-name:var(--font-secondary)]"
-                            >/month</span
-                        >
+                        <span class="text-foreground text-4xl font-bold font-primary">$499</span>
+                        <span class="text-muted-foreground text-sm font-secondary">/month</span>
                     </div>
                     <ul class="space-y-3 mb-8 flex-1">
-                        <li
-                            class="flex items-start gap-3 text-[#444] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#444] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -768,11 +669,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             Up to 10,000 meters
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#444] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#444] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -780,11 +679,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             Core dashboard & reporting
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#444] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#444] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -792,11 +689,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             Email support
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#444] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#444] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -807,7 +702,7 @@ import MobileNav from "@/components/MobileNav";
                     </ul>
                     <a
                         href="#trial"
-                        class="w-full py-3 text-center text-[#111111] border border-[#CBCCC9] rounded-lg text-sm font-semibold font-[family-name:var(--font-secondary)] hover:bg-[#E7E8E5] transition-colors"
+                        class="w-full py-3 text-center text-foreground border border-border rounded-lg text-sm font-semibold font-secondary hover:bg-secondary transition-colors"
                     >
                         Get Started
                     </a>
@@ -815,36 +710,25 @@ import MobileNav from "@/components/MobileNav";
 
                 <!-- Professional (Popular) -->
                 <div
-                    class="bg-[#111111] rounded-xl p-8 border-2 border-[#FF8400] flex flex-col relative"
+                    class="bg-foreground rounded-xl p-8 border-2 border-primary flex flex-col relative"
                 >
                     <div
-                        class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#FF8400] text-[#111111] text-xs font-bold font-[family-name:var(--font-primary)] px-4 py-1 rounded-full uppercase tracking-wider"
+                        class="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-foreground text-xs font-bold font-primary px-4 py-1 rounded-full uppercase tracking-wider"
                     >
                         Popular
                     </div>
-                    <h3
-                        class="text-white text-lg font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
-                        Professional
-                    </h3>
-                    <p class="text-[#888] text-sm font-[family-name:var(--font-secondary)] mb-6">
+                    <h3 class="text-white text-lg font-bold font-primary mb-2">Professional</h3>
+                    <p class="text-[#888] text-sm font-secondary mb-6">
                         For growing utility operations
                     </p>
                     <div class="mb-6">
-                        <span
-                            class="text-white text-4xl font-bold font-[family-name:var(--font-primary)]"
-                            >$1,499</span
-                        >
-                        <span class="text-[#888] text-sm font-[family-name:var(--font-secondary)]"
-                            >/month</span
-                        >
+                        <span class="text-white text-4xl font-bold font-primary">$1,499</span>
+                        <span class="text-[#888] text-sm font-secondary">/month</span>
                     </div>
                     <ul class="space-y-3 mb-8 flex-1">
-                        <li
-                            class="flex items-start gap-3 text-[#CCCCCC] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#CCCCCC] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -852,11 +736,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             Up to 100,000 meters
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#CCCCCC] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#CCCCCC] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -864,11 +746,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             Advanced analytics & AI
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#CCCCCC] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#CCCCCC] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -876,11 +756,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             Priority phone & chat support
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#CCCCCC] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#CCCCCC] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -888,11 +766,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             Full API access & webhooks
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#CCCCCC] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#CCCCCC] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -903,34 +779,25 @@ import MobileNav from "@/components/MobileNav";
                     </ul>
                     <a
                         href="#trial"
-                        class="w-full py-3 text-center text-[#111111] bg-[#FF8400] rounded-lg text-sm font-semibold font-[family-name:var(--font-secondary)] hover:bg-[#E67700] transition-colors"
+                        class="w-full py-3 text-center text-foreground bg-primary rounded-lg text-sm font-semibold font-secondary hover:bg-primary/85 transition-colors"
                     >
                         Start Free Trial
                     </a>
                 </div>
 
                 <!-- Enterprise -->
-                <div class="bg-white rounded-xl p-8 border border-[#E7E8E5] flex flex-col">
-                    <h3
-                        class="text-[#111111] text-lg font-bold font-[family-name:var(--font-primary)] mb-2"
-                    >
-                        Enterprise
-                    </h3>
-                    <p class="text-[#666] text-sm font-[family-name:var(--font-secondary)] mb-6">
+                <div class="bg-card rounded-xl p-8 border border-secondary flex flex-col">
+                    <h3 class="text-foreground text-lg font-bold font-primary mb-2">Enterprise</h3>
+                    <p class="text-muted-foreground text-sm font-secondary mb-6">
                         For large-scale utility providers
                     </p>
                     <div class="mb-6">
-                        <span
-                            class="text-[#111111] text-4xl font-bold font-[family-name:var(--font-primary)]"
-                            >Custom</span
-                        >
+                        <span class="text-foreground text-4xl font-bold font-primary">Custom</span>
                     </div>
                     <ul class="space-y-3 mb-8 flex-1">
-                        <li
-                            class="flex items-start gap-3 text-[#444] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#444] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -938,11 +805,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             Unlimited meters
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#444] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#444] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -950,11 +815,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             Dedicated account manager
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#444] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#444] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -962,11 +825,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             24/7 emergency support
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#444] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#444] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -974,11 +835,9 @@ import MobileNav from "@/components/MobileNav";
                             >
                             On-premise deployment option
                         </li>
-                        <li
-                            class="flex items-start gap-3 text-[#444] text-sm font-[family-name:var(--font-secondary)]"
-                        >
+                        <li class="flex items-start gap-3 text-[#444] text-sm font-secondary">
                             <svg
-                                class="w-5 h-5 text-[#FF8400] shrink-0 mt-0.5"
+                                class="w-5 h-5 text-primary shrink-0 mt-0.5"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -989,7 +848,7 @@ import MobileNav from "@/components/MobileNav";
                     </ul>
                     <a
                         href="#contact"
-                        class="w-full py-3 text-center text-[#111111] border border-[#CBCCC9] rounded-lg text-sm font-semibold font-[family-name:var(--font-secondary)] hover:bg-[#E7E8E5] transition-colors"
+                        class="w-full py-3 text-center text-foreground border border-border rounded-lg text-sm font-semibold font-secondary hover:bg-secondary transition-colors"
                     >
                         Contact Sales
                     </a>
@@ -999,43 +858,37 @@ import MobileNav from "@/components/MobileNav";
     </section>
 
     <!-- ===== FAQ ===== -->
-    <section class="bg-[#111111] py-20 lg:py-28">
-        <div class="max-w-[1440px] mx-auto px-5 lg:px-16">
+    <section class="bg-foreground py-20 lg:py-28">
+        <div class="max-w-360 mx-auto px-5 lg:px-16">
             <div class="text-center mb-16">
                 <p
-                    class="text-[#FF8400] text-xs lg:text-sm font-semibold font-[family-name:var(--font-primary)] uppercase tracking-widest mb-4"
+                    class="text-primary text-xs lg:text-sm font-semibold font-primary uppercase tracking-widest mb-4"
                 >
                     FAQ
                 </p>
-                <h2
-                    class="text-white text-3xl lg:text-5xl font-bold font-[family-name:var(--font-primary)] mb-4"
-                >
+                <h2 class="text-white text-3xl lg:text-5xl font-bold font-primary mb-4">
                     Frequently Asked Questions
                 </h2>
-                <p
-                    class="text-[#888] text-base lg:text-lg font-[family-name:var(--font-secondary)] max-w-[600px] mx-auto"
-                >
+                <p class="text-[#888] text-base lg:text-lg font-secondary max-w-150 mx-auto">
                     Everything you need to know about getting started with Utilities.
                 </p>
             </div>
 
-            <div class="max-w-[768px] mx-auto">
+            <div class="max-w-3xl mx-auto">
                 <FaqSection client:load />
             </div>
         </div>
     </section>
 
     <!-- ===== FINAL CTA ===== -->
-    <section class="bg-[#F2F3F0] py-20 lg:py-28">
-        <div class="max-w-[1440px] mx-auto px-5 lg:px-16">
-            <div class="flex flex-col items-center text-center max-w-[700px] mx-auto">
-                <h2
-                    class="text-[#111111] text-3xl lg:text-5xl font-bold font-[family-name:var(--font-primary)] mb-4"
-                >
+    <section class="bg-background py-20 lg:py-28">
+        <div class="max-w-360 mx-auto px-5 lg:px-16">
+            <div class="flex flex-col items-center text-center max-w-175 mx-auto">
+                <h2 class="text-foreground text-3xl lg:text-5xl font-bold font-primary mb-4">
                     Ready to Modernize Your Utility?
                 </h2>
                 <p
-                    class="text-[#666] text-base lg:text-lg font-[family-name:var(--font-secondary)] mb-10 leading-relaxed"
+                    class="text-muted-foreground text-base lg:text-lg font-secondary mb-10 leading-relaxed"
                 >
                     Join 150+ utility companies already using our platform to deliver better
                     service, reduce costs, and future-proof their operations.
@@ -1043,18 +896,18 @@ import MobileNav from "@/components/MobileNav";
                 <div class="flex flex-col sm:flex-row items-center gap-4 mb-10">
                     <a
                         href="#trial"
-                        class="bg-[#FF8400] text-[#111111] text-base font-semibold font-[family-name:var(--font-secondary)] px-8 py-3.5 rounded-lg hover:bg-[#E67700] transition-colors w-full sm:w-auto text-center"
+                        class="bg-primary text-foreground text-base font-semibold font-secondary px-8 py-3.5 rounded-lg hover:bg-primary/85 transition-colors w-full sm:w-auto text-center"
                     >
                         Start Free Trial
                     </a>
                     <a
                         href="#demo"
-                        class="text-[#111111] text-base font-medium font-[family-name:var(--font-secondary)] px-8 py-3.5 rounded-lg border border-[#CBCCC9] hover:bg-[#E7E8E5] transition-colors w-full sm:w-auto text-center"
+                        class="text-foreground text-base font-medium font-secondary px-8 py-3.5 rounded-lg border border-border hover:bg-secondary transition-colors w-full sm:w-auto text-center"
                     >
                         Schedule a Demo
                     </a>
                 </div>
-                <p class="text-[#999] text-xs font-[family-name:var(--font-secondary)]">
+                <p class="text-[#999] text-xs font-secondary">
                     No credit card required &middot; 14-day free trial &middot; Cancel anytime
                 </p>
             </div>
@@ -1062,8 +915,8 @@ import MobileNav from "@/components/MobileNav";
     </section>
 
     <!-- ===== FOOTER ===== -->
-    <footer class="bg-[#111111] pt-16 lg:pt-20 pb-8">
-        <div class="max-w-[1440px] mx-auto px-5 lg:px-16">
+    <footer class="bg-foreground pt-16 lg:pt-20 pb-8">
+        <div class="max-w-360 mx-auto px-5 lg:px-16">
             <div class="grid grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12 mb-12 lg:mb-16">
                 <!-- Brand -->
                 <div class="col-span-2">
@@ -1073,13 +926,12 @@ import MobileNav from "@/components/MobileNav";
                                 d="M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z"
                                 fill="#FF8400"></path>
                         </svg>
-                        <span
-                            class="text-white text-sm font-bold tracking-[0.1em] font-[family-name:var(--font-primary)]"
+                        <span class="text-white text-sm font-bold tracking-widest font-primary"
                             >UTILITIES</span
                         >
                     </div>
                     <p
-                        class="text-[#666] text-sm font-[family-name:var(--font-secondary)] leading-relaxed max-w-[280px]"
+                        class="text-muted-foreground text-sm font-secondary leading-relaxed max-w-70"
                     >
                         Modern infrastructure management platform for utility companies of all
                         sizes.
@@ -1088,37 +940,33 @@ import MobileNav from "@/components/MobileNav";
 
                 <!-- Product -->
                 <div>
-                    <h4
-                        class="text-white text-sm font-semibold font-[family-name:var(--font-secondary)] mb-4"
-                    >
-                        Product
-                    </h4>
+                    <h4 class="text-white text-sm font-semibold font-secondary mb-4">Product</h4>
                     <ul class="space-y-3">
                         <li>
                             <a
                                 href="#features"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Features</a
                             >
                         </li>
                         <li>
                             <a
                                 href="#pricing"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Pricing</a
                             >
                         </li>
                         <li>
                             <a
                                 href="#integrations"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Integrations</a
                             >
                         </li>
                         <li>
                             <a
                                 href="#changelog"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Changelog</a
                             >
                         </li>
@@ -1127,37 +975,33 @@ import MobileNav from "@/components/MobileNav";
 
                 <!-- Company -->
                 <div>
-                    <h4
-                        class="text-white text-sm font-semibold font-[family-name:var(--font-secondary)] mb-4"
-                    >
-                        Company
-                    </h4>
+                    <h4 class="text-white text-sm font-semibold font-secondary mb-4">Company</h4>
                     <ul class="space-y-3">
                         <li>
                             <a
                                 href="#about"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >About</a
                             >
                         </li>
                         <li>
                             <a
                                 href="#blog"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Blog</a
                             >
                         </li>
                         <li>
                             <a
                                 href="#careers"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Careers</a
                             >
                         </li>
                         <li>
                             <a
                                 href="#contact"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Contact</a
                             >
                         </li>
@@ -1166,37 +1010,33 @@ import MobileNav from "@/components/MobileNav";
 
                 <!-- Legal -->
                 <div>
-                    <h4
-                        class="text-white text-sm font-semibold font-[family-name:var(--font-secondary)] mb-4"
-                    >
-                        Legal
-                    </h4>
+                    <h4 class="text-white text-sm font-semibold font-secondary mb-4">Legal</h4>
                     <ul class="space-y-3">
                         <li>
                             <a
                                 href="#privacy"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Privacy Policy</a
                             >
                         </li>
                         <li>
                             <a
                                 href="#terms"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Terms of Service</a
                             >
                         </li>
                         <li>
                             <a
                                 href="#security"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Security</a
                             >
                         </li>
                         <li>
                             <a
                                 href="#compliance"
-                                class="text-[#666] text-sm font-[family-name:var(--font-secondary)] hover:text-white transition-colors"
+                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Compliance</a
                             >
                         </li>
@@ -1209,14 +1049,14 @@ import MobileNav from "@/components/MobileNav";
 
             <!-- Bottom -->
             <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
-                <p class="text-[#666] text-xs font-[family-name:var(--font-secondary)]">
+                <p class="text-muted-foreground text-xs font-secondary">
                     &copy; 2025 Utilities. All rights reserved.
                 </p>
                 <div class="flex items-center gap-4">
                     <!-- Twitter/X -->
                     <a
                         href="#twitter"
-                        class="text-[#666] hover:text-white transition-colors"
+                        class="text-muted-foreground hover:text-white transition-colors"
                         aria-label="Twitter"
                     >
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
@@ -1228,7 +1068,7 @@ import MobileNav from "@/components/MobileNav";
                     <!-- LinkedIn -->
                     <a
                         href="#linkedin"
-                        class="text-[#666] hover:text-white transition-colors"
+                        class="text-muted-foreground hover:text-white transition-colors"
                         aria-label="LinkedIn"
                     >
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
@@ -1240,7 +1080,7 @@ import MobileNav from "@/components/MobileNav";
                     <!-- GitHub -->
                     <a
                         href="#github"
-                        class="text-[#666] hover:text-white transition-colors"
+                        class="text-muted-foreground hover:text-white transition-colors"
                         aria-label="GitHub"
                     >
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
