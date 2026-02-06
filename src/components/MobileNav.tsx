@@ -1,6 +1,11 @@
 import { useState } from "react";
 
-const navLinks = ["Features", "Pricing", "About", "Docs"];
+const navLinks = [
+  { label: "Features", href: "/features" },
+  { label: "Pricing", href: "#pricing" },
+  { label: "About", href: "#about" },
+  { label: "Docs", href: "#docs" },
+];
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -57,12 +62,12 @@ export default function MobileNav() {
           <nav className="flex flex-col px-5 py-2">
             {navLinks.map((link) => (
               <a
-                key={link}
-                href={`#${link.toLowerCase()}`}
+                key={link.label}
+                href={link.href}
                 onClick={() => setOpen(false)}
                 className="py-4 text-white text-lg font-medium font-[var(--font-secondary)] hover:text-[#FF8400] transition-colors"
               >
-                {link}
+                {link.label}
               </a>
             ))}
           </nav>
