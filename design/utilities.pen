@@ -6943,6 +6943,2142 @@
     },
     {
       "type": "frame",
+      "id": "FIa1o",
+      "x": 20377,
+      "y": -4377,
+      "name": "Features Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "#111111",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "PEQkK",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#111111",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "LIlqQ",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "JskNM",
+                  "name": "LogoIcon",
+                  "geometry": "M16 0l16 8v16l-16 8-16-8v-16l16-8z m0 4l-12 6v12l12 6 12-6v-12l-12-6z m0 4l8 4v8l-8 4-8-4v-8l8-4z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "5vvCW",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rd3XA",
+              "name": "Nav Links",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W3Pa5",
+                  "name": "navFeatures",
+                  "fill": "#FF8400",
+                  "content": "Features",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "9nFjS",
+                  "name": "navPricing",
+                  "fill": "#B8B9B6",
+                  "content": "Pricing",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "aHtST",
+                  "name": "navAbout",
+                  "fill": "#B8B9B6",
+                  "content": "About",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "WChbd",
+                  "name": "navDocs",
+                  "fill": "#B8B9B6",
+                  "content": "Docs",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EOrgQ",
+              "name": "CTA Buttons",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j8FmW",
+                  "name": "loginBtn",
+                  "fill": "#B8B9B6",
+                  "content": "Log In",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "id": "lnEI3",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "name": "signupBtn",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "Start Free Trial"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VsYJv",
+          "name": "Features Hero",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zLl9v",
+              "name": "Hero Header",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XAqOC",
+                  "name": "tag",
+                  "fill": "#FF8400",
+                  "content": "FEATURES",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "jcd1e",
+                  "name": "headline",
+                  "fill": "#FFFFFF",
+                  "content": "Every tool you need.\nOne unified platform.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 52,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "LSPNX",
+                  "name": "subline",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "From real-time monitoring to predictive maintenance, Utilities brings every aspect of grid management into a single, powerful command center.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JPtOp",
+              "name": "Hero Visual",
+              "width": "fill_container",
+              "gap": 24,
+              "padding": [
+                40,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mfUbi",
+                  "name": "Preview Card 1",
+                  "width": "fill_container",
+                  "height": 300,
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WpFez",
+                      "name": "Icon Container",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FF840020",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "bEUqC",
+                          "name": "card1IconInner",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "gauge",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mIWuS",
+                      "name": "card1Title",
+                      "fill": "#FFFFFF",
+                      "content": "Real-time Monitoring",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yYVR3",
+                      "name": "card1Desc",
+                      "fill": "#999999",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Track every meter, substation, and asset with sub-second latency updates.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QDdub",
+                  "name": "Preview Card 2",
+                  "width": "fill_container",
+                  "height": 300,
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UZNOL",
+                      "name": "Icon Container",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FF840020",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "idJwh",
+                          "name": "card2IconInner",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "zap",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "1aIko",
+                      "name": "card2Title",
+                      "fill": "#FFFFFF",
+                      "content": "Outage Detection",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4pdwX",
+                      "name": "card2Desc",
+                      "fill": "#999999",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Automated alerts and geo-located incident mapping for faster response times.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h4OrT",
+                  "name": "Preview Card 3",
+                  "width": "fill_container",
+                  "height": 300,
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BNZ9N",
+                      "name": "Icon Container",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FF840020",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "UsFCD",
+                          "name": "card3IconInner",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "brain",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "P71hG",
+                      "name": "card3Title",
+                      "fill": "#FFFFFF",
+                      "content": "Predictive Analytics",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iB8DP",
+                      "name": "card3Desc",
+                      "fill": "#999999",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Machine learning models that forecast demand and prevent failures before they happen.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qr0ZV",
+          "name": "Feature 1 - Dashboard",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "iUpoU",
+              "name": "Feature Text",
+              "width": 480,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "geMM1",
+                  "name": "feat1Tag",
+                  "fill": "#FF8400",
+                  "content": "REAL-TIME DASHBOARD",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "XUdLL",
+                  "name": "feat1Title",
+                  "fill": "#111111",
+                  "content": "See your entire grid at a glance.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "gIhTJ",
+                  "name": "feat1Desc",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A unified command center that displays every meter, substation, and pipeline on one screen. Live consumption heatmaps, voltage levels, and pressure readings update every second. Drill down from system-wide views to individual assets in a single click.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "xweIn",
+                  "name": "Bullet Points",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zo8en",
+                      "name": "bullet1",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "PrWQp",
+                          "name": "bullet1Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "U5cvO",
+                          "name": "bullet1Text",
+                          "fill": "#111111",
+                          "content": "Sub-second data refresh across all assets",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b6mhR",
+                      "name": "bullet2",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "FsFcv",
+                          "name": "bullet2Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KWS2z",
+                          "name": "bullet2Text",
+                          "fill": "#111111",
+                          "content": "Customizable dashboards for different teams",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h6oMp",
+                      "name": "bullet3",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "lJ1RN",
+                          "name": "bullet3Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "crZeR",
+                          "name": "bullet3Text",
+                          "fill": "#111111",
+                          "content": "Full-screen control room mode",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eBhgb",
+              "name": "Screenshot Placeholder",
+              "width": "fill_container",
+              "height": 400,
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Rn3qn",
+                  "name": "feat1ScreenText",
+                  "fill": "#999999",
+                  "content": "Dashboard Screenshot",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DJAOm",
+          "name": "Feature 2 - Meters",
+          "width": "fill_container",
+          "fill": "#111111",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "IM8RB",
+              "name": "Screenshot Placeholder",
+              "width": "fill_container",
+              "height": 400,
+              "fill": "#1A1A1A",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#2E2E2E"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vCKXh",
+                  "name": "feat2ScreenText",
+                  "fill": "#666666",
+                  "content": "Meter Management Screenshot",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r7BUK",
+              "name": "Feature Text",
+              "width": 480,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SQRUe",
+                  "name": "feat2Tag",
+                  "fill": "#FF8400",
+                  "content": "METER MANAGEMENT",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "uUVW8",
+                  "name": "feat2Title",
+                  "fill": "#FFFFFF",
+                  "content": "Track every meter. Zero blind spots.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "6gJbT",
+                  "name": "feat2Desc",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Complete visibility across your entire smart meter fleet. Filter by status, consumption tier, firmware version, or last-read date. Execute bulk operations across thousands of endpoints in seconds.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "uGPIG",
+                  "name": "Bullet Points",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XT7nt",
+                      "name": "f2bullet1",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "fGfjJ",
+                          "name": "f2bullet1Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Byrsj",
+                          "name": "f2bullet1Text",
+                          "fill": "#FFFFFF",
+                          "content": "Advanced filtering and search",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MtqUj",
+                      "name": "f2bullet2",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "UTkPV",
+                          "name": "f2bullet2Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5bktL",
+                          "name": "f2bullet2Text",
+                          "fill": "#FFFFFF",
+                          "content": "Bulk firmware updates and commands",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "42WDN",
+                      "name": "f2bullet3",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "UrGrY",
+                          "name": "f2bullet3Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ktPxF",
+                          "name": "f2bullet3Text",
+                          "fill": "#FFFFFF",
+                          "content": "Individual meter drill-down with history",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bhedN",
+          "name": "Feature 3 - Outages",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "9vzrD",
+              "name": "Feature Text",
+              "width": 480,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2JCeA",
+                  "name": "feat3Tag",
+                  "fill": "#FF8400",
+                  "content": "OUTAGE TRACKING",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "DTkmo",
+                  "name": "feat3Title",
+                  "fill": "#111111",
+                  "content": "Respond faster. Restore sooner.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "Ftmmk",
+                  "name": "feat3Desc",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Geo-located outage maps with real-time crew dispatch coordination. See customers affected, estimated restoration times, and root cause analysis all in one unified view.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "PxSTM",
+                  "name": "Bullet Points",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YZ5Rl",
+                      "name": "f3bullet1",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "i5BWr",
+                          "name": "f3bullet1Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cNT3v",
+                          "name": "f3bullet1Text",
+                          "fill": "#111111",
+                          "content": "Automated outage detection and alerting",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lXTTm",
+                      "name": "f3bullet2",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "U05KS",
+                          "name": "f3bullet2Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zTZXg",
+                          "name": "f3bullet2Text",
+                          "fill": "#111111",
+                          "content": "Crew dispatch and tracking integration",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tJPGb",
+                      "name": "f3bullet3",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "tBbZO",
+                          "name": "f3bullet3Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ERv6i",
+                          "name": "f3bullet3Text",
+                          "fill": "#111111",
+                          "content": "Customer communication automation",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xdkcI",
+              "name": "Screenshot Placeholder",
+              "width": "fill_container",
+              "height": 400,
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qHx20",
+                  "name": "feat3ScreenText",
+                  "fill": "#999999",
+                  "content": "Outage Map Screenshot",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "utDun",
+          "name": "Feature 4 - Analytics",
+          "width": "fill_container",
+          "fill": "#111111",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "pqzch",
+              "name": "Screenshot Placeholder",
+              "width": "fill_container",
+              "height": 400,
+              "fill": "#1A1A1A",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#2E2E2E"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tQYkf",
+                  "name": "feat4ScreenText",
+                  "fill": "#666666",
+                  "content": "Analytics Dashboard Screenshot",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AatuZ",
+              "name": "Feature Text",
+              "width": 480,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Wu0va",
+                  "name": "feat4Tag",
+                  "fill": "#FF8400",
+                  "content": "PREDICTIVE ANALYTICS",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "ZlTYF",
+                  "name": "feat4Title",
+                  "fill": "#FFFFFF",
+                  "content": "Prevent failures before they happen.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "ksw8E",
+                  "name": "feat4Desc",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Machine learning models trained on your grid's historical data to forecast demand spikes, equipment degradation, and potential points of failure days or weeks in advance.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "RdMvC",
+                  "name": "Bullet Points",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VnZ6M",
+                      "name": "f4bullet1",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "suxQi",
+                          "name": "f4bullet1Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Qitjt",
+                          "name": "f4bullet1Text",
+                          "fill": "#FFFFFF",
+                          "content": "Demand forecasting with 95%+ accuracy",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q9upv",
+                      "name": "f4bullet2",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "whiSx",
+                          "name": "f4bullet2Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xLQ9t",
+                          "name": "f4bullet2Text",
+                          "fill": "#FFFFFF",
+                          "content": "Transformer and equipment health scoring",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "08r4v",
+                      "name": "f4bullet3",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "pO1D8",
+                          "name": "f4bullet3Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xhB6m",
+                          "name": "f4bullet3Text",
+                          "fill": "#FFFFFF",
+                          "content": "Maintenance scheduling optimization",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QeAyJ",
+          "name": "Additional Capabilities",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "SNjo4",
+              "name": "Section Header",
+              "width": 700,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vk9z5",
+                  "name": "capsTag",
+                  "fill": "#FF8400",
+                  "content": "ADDITIONAL CAPABILITIES",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "yBgEb",
+                  "name": "capsTitle",
+                  "fill": "#111111",
+                  "content": "Built for enterprise infrastructure.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 40,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "id9d4",
+              "name": "Capabilities Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sXdMD",
+                  "name": "Row 1",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DVJF6",
+                      "name": "API Access",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0E0E0"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vB61Q",
+                          "name": "cap1Icon",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#FF840015",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "QMOOu",
+                              "name": "cap1IconInner",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "code",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FF8400"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "X0yY8",
+                          "name": "cap1Title",
+                          "fill": "#111111",
+                          "content": "API Access",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "AevOc",
+                          "name": "cap1Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "RESTful APIs with full documentation for custom integrations and third-party connections.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NhmKU",
+                      "name": "Automated Billing",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0E0E0"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KMU3m",
+                          "name": "cap2Icon",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#FF840015",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "wAosF",
+                              "name": "cap2IconInner",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "receipt",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FF8400"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "9WUPK",
+                          "name": "cap2Title",
+                          "fill": "#111111",
+                          "content": "Automated Billing",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "U045J",
+                          "name": "cap2Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Generate invoices automatically based on meter readings with support for tiered pricing and demand charges.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nvO6e",
+                      "name": "Mobile Crews",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0E0E0"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "uCezM",
+                          "name": "cap3Icon",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#FF840015",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "CzBub",
+                              "name": "cap3IconInner",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "smartphone",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FF8400"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Lg0tA",
+                          "name": "cap3Title",
+                          "fill": "#111111",
+                          "content": "Mobile Crews",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cwg8w",
+                          "name": "cap3Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Native iOS and Android apps for field technicians with offline mode and GPS tracking.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vfSx7",
+                  "name": "Row 2",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bst3D",
+                      "name": "Customer Portal",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0E0E0"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "3FSar",
+                          "name": "cap4Icon",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#FF840015",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "4xiZc",
+                              "name": "cap4IconInner",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "users",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FF8400"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "wL7DA",
+                          "name": "cap4Title",
+                          "fill": "#111111",
+                          "content": "Customer Portal",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cNFKM",
+                          "name": "cap4Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Self-service portal for customers to view usage, pay bills, and report issues.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7m11D",
+                      "name": "Compliance Reports",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0E0E0"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Cgxuw",
+                          "name": "cap5Icon",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#FF840015",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "Hu37T",
+                              "name": "cap5IconInner",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "file-text",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FF8400"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "aFDyz",
+                          "name": "cap5Title",
+                          "fill": "#111111",
+                          "content": "Compliance Reports",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "x4knQ",
+                          "name": "cap5Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Automated NERC CIP, SOC 2, and regulatory compliance documentation and audits.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w8QkG",
+                      "name": "Enterprise Security",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0E0E0"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zMY6u",
+                          "name": "cap6Icon",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#FF840015",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "VUgTz",
+                              "name": "cap6IconInner",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "shield",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FF8400"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "bcdTR",
+                          "name": "cap6Title",
+                          "fill": "#111111",
+                          "content": "Enterprise Security",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5kuNS",
+                          "name": "cap6Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "End-to-end encryption, SSO, role-based access control, and full audit logging.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mDiqC",
+          "name": "Integrations",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "yTpH6",
+              "name": "Section Header",
+              "width": 700,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AYTs3",
+                  "name": "intTag",
+                  "fill": "#FF8400",
+                  "content": "INTEGRATIONS",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "atptY",
+                  "name": "intTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Works with your existing stack.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 40,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "yJxF5",
+                  "name": "intSub",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Connect Utilities to your SCADA systems, ERP platforms, GIS tools, and existing infrastructure without ripping out what works.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rbyAm",
+              "name": "Integration Logos",
+              "width": "fill_container",
+              "padding": [
+                32,
+                0
+              ],
+              "justifyContent": "space_around",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EN67H",
+                  "name": "int1",
+                  "fill": "#666666",
+                  "content": "OSIsoft PI",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "kRXZH",
+                  "name": "int2",
+                  "fill": "#666666",
+                  "content": "SAP",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "uUfbn",
+                  "name": "int3",
+                  "fill": "#666666",
+                  "content": "Esri ArcGIS",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "MkVu3",
+                  "name": "int4",
+                  "fill": "#666666",
+                  "content": "Salesforce",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "KXoyq",
+                  "name": "int5",
+                  "fill": "#666666",
+                  "content": "ServiceNow",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "LgM6D",
+                  "name": "int6",
+                  "fill": "#666666",
+                  "content": "Snowflake",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZUIko",
+          "name": "Final CTA",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            120,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "0SYZW",
+              "name": "ctaHeadline",
+              "fill": "#111111",
+              "content": "Ready to transform\nyour operations?",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 48,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "FDU9k",
+              "name": "ctaSub",
+              "fill": "#666666",
+              "content": "Start your free 30-day trial. No credit card required.\nJoin 140+ utility providers who trust Utilities.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "8PnqR",
+              "name": "CTA Buttons",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "5lPVV",
+                  "type": "ref",
+                  "ref": "ZGI9Z",
+                  "name": "ctaBtn1",
+                  "descendants": {
+                    "J3Z6N": {
+                      "content": "Start Free Trial"
+                    }
+                  }
+                },
+                {
+                  "id": "j8zeO",
+                  "type": "ref",
+                  "ref": "4x7RU",
+                  "name": "ctaBtn2",
+                  "descendants": {
+                    "7ZVG7": {
+                      "content": "Schedule Demo"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "zapxH",
+              "name": "ctaTrust",
+              "fill": "#999999",
+              "content": "SOC 2 Type II  ·  NERC CIP  ·  99.97% Uptime SLA",
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6qOJE",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#111111",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#1A1A1A"
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            64,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "7aRZA",
+              "name": "Footer Top",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vinET",
+                  "name": "Brand",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6Xk8a",
+                      "name": "brandLogo",
+                      "fill": "#FFFFFF",
+                      "content": "UTILITIES",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "okJei",
+                      "name": "brandTag",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Modern infrastructure management for utility providers.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nt3fv",
+                  "name": "Product",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "07LiH",
+                      "name": "productTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Product",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "urNU7",
+                      "name": "prodLink1",
+                      "fill": "#666666",
+                      "content": "Features",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "h9i2C",
+                      "name": "prodLink2",
+                      "fill": "#666666",
+                      "content": "Pricing",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wxQnW",
+                      "name": "prodLink3",
+                      "fill": "#666666",
+                      "content": "Documentation",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mg8YB",
+                      "name": "prodLink4",
+                      "fill": "#666666",
+                      "content": "API Reference",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7ghtD",
+                  "name": "Company",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XwDQF",
+                      "name": "companyTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Company",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "tpuQw",
+                      "name": "compLink1",
+                      "fill": "#666666",
+                      "content": "About",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "424VI",
+                      "name": "compLink2",
+                      "fill": "#666666",
+                      "content": "Careers",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YSUGY",
+                      "name": "compLink3",
+                      "fill": "#666666",
+                      "content": "Blog",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LmlvG",
+                      "name": "compLink4",
+                      "fill": "#666666",
+                      "content": "Contact",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "082k7",
+                  "name": "Legal",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hKKab",
+                      "name": "legalTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Legal",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Lc0PY",
+                      "name": "legalLink1",
+                      "fill": "#666666",
+                      "content": "Privacy Policy",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m7SAb",
+                      "name": "legalLink2",
+                      "fill": "#666666",
+                      "content": "Terms of Service",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dMTFn",
+                      "name": "legalLink3",
+                      "fill": "#666666",
+                      "content": "Security",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UJxlC",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#2E2E2E"
+            },
+            {
+              "type": "frame",
+              "id": "HCh05",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xVZq5",
+                  "name": "copyright",
+                  "fill": "#444444",
+                  "content": "© 2026 Utilities Inc. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "fX1VD",
+                  "name": "Social Links",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "O9Kj1",
+                      "name": "social1",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "twitter",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "NjoHm",
+                      "name": "social2",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "linkedin",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "FwH1G",
+                      "name": "social3",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "github",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
       "id": "nkK8D",
       "x": 12777,
       "y": -3319,
@@ -14700,8 +16836,8 @@
     {
       "type": "frame",
       "id": "ANADp",
-      "x": 17845,
-      "y": -4627,
+      "x": 17815,
+      "y": -4377,
       "name": "Landing Page",
       "clip": true,
       "width": 1440,
@@ -17510,8 +19646,8 @@
     {
       "type": "frame",
       "id": "k70WK",
-      "x": 19385,
-      "y": -4627,
+      "x": 19355,
+      "y": -4377,
       "name": "Landing Page Mobile",
       "clip": true,
       "width": 390,
@@ -20173,10 +22309,11 @@
     {
       "type": "frame",
       "id": "ulvl7",
-      "x": 19875,
-      "y": -4627,
+      "x": 19845,
+      "y": -4377,
       "name": "Mobile Nav Expanded",
       "width": 390,
+      "height": 844,
       "fill": "#111111",
       "layout": "vertical",
       "children": [
@@ -20388,6 +22525,1639 @@
                   "content": "Start Free Trial"
                 }
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "2xAlv",
+      "x": 21952,
+      "y": -4377,
+      "name": "Features Page Mobile",
+      "clip": true,
+      "width": 390,
+      "fill": "#111111",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "lWPIr",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#111111",
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "bERN9",
+              "name": "mLogo",
+              "fill": "#FFFFFF",
+              "content": "UTILITIES",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 14,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "wcFJT",
+              "name": "Menu Icon",
+              "width": 24,
+              "height": 24,
+              "layout": "vertical",
+              "gap": 5,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AAcNf",
+                  "name": "Line",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "mXfXY",
+                  "name": "Line",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "64t00",
+                  "name": "Line",
+                  "width": 14,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aTXTW",
+          "name": "Features Hero",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mvpGi",
+              "name": "Hero Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ox4jm",
+                  "name": "mTag",
+                  "fill": "#FF8400",
+                  "content": "FEATURES",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "DsmTK",
+                  "name": "mHeadline",
+                  "fill": "#FFFFFF",
+                  "content": "Every tool you need.\nOne unified platform.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 28,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "qnlCD",
+                  "name": "mSubline",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "From real-time monitoring to predictive maintenance, Utilities brings every aspect of grid management into a single, powerful command center.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gtOjm",
+              "name": "Preview Cards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                20,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pKRuh",
+                  "name": "Preview Card 1",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XaRM2",
+                      "name": "mC1Icon",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#FF840020",
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "OYiV9",
+                          "name": "mC1IconInner",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "gauge",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "dqVTR",
+                      "name": "mC1Title",
+                      "fill": "#FFFFFF",
+                      "content": "Real-time Monitoring",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DERtp",
+                      "name": "mC1Desc",
+                      "fill": "#999999",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Track every meter, substation, and asset with sub-second latency updates.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E7tqB",
+                  "name": "Preview Card 2",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LUVyc",
+                      "name": "mC2Icon",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#FF840020",
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "NKGcn",
+                          "name": "mC2IconInner",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "zap",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "sjBhW",
+                      "name": "mC2Title",
+                      "fill": "#FFFFFF",
+                      "content": "Outage Detection",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "772w4",
+                      "name": "mC2Desc",
+                      "fill": "#999999",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Automated alerts and geo-located incident mapping for faster response.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Vw9S2",
+                  "name": "Preview Card 3",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "4Jc7J",
+                      "name": "mC3Icon",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#FF840020",
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "jNt9U",
+                          "name": "mC3IconInner",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "brain",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "2vdmJ",
+                      "name": "mC3Title",
+                      "fill": "#FFFFFF",
+                      "content": "Predictive Analytics",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ny8Mh",
+                      "name": "mC3Desc",
+                      "fill": "#999999",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ML models that forecast demand and prevent failures before they happen.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wlVPq",
+          "name": "Feature 1 - Dashboard",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "sMmCp",
+              "name": "mF1Tag",
+              "fill": "#FF8400",
+              "content": "REAL-TIME DASHBOARD",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "Km9XN",
+              "name": "mF1Title",
+              "fill": "#111111",
+              "content": "See your entire grid at a glance.",
+              "lineHeight": 1.2,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 24,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "04BRr",
+              "name": "mF1Desc",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "A unified command center that displays every meter, substation, and pipeline on one screen. Live consumption heatmaps update every second.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "ogfxe",
+              "name": "Screenshot",
+              "width": "fill_container",
+              "height": 200,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TfmNe",
+                  "name": "mF1ScreenText",
+                  "fill": "#999999",
+                  "content": "Dashboard Screenshot",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Yc2h6",
+          "name": "Feature 2 - Meters",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "yh8Nn",
+              "name": "mF2Tag",
+              "fill": "#FF8400",
+              "content": "METER MANAGEMENT",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "DHT0A",
+              "name": "mF2Title",
+              "fill": "#FFFFFF",
+              "content": "Track every meter. Zero blind spots.",
+              "lineHeight": 1.2,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 24,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "vIa5C",
+              "name": "mF2Desc",
+              "fill": "#B8B9B6",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Complete visibility across your entire smart meter fleet. Filter by status, consumption tier, or last-read date.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "kJ1dB",
+              "name": "Screenshot",
+              "width": "fill_container",
+              "height": 200,
+              "fill": "#1A1A1A",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#2E2E2E"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "3cP7D",
+                  "name": "mF2ScreenText",
+                  "fill": "#666666",
+                  "content": "Meter Screenshot",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AMY7h",
+          "name": "Feature 3 - Outages",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "xoKBA",
+              "name": "mF3Tag",
+              "fill": "#FF8400",
+              "content": "OUTAGE TRACKING",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "qHdrf",
+              "name": "mF3Title",
+              "fill": "#111111",
+              "content": "Respond faster. Restore sooner.",
+              "lineHeight": 1.2,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 24,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "9Dipf",
+              "name": "mF3Desc",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Geo-located outage maps with real-time crew dispatch coordination. See customers affected and estimated restoration times.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "exXoZ",
+              "name": "Screenshot",
+              "width": "fill_container",
+              "height": 200,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bPdD4",
+                  "name": "mF3ScreenText",
+                  "fill": "#999999",
+                  "content": "Outage Screenshot",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fT8LK",
+          "name": "Feature 4 - Analytics",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "7to4h",
+              "name": "mF4Tag",
+              "fill": "#FF8400",
+              "content": "PREDICTIVE ANALYTICS",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "kZSrd",
+              "name": "mF4Title",
+              "fill": "#FFFFFF",
+              "content": "Prevent failures before they happen.",
+              "lineHeight": 1.2,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 24,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "ADLfU",
+              "name": "mF4Desc",
+              "fill": "#B8B9B6",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ML models trained on your grid's historical data to forecast demand spikes and equipment degradation.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "qc7MR",
+              "name": "Screenshot",
+              "width": "fill_container",
+              "height": 200,
+              "fill": "#1A1A1A",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#2E2E2E"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "09srB",
+                  "name": "mF4ScreenText",
+                  "fill": "#666666",
+                  "content": "Analytics Screenshot",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Z3Zfn",
+          "name": "Additional Capabilities",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "07tO6",
+              "name": "Section Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hJ66y",
+                  "name": "mCapsTag",
+                  "fill": "#FF8400",
+                  "content": "ADDITIONAL CAPABILITIES",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "nOc6o",
+                  "name": "mCapsTitle",
+                  "fill": "#111111",
+                  "content": "Built for enterprise infrastructure.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 24,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BD1Iw",
+              "name": "Capabilities Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fn7bk",
+                  "name": "API Access",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "L5Xmb",
+                      "name": "mCap1Icon",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#FF840015",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "yVU1N",
+                          "name": "mCap1IconInner",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "code",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LhwwL",
+                      "name": "mCap1Title",
+                      "fill": "#111111",
+                      "content": "API Access",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2lwpD",
+                      "name": "mCap1Desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "RESTful APIs with full documentation for custom integrations.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Mydkv",
+                  "name": "Automated Billing",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5Y4xk",
+                      "name": "mCap2Icon",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#FF840015",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "hdSWr",
+                          "name": "mCap2IconInner",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "receipt",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "rUEsw",
+                      "name": "mCap2Title",
+                      "fill": "#111111",
+                      "content": "Automated Billing",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ng7xG",
+                      "name": "mCap2Desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Generate invoices based on meter readings with tiered pricing support.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LMZ1l",
+                  "name": "Mobile Crews",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yE8wT",
+                      "name": "mCap3Icon",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#FF840015",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Ea4TC",
+                          "name": "mCap3IconInner",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "smartphone",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "TpaJD",
+                      "name": "mCap3Title",
+                      "fill": "#111111",
+                      "content": "Mobile Crews",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nkOKp",
+                      "name": "mCap3Desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Native iOS and Android apps for field technicians with offline mode.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xn8vz",
+                  "name": "Customer Portal",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "7v0yN",
+                      "name": "mCap4Icon",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#FF840015",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "PIcqA",
+                          "name": "mCap4IconInner",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "users",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ERUuD",
+                      "name": "mCap4Title",
+                      "fill": "#111111",
+                      "content": "Customer Portal",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SPqZV",
+                      "name": "mCap4Desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Self-service portal for customers to view usage and pay bills.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6breN",
+                  "name": "Compliance",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fGCLk",
+                      "name": "mCap5Icon",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#FF840015",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "d4RO0",
+                          "name": "mCap5IconInner",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "file-text",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "fnIay",
+                      "name": "mCap5Title",
+                      "fill": "#111111",
+                      "content": "Compliance Reports",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "72yoL",
+                      "name": "mCap5Desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Automated NERC CIP, SOC 2, and regulatory compliance documentation.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DW71n",
+                  "name": "Security",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "angsV",
+                      "name": "mCap6Icon",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#FF840015",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "ZNEtj",
+                          "name": "mCap6IconInner",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "shield",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FF8400"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "5Arh7",
+                      "name": "mCap6Title",
+                      "fill": "#111111",
+                      "content": "Enterprise Security",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "P9KfP",
+                      "name": "mCap6Desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "End-to-end encryption, SSO, and role-based access control.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "95LtV",
+          "name": "Integrations",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "9Xe20",
+              "name": "Section Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ERLqa",
+                  "name": "mIntTag",
+                  "fill": "#FF8400",
+                  "content": "INTEGRATIONS",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "IlQct",
+                  "name": "mIntTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Works with your existing stack.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 24,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "9vK1k",
+                  "name": "mIntSub",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Connect to SCADA, ERP, GIS, and existing infrastructure.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IG3HL",
+              "name": "Integration Logos",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "I9Iix",
+                  "name": "mIntRow1",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g9kkE",
+                      "name": "mInt1",
+                      "fill": "#666666",
+                      "content": "OSIsoft PI",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DQJ5n",
+                      "name": "mInt2",
+                      "fill": "#666666",
+                      "content": "SAP",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G3yMx",
+                      "name": "mInt3",
+                      "fill": "#666666",
+                      "content": "Esri ArcGIS",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Fx5P6",
+                  "name": "mIntRow2",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WZQsu",
+                      "name": "mInt4",
+                      "fill": "#666666",
+                      "content": "Salesforce",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AHxKT",
+                      "name": "mInt5",
+                      "fill": "#666666",
+                      "content": "ServiceNow",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V1xxt",
+                      "name": "mInt6",
+                      "fill": "#666666",
+                      "content": "Snowflake",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "M1wA2",
+          "name": "Final CTA",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            64,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Jzw2x",
+              "name": "mCTAHeadline",
+              "fill": "#111111",
+              "content": "Ready to transform\nyour operations?",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 26,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "jKF1B",
+              "name": "mCTASub",
+              "fill": "#666666",
+              "content": "Start your free 30-day trial. No credit card required. Join 140+ utility providers.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "haQGF",
+              "name": "CTA Buttons",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "id": "ClQlf",
+                  "type": "ref",
+                  "ref": "ZGI9Z",
+                  "name": "ctaBtn1",
+                  "width": "fill_container",
+                  "descendants": {
+                    "J3Z6N": {
+                      "content": "Start Free Trial"
+                    }
+                  }
+                },
+                {
+                  "id": "qXqwN",
+                  "type": "ref",
+                  "ref": "4x7RU",
+                  "name": "ctaBtn2",
+                  "width": "fill_container",
+                  "descendants": {
+                    "7ZVG7": {
+                      "content": "Schedule Demo"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "kUJaa",
+              "name": "mCTATrust",
+              "fill": "#999999",
+              "content": "SOC 2 Type II  ·  NERC CIP  ·  99.97% Uptime",
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lelOx",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#111111",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#1A1A1A"
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "IQden",
+              "name": "Brand",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mJRmY",
+                  "name": "mBrandLogo",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "B5PP5",
+                  "name": "mBrandTag",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Modern infrastructure management for utility providers.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "C6yi3",
+              "name": "Link Columns",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s2pDy",
+                  "name": "Product",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZAnWT",
+                      "name": "mProdTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Product",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "EMVbT",
+                      "name": "mProdL1",
+                      "fill": "#666666",
+                      "content": "Features",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4yd87",
+                      "name": "mProdL2",
+                      "fill": "#666666",
+                      "content": "Pricing",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bc789",
+                      "name": "mProdL3",
+                      "fill": "#666666",
+                      "content": "Docs",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xUVYy",
+                  "name": "Company",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BUqJE",
+                      "name": "mCompTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Company",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "nFr3Q",
+                      "name": "mCompL1",
+                      "fill": "#666666",
+                      "content": "About",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s7H76",
+                      "name": "mCompL2",
+                      "fill": "#666666",
+                      "content": "Careers",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jW93F",
+                      "name": "mCompL3",
+                      "fill": "#666666",
+                      "content": "Contact",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EuVB9",
+                  "name": "Legal",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ldQLD",
+                      "name": "mLegalTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Legal",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "pmrAw",
+                      "name": "mLegalL1",
+                      "fill": "#666666",
+                      "content": "Privacy",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uJlI1",
+                      "name": "mLegalL2",
+                      "fill": "#666666",
+                      "content": "Terms",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yKwnv",
+                      "name": "mLegalL3",
+                      "fill": "#666666",
+                      "content": "Security",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5QqtS",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#2E2E2E"
+            },
+            {
+              "type": "frame",
+              "id": "MXyEx",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ti2In",
+                  "name": "mCopy",
+                  "fill": "#444444",
+                  "content": "© 2026 Utilities Inc. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "YH0dc",
+                  "name": "Social Links",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "TDFiF",
+                      "name": "mSocial1",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "twitter",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "vfmeJ",
+                      "name": "mSocial2",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "linkedin",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "19oZP",
+                      "name": "mSocial3",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "github",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
