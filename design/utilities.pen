@@ -14765,7 +14765,8 @@
                   "fill": "#B8B9B6",
                   "content": "Features",
                   "fontFamily": "$--font-secondary",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "text",
@@ -14774,7 +14775,8 @@
                   "fill": "#B8B9B6",
                   "content": "Pricing",
                   "fontFamily": "$--font-secondary",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "text",
@@ -14783,7 +14785,8 @@
                   "fill": "#B8B9B6",
                   "content": "About",
                   "fontFamily": "$--font-secondary",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "text",
@@ -14792,7 +14795,8 @@
                   "fill": "#B8B9B6",
                   "content": "Docs",
                   "fontFamily": "$--font-secondary",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -14919,7 +14923,8 @@
                   "lineHeight": 1.6,
                   "textAlign": "center",
                   "fontFamily": "Geist",
-                  "fontSize": 18
+                  "fontSize": 18,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -15024,7 +15029,8 @@
                       "fill": "#666666",
                       "content": "Dashboard Screenshot",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -20159,6 +20165,229 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ulvl7",
+      "x": 19875,
+      "y": -4627,
+      "name": "Mobile Nav Expanded",
+      "width": 390,
+      "fill": "#111111",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "QP4QH",
+          "name": "Header Bar",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#111111",
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "3uMBN",
+              "name": "mLogo",
+              "fill": "#FFFFFF",
+              "content": "UTILITIES",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 14,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "icon_font",
+              "id": "A1e8q",
+              "name": "Close Icon",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "x",
+              "iconFontFamily": "lucide",
+              "fill": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wNXBy",
+          "name": "Divider",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "#2E2E2E"
+        },
+        {
+          "type": "frame",
+          "id": "hHgwc",
+          "name": "Nav Links",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            8,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "F9PCI",
+              "name": "navFeatures",
+              "width": "fill_container",
+              "padding": [
+                16,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zgrvn",
+                  "name": "featTxt",
+                  "fill": "#FFFFFF",
+                  "content": "Features",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Fkf0F",
+              "name": "navPricing",
+              "width": "fill_container",
+              "padding": [
+                16,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bQqex",
+                  "name": "priceTxt",
+                  "fill": "#FFFFFF",
+                  "content": "Pricing",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8ViiY",
+              "name": "navAbout",
+              "width": "fill_container",
+              "padding": [
+                16,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "s8B9V",
+                  "name": "aboutTxt",
+                  "fill": "#FFFFFF",
+                  "content": "About",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oHnkX",
+              "name": "navDocs",
+              "width": "fill_container",
+              "padding": [
+                16,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fe7Pt",
+                  "name": "docsTxt",
+                  "fill": "#FFFFFF",
+                  "content": "Docs",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "M7lof",
+          "name": "Divider",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "#2E2E2E"
+        },
+        {
+          "type": "frame",
+          "id": "l2NfD",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "LaLrW",
+              "name": "Log In",
+              "width": "fill_container",
+              "height": 44,
+              "cornerRadius": 999,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#2E2E2E"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "v7ULd",
+                  "name": "loginTxt",
+                  "fill": "#FFFFFF",
+                  "content": "Log In",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "id": "dlV60",
+              "type": "ref",
+              "ref": "ZETEA",
+              "name": "Start Free Trial",
+              "width": "fill_container",
+              "height": 44,
+              "descendants": {
+                "mRGd3": {
+                  "enabled": false
+                },
+                "q5Hn5": {
+                  "content": "Start Free Trial"
+                }
+              }
             }
           ]
         }
