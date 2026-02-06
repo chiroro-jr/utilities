@@ -1813,6 +1813,7 @@
           "name": "Alert/Error",
           "fill": "$--color-error",
           "width": "fill_container(640)",
+          "height": "fit_content",
           "descendants": {
             "fS3NL": {
               "type": "frame",
@@ -1869,6 +1870,7 @@
           "name": "Alert/Success",
           "fill": "$--color-success",
           "width": "fill_container(640)",
+          "height": "fit_content",
           "descendants": {
             "fS3NL": {
               "type": "frame",
@@ -1925,6 +1927,7 @@
           "name": "Alert/Warning",
           "fill": "$--color-warning",
           "width": "fill_container(640)",
+          "height": "fit_content",
           "descendants": {
             "fS3NL": {
               "type": "frame",
@@ -2149,6 +2152,7 @@
           "y": 352,
           "name": "Accordion/Closed",
           "width": "fill_container(480)",
+          "height": "fit_content",
           "descendants": {
             "WLBKp": {
               "type": "frame",
@@ -2834,7 +2838,9 @@
           "fill": "$--background",
           "descendants": {
             "yG5lQ": {
-              "enabled": false
+              "enabled": false,
+              "x": 4,
+              "y": 4
             }
           }
         },
@@ -2895,7 +2901,9 @@
                   "fill": "$--background",
                   "descendants": {
                     "yG5lQ": {
-                      "enabled": false
+                      "enabled": false,
+                      "x": 4,
+                      "y": 4
                     }
                   }
                 }
@@ -3743,7 +3751,9 @@
                   "fill": "$--background",
                   "descendants": {
                     "mB2s3": {
-                      "enabled": false
+                      "enabled": false,
+                      "x": 6,
+                      "y": 6
                     }
                   }
                 }
@@ -3832,7 +3842,9 @@
           "fill": "$--background",
           "descendants": {
             "mB2s3": {
-              "enabled": false
+              "enabled": false,
+              "x": 6,
+              "y": 6
             }
           }
         },
@@ -3907,6 +3919,10 @@
                 "thickness": 1,
                 "fill": "$--border"
               }
+            },
+            "kl2Cf": {
+              "x": 4,
+              "y": 4
             }
           }
         },
@@ -4329,6 +4345,9 @@
           "descendants": {
             "4zoFt": {
               "height": "fit_content",
+              "width": "fill_container",
+              "x": 0,
+              "y": 0,
               "children": [
                 {
                   "type": "frame",
@@ -4375,10 +4394,17 @@
               ]
             },
             "QMHOm": {
-              "enabled": false
+              "enabled": false,
+              "width": "fill_container",
+              "height": "fit_content(100)",
+              "x": 0,
+              "y": 0
             },
             "tiojM": {
               "height": "fit_content",
+              "width": "fill_container",
+              "x": 0,
+              "y": 100,
               "children": [
                 {
                   "id": "mcObo",
@@ -4810,6 +4836,9 @@
               },
               "height": "fit_content",
               "padding": 0,
+              "width": "fill_container",
+              "x": 0,
+              "y": 0,
               "children": [
                 {
                   "type": "frame",
@@ -4831,6 +4860,9 @@
             },
             "QMHOm": {
               "height": "fit_content",
+              "width": "fill_container",
+              "x": 0,
+              "y": 160,
               "children": [
                 {
                   "type": "text",
@@ -4865,6 +4897,9 @@
               "height": "fit_content",
               "justifyContent": "space_between",
               "alignItems": "start",
+              "width": "fill_container",
+              "x": 0,
+              "y": 276,
               "children": [
                 {
                   "id": "xkhid",
@@ -4915,6 +4950,9 @@
                 "fill": "$--border"
               },
               "height": "fit_content",
+              "width": "fill_container",
+              "x": 0,
+              "y": 0,
               "children": [
                 {
                   "type": "text",
@@ -4933,6 +4971,9 @@
             },
             "QMHOm": {
               "height": "fit_content",
+              "width": "fill_container",
+              "x": 0,
+              "y": 72,
               "children": [
                 {
                   "type": "text",
@@ -4952,6 +4993,9 @@
             "tiojM": {
               "enabled": true,
               "height": "fit_content",
+              "width": "fill_container",
+              "x": 0,
+              "y": 192,
               "children": [
                 {
                   "id": "NrOAf",
@@ -4990,6 +5034,9 @@
                 "fill": "$--border"
               },
               "height": "fit_content",
+              "width": "fill_container",
+              "x": 0,
+              "y": 0,
               "children": [
                 {
                   "type": "text",
@@ -5010,6 +5057,9 @@
               "height": "fit_content",
               "justifyContent": "center",
               "alignItems": "start",
+              "width": "fill_container",
+              "x": 0,
+              "y": 72,
               "children": [
                 {
                   "type": "text",
@@ -5041,6 +5091,9 @@
             "tiojM": {
               "enabled": false,
               "height": 88,
+              "width": "fill_container",
+              "x": 0,
+              "y": 0,
               "children": []
             }
           }
@@ -6968,23 +7021,23 @@
           "children": [
             {
               "type": "frame",
-              "id": "LIlqQ",
+              "id": "a9lOi",
               "name": "Logo",
               "gap": 10,
               "alignItems": "center",
               "children": [
                 {
                   "type": "path",
-                  "id": "JskNM",
+                  "id": "Ve67H",
                   "name": "LogoIcon",
-                  "geometry": "M16 0l16 8v16l-16 8-16-8v-16l16-8z m0 4l-12 6v12l12 6 12-6v-12l-12-6z m0 4l8 4v8l-8 4-8-4v-8l8-4z",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
                   "fill": "$--primary",
                   "width": 32,
                   "height": 32
                 },
                 {
                   "type": "text",
-                  "id": "5vvCW",
+                  "id": "m4D95",
                   "name": "logoText",
                   "fill": "#FFFFFF",
                   "content": "UTILITIES",
@@ -7359,7 +7412,7 @@
           "name": "Feature 1 - Dashboard",
           "width": "fill_container",
           "fill": "#F2F3F0",
-          "gap": 64,
+          "gap": 32,
           "padding": [
             100,
             80
@@ -7370,7 +7423,7 @@
               "type": "frame",
               "id": "iUpoU",
               "name": "Feature Text",
-              "width": 480,
+              "width": 800,
               "layout": "vertical",
               "gap": 24,
               "children": [
@@ -7543,7 +7596,7 @@
           "name": "Feature 2 - Meters",
           "width": "fill_container",
           "fill": "#111111",
-          "gap": 64,
+          "gap": 32,
           "padding": [
             100,
             80
@@ -7582,7 +7635,7 @@
               "type": "frame",
               "id": "r7BUK",
               "name": "Feature Text",
-              "width": 480,
+              "width": 800,
               "layout": "vertical",
               "gap": 24,
               "children": [
@@ -7727,7 +7780,7 @@
           "name": "Feature 3 - Outages",
           "width": "fill_container",
           "fill": "#F2F3F0",
-          "gap": 64,
+          "gap": 32,
           "padding": [
             100,
             80
@@ -7738,7 +7791,7 @@
               "type": "frame",
               "id": "9vzrD",
               "name": "Feature Text",
-              "width": 480,
+              "width": 800,
               "layout": "vertical",
               "gap": 24,
               "children": [
@@ -7911,7 +7964,7 @@
           "name": "Feature 4 - Analytics",
           "width": "fill_container",
           "fill": "#111111",
-          "gap": 64,
+          "gap": 32,
           "padding": [
             100,
             80
@@ -7950,7 +8003,7 @@
               "type": "frame",
               "id": "AatuZ",
               "name": "Feature Text",
-              "width": 480,
+              "width": 773,
               "layout": "vertical",
               "gap": 24,
               "children": [
@@ -18941,6 +18994,9 @@
                       "ref": "ZGI9Z",
                       "width": "fill_container",
                       "name": "tier2Btn",
+                      "height": 48,
+                      "x": 32,
+                      "y": 441,
                       "descendants": {
                         "J3Z6N": {
                           "content": "Start Free Trial"
@@ -21608,6 +21664,9 @@
                       "ref": "ZGI9Z",
                       "width": "fill_container",
                       "name": "proBtn",
+                      "height": 48,
+                      "x": 24,
+                      "y": 382,
                       "descendants": {
                         "J3Z6N": {
                           "content": "Start Free Trial"
@@ -22908,6 +22967,8 @@
               "id": "Km9XN",
               "name": "mF1Title",
               "fill": "#111111",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
               "content": "See your entire grid at a glance.",
               "lineHeight": 1.2,
               "fontFamily": "JetBrains Mono",
@@ -22986,6 +23047,8 @@
               "id": "DHT0A",
               "name": "mF2Title",
               "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
               "content": "Track every meter. Zero blind spots.",
               "lineHeight": 1.2,
               "fontFamily": "JetBrains Mono",
@@ -23064,6 +23127,8 @@
               "id": "qHdrf",
               "name": "mF3Title",
               "fill": "#111111",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
               "content": "Respond faster. Restore sooner.",
               "lineHeight": 1.2,
               "fontFamily": "JetBrains Mono",
@@ -23142,6 +23207,8 @@
               "id": "kZSrd",
               "name": "mF4Title",
               "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
               "content": "Prevent failures before they happen.",
               "lineHeight": 1.2,
               "fontFamily": "JetBrains Mono",
@@ -23231,6 +23298,8 @@
                   "id": "nOc6o",
                   "name": "mCapsTitle",
                   "fill": "#111111",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
                   "content": "Built for enterprise infrastructure.",
                   "lineHeight": 1.2,
                   "textAlign": "center",
@@ -23676,6 +23745,8 @@
                   "id": "IlQct",
                   "name": "mIntTitle",
                   "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
                   "content": "Works with your existing stack.",
                   "lineHeight": 1.2,
                   "textAlign": "center",
@@ -23811,6 +23882,8 @@
               "id": "Jzw2x",
               "name": "mCTAHeadline",
               "fill": "#111111",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
               "content": "Ready to transform\nyour operations?",
               "lineHeight": 1.2,
               "textAlign": "center",
@@ -23823,6 +23896,8 @@
               "id": "jKF1B",
               "name": "mCTASub",
               "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": 246,
               "content": "Start your free 30-day trial. No credit card required. Join 140+ utility providers.",
               "lineHeight": 1.6,
               "textAlign": "center",
@@ -24148,6 +24223,3333 @@
                     {
                       "type": "icon_font",
                       "id": "19oZP",
+                      "name": "mSocial3",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "github",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "FDS9i",
+      "x": 22502,
+      "y": -4377,
+      "name": "About Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "#111111",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ClLS3",
+          "name": "header",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#111111",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "q7Kti",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "IRkqE",
+                  "name": "LogoIcon",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "grgDx",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aILis",
+              "name": "Nav Links",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mnb6w",
+                  "name": "navFeatures",
+                  "fill": "#b8b9b6",
+                  "content": "Features",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "SHK35",
+                  "name": "navPricing",
+                  "fill": "#B8B9B6",
+                  "content": "Pricing",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ipKkH",
+                  "name": "navAbout",
+                  "fill": "$--primary",
+                  "content": "About",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "NF4FR",
+                  "name": "navDocs",
+                  "fill": "#B8B9B6",
+                  "content": "Docs",
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Omc66",
+              "name": "CTA Buttons",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "P6oia",
+                  "name": "loginBtn",
+                  "fill": "#B8B9B6",
+                  "content": "Log In",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "id": "L4fmJ",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "name": "signupBtn",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "Start Free Trial"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TLtba",
+          "name": "About Hero",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            120,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "LKgtD",
+              "name": "Hero Header",
+              "width": 900,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ijbWi",
+                  "name": "Hero Tag",
+                  "fill": "#FF8400",
+                  "content": "OUR MISSION",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "zyhpV",
+                  "name": "Hero Title",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 938,
+                  "content": "Utilities for the people who keep the lights on.",
+                  "lineHeight": 1.1,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 52,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "MCAF4",
+                  "name": "Hero Description",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": 545,
+                  "content": "We build resilient grid software for teams who operate critical infrastructure. Our platform unifies visibility, field operations, and regulatory reporting in one clear command center.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RBIJ3",
+              "name": "Hero Stats",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9k2Ah",
+                  "name": "Stat Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5Vzi5",
+                      "name": "Stat Value",
+                      "fill": "#FFFFFF",
+                      "content": "140+",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 32,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7nMI1",
+                      "name": "Stat Label",
+                      "fill": "#B8B9B6",
+                      "content": "utility providers",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m7KB2",
+                  "name": "Stat Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZHwlI",
+                      "name": "Stat Value",
+                      "fill": "#FFFFFF",
+                      "content": "12B",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 32,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S9nno",
+                      "name": "Stat Label",
+                      "fill": "#B8B9B6",
+                      "content": "signals processed daily",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S3Ry0",
+                  "name": "Stat Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aa61I",
+                      "name": "Stat Value",
+                      "fill": "#FFFFFF",
+                      "content": "99.97%",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 32,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AIbNk",
+                      "name": "Stat Label",
+                      "fill": "#B8B9B6",
+                      "content": "platform uptime SLA",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XqyiK",
+          "name": "Beliefs",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "0GUrK",
+              "name": "Section Header",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "af2CN",
+                  "name": "Section Tag",
+                  "fill": "#FF8400",
+                  "content": "OUR PRINCIPLES",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "dowmT",
+                  "name": "Section Title",
+                  "fill": "#111111",
+                  "content": "We design for critical moments.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "COLdT",
+                  "name": "Section Description",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": 618,
+                  "content": "Every decision is anchored in operator trust, resilience under pressure, and simple, actionable clarity.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "veu35",
+              "name": "Belief Cards",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EoAoz",
+                  "name": "Belief Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bFof2",
+                      "name": "Card Title",
+                      "fill": "#111111",
+                      "content": "Clarity over complexity",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NOV9Y",
+                      "name": "Card Description",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 368,
+                      "content": "Critical decisions should never be hidden behind dashboards that require a manual to read.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NebM2",
+                  "name": "Belief Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "v2t0w",
+                      "name": "Card Title",
+                      "fill": "#111111",
+                      "content": "Resilience is a feature",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MymMq",
+                      "name": "Card Description",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 367,
+                      "content": "We ship for the worst day on the grid, so that the best days feel effortless.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "svhS4",
+                  "name": "Belief Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oBJdM",
+                      "name": "Card Title",
+                      "fill": "#111111",
+                      "content": "Teams first",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Hh7Gt",
+                      "name": "Card Description",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 368,
+                      "content": "We build around the workflows of operations, field crews, and compliance leaders.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "emcrc",
+          "name": "Timeline",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "954Dt",
+              "name": "Section Header",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pOzgK",
+                  "name": "Section Tag",
+                  "fill": "#FF8400",
+                  "content": "HOW WE GOT HERE",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "PpGge",
+                  "name": "Section Title",
+                  "fill": "#FFFFFF",
+                  "content": "A decade of grid innovation.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "mcHXc",
+                  "name": "Section Description",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": 594,
+                  "content": "We started in control rooms and built outward, partnering with utilities to solve real operational pain.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3FY2Q",
+              "name": "Timeline Rows",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bzTsl",
+                  "name": "Timeline Row",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "gap": 32,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hvDui",
+                      "name": "Year",
+                      "fill": "#FFFFFF",
+                      "content": "2015",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bx1wh",
+                      "name": "Milestone",
+                      "fill": "#B8B9B6",
+                      "content": "First outage response product deployed across 3 states.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aceWb",
+                  "name": "Timeline Row",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "gap": 32,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JvDUn",
+                      "name": "Year",
+                      "fill": "#FFFFFF",
+                      "content": "2018",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lt4ML",
+                      "name": "Milestone",
+                      "fill": "#B8B9B6",
+                      "content": "Launched real-time meter fleet analytics for 2.6M endpoints.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cJeAe",
+                  "name": "Timeline Row",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "gap": 32,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wvx2D",
+                      "name": "Year",
+                      "fill": "#FFFFFF",
+                      "content": "2021",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1Hoyw",
+                      "name": "Milestone",
+                      "fill": "#B8B9B6",
+                      "content": "Unified dispatch, compliance, and telemetry into one platform.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ucKAp",
+                  "name": "Timeline Row",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "gap": 32,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "acvTw",
+                      "name": "Year",
+                      "fill": "#FFFFFF",
+                      "content": "2024",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nV7xw",
+                      "name": "Milestone",
+                      "fill": "#B8B9B6",
+                      "content": "Crossed 12B daily signals and 99.97% uptime across North America.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "itqmg",
+          "name": "Values",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zD0Oj",
+              "name": "Section Header",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RbAwW",
+                  "name": "Section Tag",
+                  "fill": "#FF8400",
+                  "content": "WHAT WE VALUE",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "PzlFK",
+                  "name": "Section Title",
+                  "fill": "#111111",
+                  "content": "Built on integrity, built for operators.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "Alw6w",
+                  "name": "Section Description",
+                  "fill": "#666666",
+                  "content": "From compliance to customer communications, we protect trust with clear, auditable workflows.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TfonU",
+              "name": "Values Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ezqOw",
+                  "name": "Values Column",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ikMmc",
+                      "name": "Value Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0E0E0"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oRCzZ",
+                          "name": "Card Title",
+                          "fill": "#111111",
+                          "content": "Audit-ready by design",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 16,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sloOi",
+                          "name": "Card Description",
+                          "fill": "#666666",
+                          "content": "Evidence trails built into every operational action.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WkWHm",
+                      "name": "Value Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0E0E0"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ARihc",
+                          "name": "Card Title",
+                          "fill": "#111111",
+                          "content": "Designed for scale",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 16,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "1eAAn",
+                          "name": "Card Description",
+                          "fill": "#666666",
+                          "content": "Millions of endpoints, one coherent platform.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w6hIG",
+                  "name": "Values Column",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EmvDu",
+                      "name": "Value Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0E0E0"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zRZE9",
+                          "name": "Card Title",
+                          "fill": "#111111",
+                          "content": "Human-centered tools",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 16,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IoMJP",
+                          "name": "Card Description",
+                          "fill": "#666666",
+                          "content": "Workflows that respect the operator, not the other way around.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GhgjY",
+                      "name": "Value Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0E0E0"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VU9Tv",
+                          "name": "Card Title",
+                          "fill": "#111111",
+                          "content": "Security as a promise",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 16,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "3UImx",
+                          "name": "Card Description",
+                          "fill": "#666666",
+                          "content": "SOC 2 Type II, NERC CIP, and always-on monitoring.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "H1z4c",
+          "name": "Leadership",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "NqJEa",
+              "name": "Section Header",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DgtvW",
+                  "name": "Section Tag",
+                  "fill": "#FF8400",
+                  "content": "LEADERSHIP",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "KF10T",
+                  "name": "Section Title",
+                  "fill": "#FFFFFF",
+                  "content": "Built by operators, engineers, and compliance leaders.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 34,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "l9oUj",
+                  "name": "Section Description",
+                  "fill": "#B8B9B6",
+                  "content": "Our leadership team has lived the grid. We design software that respects regulatory complexity and the people on call.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9zsOg",
+              "name": "Team Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QDrKK",
+                  "name": "Leader Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "iK7vg",
+                      "name": "Avatar",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": "#2E2E2E",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "OzYpq",
+                      "name": "Leader Name",
+                      "fill": "#FFFFFF",
+                      "content": "Avery Cole",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xulBG",
+                      "name": "Leader Role",
+                      "fill": "#B8B9B6",
+                      "content": "Chief Executive Officer",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q7dix",
+                      "name": "Leader Bio",
+                      "fill": "#B8B9B6",
+                      "textGrowth": "fixed-width",
+                      "width": 359,
+                      "content": "Former grid operations director. Led storm response across the Midwest.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ljS0O",
+                  "name": "Leader Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yYdkg",
+                      "name": "Avatar",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": "#2E2E2E",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "nUpON",
+                      "name": "Leader Name",
+                      "fill": "#FFFFFF",
+                      "content": "Kai Navarro",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TlYQb",
+                      "name": "Leader Role",
+                      "fill": "#B8B9B6",
+                      "content": "Chief Technology Officer",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iuWlI",
+                      "name": "Leader Bio",
+                      "fill": "#B8B9B6",
+                      "textGrowth": "fixed-width",
+                      "width": 367,
+                      "content": "Built telemetry systems for 40+ utilities. Focused on resilience engineering.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BDeHG",
+                  "name": "Leader Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ctOxt",
+                      "name": "Avatar",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": "#2E2E2E",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "OEPzq",
+                      "name": "Leader Name",
+                      "fill": "#FFFFFF",
+                      "content": "Mira Patel",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ADFPg",
+                      "name": "Leader Role",
+                      "fill": "#B8B9B6",
+                      "content": "VP of Compliance",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b3w89",
+                      "name": "Leader Bio",
+                      "fill": "#B8B9B6",
+                      "textGrowth": "fixed-width",
+                      "width": 366,
+                      "content": "NERC CIP advisor with 15 years guiding critical infrastructure audits.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "l0Ktg",
+          "name": "Careers CTA",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "UbOLP",
+              "name": "CTA Header",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fuza8",
+                  "name": "CTA Tag",
+                  "fill": "#FF8400",
+                  "content": "CAREERS",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "uwkuN",
+                  "name": "CTA Title",
+                  "fill": "#111111",
+                  "content": "Help us build the next generation grid.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "xGiRd",
+                  "name": "CTA Description",
+                  "fill": "#666666",
+                  "content": "We are hiring engineers, data scientists, and field operations specialists who care about reliability at scale.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jIJET",
+              "name": "CTA Actions",
+              "gap": 16,
+              "children": [
+                {
+                  "id": "mOwAN",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "name": "careersPrimary",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "View Open Roles"
+                    }
+                  }
+                },
+                {
+                  "id": "FKfWz",
+                  "type": "ref",
+                  "ref": "4x7RU",
+                  "name": "careersSecondary",
+                  "descendants": {
+                    "r97g1": {
+                      "enabled": false
+                    },
+                    "7ZVG7": {
+                      "content": "Our Values"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZBoqj",
+              "name": "CTA Highlight",
+              "fill": "#FFFFFF",
+              "cornerRadius": 999,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "gap": 12,
+              "padding": [
+                16,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "t5pF6",
+                  "name": "careersIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "sparkles",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FF8400"
+                },
+                {
+                  "type": "text",
+                  "id": "r10U5",
+                  "name": "CTA Note",
+                  "fill": "#111111",
+                  "content": "Remote-friendly. Field-first. Operator-led.",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "f7Ri9",
+          "name": "footer",
+          "width": "fill_container",
+          "fill": "#111111",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#1A1A1A"
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            64,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "vs0MW",
+              "name": "Footer Top",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1bURl",
+                  "name": "Brand",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "altDO",
+                      "name": "brandLogo",
+                      "fill": "#FFFFFF",
+                      "content": "UTILITIES",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "b2ApL",
+                      "name": "brandTag",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Modern infrastructure management for utility providers.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "slo71",
+                  "name": "Product",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "StJ1J",
+                      "name": "productTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Product",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "mKVRu",
+                      "name": "prodLink1",
+                      "fill": "#666666",
+                      "content": "Features",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1X4lT",
+                      "name": "prodLink2",
+                      "fill": "#666666",
+                      "content": "Pricing",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fh1L9",
+                      "name": "prodLink3",
+                      "fill": "#666666",
+                      "content": "Documentation",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qxdWf",
+                      "name": "prodLink4",
+                      "fill": "#666666",
+                      "content": "API Reference",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BIIkz",
+                  "name": "Company",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BxlG5",
+                      "name": "companyTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Company",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "4ikh6",
+                      "name": "compLink1",
+                      "fill": "#666666",
+                      "content": "About",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IQDU5",
+                      "name": "compLink2",
+                      "fill": "#666666",
+                      "content": "Careers",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JTYzU",
+                      "name": "compLink3",
+                      "fill": "#666666",
+                      "content": "Blog",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6MqjF",
+                      "name": "compLink4",
+                      "fill": "#666666",
+                      "content": "Contact",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xErI1",
+                  "name": "Legal",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y6yi6",
+                      "name": "legalTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Legal",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "hirlr",
+                      "name": "legalLink1",
+                      "fill": "#666666",
+                      "content": "Privacy Policy",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eK6zh",
+                      "name": "legalLink2",
+                      "fill": "#666666",
+                      "content": "Terms of Service",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G7V8b",
+                      "name": "legalLink3",
+                      "fill": "#666666",
+                      "content": "Security",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tpGt9",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#2E2E2E"
+            },
+            {
+              "type": "frame",
+              "id": "JRXWq",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cBiSI",
+                  "name": "copyright",
+                  "fill": "#444444",
+                  "content": "© 2026 Utilities Inc. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "pmJnd",
+                  "name": "Social Links",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "AOwOY",
+                      "name": "social1",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "twitter",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "aF8Pa",
+                      "name": "social2",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "linkedin",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "4WAgA",
+                      "name": "social3",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "github",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "PXzjs",
+      "x": 24018,
+      "y": -4377,
+      "name": "About Page Mobile",
+      "clip": true,
+      "width": 390,
+      "fill": "#111111",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Ow0vR",
+          "name": "mobileHeader",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#111111",
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "dtuRM",
+              "name": "mLogo",
+              "fill": "#FFFFFF",
+              "content": "UTILITIES",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 14,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "vyazk",
+              "name": "Menu Icon",
+              "width": 24,
+              "height": 24,
+              "layout": "vertical",
+              "gap": 5,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "71UWF",
+                  "name": "Line",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "DxydG",
+                  "name": "Line",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "ANDod",
+                  "name": "Line",
+                  "width": 14,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Kn9G6",
+          "name": "About Hero",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "p7GsJ",
+              "name": "Hero Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yBQB1",
+                  "name": "Hero Tag",
+                  "fill": "#FF8400",
+                  "content": "OUR MISSION",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "dVznD",
+                  "name": "Hero Title",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Utilities for the people who keep the lights on.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 28,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "GQOpK",
+                  "name": "Hero Description",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We build resilient grid software for teams who operate critical infrastructure. One command center for visibility, field work, and compliance.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "6LvRl",
+              "name": "Hero Stats",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "INGLd",
+                  "name": "Stat Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7wbhk",
+                      "name": "Stat Value",
+                      "fill": "#FFFFFF",
+                      "content": "140+",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "v8ANc",
+                      "name": "Stat Label",
+                      "fill": "#B8B9B6",
+                      "content": "utility providers",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mAa9Z",
+                  "name": "Stat Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xsgxd",
+                      "name": "Stat Value",
+                      "fill": "#FFFFFF",
+                      "content": "12B",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6PIrq",
+                      "name": "Stat Label",
+                      "fill": "#B8B9B6",
+                      "content": "signals daily",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "O675l",
+                  "name": "Stat Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CIGiO",
+                      "name": "Stat Value",
+                      "fill": "#FFFFFF",
+                      "content": "99.97%",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wybOB",
+                      "name": "Stat Label",
+                      "fill": "#B8B9B6",
+                      "content": "uptime SLA",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ABsas",
+          "name": "Beliefs",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JCS0g",
+              "name": "Section Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VyTIq",
+                  "name": "Section Tag",
+                  "fill": "#FF8400",
+                  "content": "OUR PRINCIPLES",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "6DTox",
+                  "name": "Section Title",
+                  "fill": "#111111",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We design for critical moments.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 22,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "H07F7",
+                  "name": "Section Description",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Every decision is anchored in operator trust, resilience under pressure, and simple clarity.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xlqxs",
+              "name": "Belief Cards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xJ0Z7",
+                  "name": "Belief Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WjbxK",
+                      "name": "Card Title",
+                      "fill": "#111111",
+                      "content": "Clarity over complexity",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YCxDd",
+                      "name": "Card Description",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 316,
+                      "content": "Critical decisions should never hide behind unreadable dashboards.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GYkMA",
+                  "name": "Belief Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NesNs",
+                      "name": "Card Title",
+                      "fill": "#111111",
+                      "content": "Resilience is a feature",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MquN7",
+                      "name": "Card Description",
+                      "fill": "#666666",
+                      "content": "We ship for the worst day, so best days feel effortless.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZCTD7",
+                  "name": "Belief Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "18jw1",
+                      "name": "Card Title",
+                      "fill": "#111111",
+                      "content": "Teams first",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4LsD7",
+                      "name": "Card Description",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 317,
+                      "content": "We build around operations, field crews, and compliance leaders.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fyrmK",
+          "name": "Timeline",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "2Wafi",
+              "name": "Section Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5xc5A",
+                  "name": "Section Tag",
+                  "fill": "#FF8400",
+                  "content": "HOW WE GOT HERE",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "dPkaS",
+                  "name": "Section Title",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A decade of grid innovation.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 22,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "7Vpoo",
+                  "name": "Section Description",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We started in control rooms and built outward with utility partners.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3qrAR",
+              "name": "Timeline Rows",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kErIE",
+                  "name": "Timeline Row",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0Rw5N",
+                      "name": "Year",
+                      "fill": "#FFFFFF",
+                      "content": "2015",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0uykO",
+                      "name": "Milestone",
+                      "fill": "#B8B9B6",
+                      "textGrowth": "fixed-width",
+                      "width": 319,
+                      "content": "First outage response product deployed across 3 states.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kvWzL",
+                  "name": "Timeline Row",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aJZNc",
+                      "name": "Year",
+                      "fill": "#FFFFFF",
+                      "content": "2018",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7iyqO",
+                      "name": "Milestone",
+                      "fill": "#B8B9B6",
+                      "textGrowth": "fixed-width",
+                      "width": 320,
+                      "content": "Launched real-time meter analytics for 2.6M endpoints.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dPRUS",
+                  "name": "Timeline Row",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hkrBZ",
+                      "name": "Year",
+                      "fill": "#FFFFFF",
+                      "content": "2021",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3ORnL",
+                      "name": "Milestone",
+                      "fill": "#B8B9B6",
+                      "textGrowth": "fixed-width",
+                      "width": 322,
+                      "content": "Unified dispatch, compliance, and telemetry into one platform.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JMFRl",
+                  "name": "Timeline Row",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XiZaF",
+                      "name": "Year",
+                      "fill": "#FFFFFF",
+                      "content": "2024",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6tTWv",
+                      "name": "Milestone",
+                      "fill": "#B8B9B6",
+                      "textGrowth": "fixed-width",
+                      "width": 322,
+                      "content": "Crossed 12B daily signals and 99.97% uptime across North America.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FNeaJ",
+          "name": "Values",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "H1R6X",
+              "name": "Section Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fsMEq",
+                  "name": "Section Tag",
+                  "fill": "#FF8400",
+                  "content": "WHAT WE VALUE",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "kVv0e",
+                  "name": "Section Title",
+                  "fill": "#111111",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Built on integrity, built for operators.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 22,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "r04mV",
+                  "name": "Section Description",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "From compliance to communications, we protect trust with auditable workflows.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EORW1",
+              "name": "Values List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xQXZY",
+                  "name": "Value Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0l2Un",
+                      "name": "Card Title",
+                      "fill": "#111111",
+                      "content": "Audit-ready by design",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HXDWx",
+                      "name": "Card Description",
+                      "fill": "#666666",
+                      "content": "Evidence trails built into every operational action.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tEjpJ",
+                  "name": "Value Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kSqMt",
+                      "name": "Card Title",
+                      "fill": "#111111",
+                      "content": "Designed for scale",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "z7FoZ",
+                      "name": "Card Description",
+                      "fill": "#666666",
+                      "content": "Millions of endpoints, one coherent platform.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WhXlq",
+                  "name": "Value Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0tfYR",
+                      "name": "Card Title",
+                      "fill": "#111111",
+                      "content": "Human-centered tools",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "joGL6",
+                      "name": "Card Description",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 311,
+                      "content": "Workflows that respect the operator, not the other way around.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yABEx",
+                  "name": "Value Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hOOZZ",
+                      "name": "Card Title",
+                      "fill": "#111111",
+                      "content": "Security as a promise",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FimgY",
+                      "name": "Card Description",
+                      "fill": "#666666",
+                      "content": "SOC 2 Type II, NERC CIP, and always-on monitoring.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "evXSZ",
+          "name": "Leadership",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "RujaV",
+              "name": "Section Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F0D6t",
+                  "name": "Section Tag",
+                  "fill": "#FF8400",
+                  "content": "LEADERSHIP",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "kLwFy",
+                  "name": "Section Title",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Built by operators, engineers, and compliance leaders.",
+                  "lineHeight": 1.25,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 20,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "g9WP1",
+                  "name": "Section Description",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Leadership grounded in field operations and regulatory expertise.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "7lUVD",
+              "name": "Team List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "a5wGN",
+                  "name": "Leader Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lejtv",
+                      "name": "Avatar",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "#2E2E2E",
+                      "cornerRadius": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "KxleI",
+                      "name": "Leader Name",
+                      "fill": "#FFFFFF",
+                      "content": "Avery Cole",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6CMKm",
+                      "name": "Leader Role",
+                      "fill": "#B8B9B6",
+                      "content": "Chief Executive Officer",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NABXq",
+                      "name": "Leader Bio",
+                      "fill": "#B8B9B6",
+                      "textGrowth": "fixed-width",
+                      "width": 318,
+                      "content": "Former grid operations director. Led storm response across the Midwest.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wTs9J",
+                  "name": "Leader Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w04Pw",
+                      "name": "Avatar",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "#2E2E2E",
+                      "cornerRadius": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "Epgzg",
+                      "name": "Leader Name",
+                      "fill": "#FFFFFF",
+                      "content": "Kai Navarro",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LnUcP",
+                      "name": "Leader Role",
+                      "fill": "#B8B9B6",
+                      "content": "Chief Technology Officer",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FVYC8",
+                      "name": "Leader Bio",
+                      "fill": "#B8B9B6",
+                      "textGrowth": "fixed-width",
+                      "width": 318,
+                      "content": "Built telemetry systems for 40+ utilities. Focused on resilience engineering.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "A4W5K",
+                  "name": "Leader Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5UebU",
+                      "name": "Avatar",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "#2E2E2E",
+                      "cornerRadius": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "z6CFm",
+                      "name": "Leader Name",
+                      "fill": "#FFFFFF",
+                      "content": "Mira Patel",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7Y358",
+                      "name": "Leader Role",
+                      "fill": "#B8B9B6",
+                      "content": "VP of Compliance",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u8V1y",
+                      "name": "Leader Bio",
+                      "fill": "#B8B9B6",
+                      "textGrowth": "fixed-width",
+                      "width": 322,
+                      "content": "NERC CIP advisor with 15 years guiding critical infrastructure audits.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "V6CV6",
+          "name": "Careers CTA",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "SOrqv",
+              "name": "CTA Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IXVih",
+                  "name": "CTA Tag",
+                  "fill": "#FF8400",
+                  "content": "CAREERS",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "zG4EF",
+                  "name": "CTA Title",
+                  "fill": "#111111",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Help us build the next generation grid.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 22,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "cJhEC",
+                  "name": "CTA Description",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We are hiring engineers, data scientists, and field ops specialists who care about reliability at scale.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BrLBc",
+              "name": "CTA Actions",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "id": "aaGZC",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "width": "fill_container",
+                  "name": "mobileCareersPrimary",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "View Open Roles"
+                    }
+                  }
+                },
+                {
+                  "id": "yV6lP",
+                  "type": "ref",
+                  "ref": "4x7RU",
+                  "width": "fill_container",
+                  "name": "mobileCareersSecondary",
+                  "descendants": {
+                    "r97g1": {
+                      "enabled": false
+                    },
+                    "7ZVG7": {
+                      "content": "Our Values"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q9ylR",
+              "name": "CTA Highlight",
+              "fill": "#FFFFFF",
+              "cornerRadius": 999,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "gap": 10,
+              "padding": [
+                12,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "GYmGR",
+                  "name": "mobileCareersIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "sparkles",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FF8400"
+                },
+                {
+                  "type": "text",
+                  "id": "JQV70",
+                  "name": "CTA Note",
+                  "fill": "#111111",
+                  "content": "Remote-friendly. Field-first. Operator-led.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Z56hT",
+          "name": "mobileFooter",
+          "width": "fill_container",
+          "fill": "#111111",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#1A1A1A"
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "njuLV",
+              "name": "Brand",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KMafJ",
+                  "name": "mBrandLogo",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "oVdZN",
+                  "name": "mBrandTag",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Modern infrastructure management for utility providers.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2DztE",
+              "name": "Link Columns",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rvrR1",
+                  "name": "Product",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A5M3Z",
+                      "name": "mProdTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Product",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "X3nvC",
+                      "name": "mProdL1",
+                      "fill": "#666666",
+                      "content": "Features",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8dzoT",
+                      "name": "mProdL2",
+                      "fill": "#666666",
+                      "content": "Pricing",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kgLes",
+                      "name": "mProdL3",
+                      "fill": "#666666",
+                      "content": "Docs",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G2ybg",
+                  "name": "Company",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "58W70",
+                      "name": "mCompTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Company",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "G3LRy",
+                      "name": "mCompL1",
+                      "fill": "#666666",
+                      "content": "About",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Fj1oP",
+                      "name": "mCompL2",
+                      "fill": "#666666",
+                      "content": "Careers",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Kt20A",
+                      "name": "mCompL3",
+                      "fill": "#666666",
+                      "content": "Contact",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OjNIs",
+                  "name": "Legal",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ErlLD",
+                      "name": "mLegalTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Legal",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "BWBBk",
+                      "name": "mLegalL1",
+                      "fill": "#666666",
+                      "content": "Privacy",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nhlkp",
+                      "name": "mLegalL2",
+                      "fill": "#666666",
+                      "content": "Terms",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sQRMv",
+                      "name": "mLegalL3",
+                      "fill": "#666666",
+                      "content": "Security",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r0Ghk",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#2E2E2E"
+            },
+            {
+              "type": "frame",
+              "id": "gkvHK",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "57PR4",
+                  "name": "mCopy",
+                  "fill": "#444444",
+                  "content": "© 2026 Utilities Inc. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "MyimG",
+                  "name": "Social Links",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "R6gCi",
+                      "name": "mSocial1",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "twitter",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "18ZMJ",
+                      "name": "mSocial2",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "linkedin",
+                      "iconFontFamily": "lucide",
+                      "fill": "#666666"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "Km14S",
                       "name": "mSocial3",
                       "width": 16,
                       "height": 16,
