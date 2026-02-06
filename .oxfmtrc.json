@@ -7,10 +7,9 @@
   "singleQuote": false,
   "trailingComma": "all",
   "insertFinalNewline": true,
-  "ignorePatterns": [
-    "dist/**",
-    "node_modules/**",
-    ".astro/**",
-    "pnpm-lock.yaml"
-  ]
+  "ignorePatterns": ["dist/**", "node_modules/**", ".astro/**", "pnpm-lock.yaml"],
+  "experimentalTailwindcss": {
+    "attributes": ["class", "className"],
+    "functions": ["clsx", "cn"]
+  }
 }

@@ -16,9 +16,5 @@
   "globals": {
     "Astro": "readonly"
   },
-  "ignorePatterns": [
-    "dist/**",
-    "node_modules/**",
-    ".astro/**"
-  ]
+  "ignorePatterns": ["dist/**", "node_modules/**", ".astro/**"]
 }
