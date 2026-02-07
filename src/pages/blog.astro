@@ -1,0 +1,275 @@
+---
+import SiteLayout from "@/layouts/site-layout.astro";
+
+interface BlogPost {
+    tag: string;
+    title: string;
+    excerpt: string;
+    author: string;
+    date: string;
+    readTime?: string;
+}
+
+const featuredPost: BlogPost = {
+    tag: "Engineering",
+    title: "How we reduced grid outage response time by 73% with predictive analytics",
+    excerpt: "A deep dive into our machine learning pipeline for outage prediction, from data collection to real-time alerting in control rooms.",
+    author: "Sarah Chen",
+    date: "January 15, 2026",
+    readTime: "12 min read"
+};
+
+const blogPosts: BlogPost[] = [
+    {
+        tag: "Operations",
+        title: "The 5-minute rule: How utilities handle critical alerts",
+        excerpt: "Best practices for setting up alert thresholds that reduce noise without missing critical events.",
+        author: "Mike Ross",
+        date: "Jan 12, 2026"
+    },
+    {
+        tag: "Compliance",
+        title: "NERC CIP compliance in the cloud era",
+        excerpt: "Navigating cybersecurity standards while modernizing legacy infrastructure.",
+        author: "Lisa Park",
+        date: "Jan 8, 2026"
+    },
+    {
+        tag: "Engineering",
+        title: "Building real-time sync for distributed field crews",
+        excerpt: "How we designed offline-first architecture that keeps field teams connected.",
+        author: "James Wu",
+        date: "Jan 5, 2026"
+    },
+    {
+        tag: "Operations",
+        title: "Winter storm preparedness: A field operations guide",
+        excerpt: "Lessons learned from coordinating crews during extreme weather events.",
+        author: "Emma Torres",
+        date: "Dec 28, 2025"
+    },
+    {
+        tag: "Compliance",
+        title: "Automating compliance reporting at scale",
+        excerpt: "How we reduced report generation from days to minutes with automated data pipelines.",
+        author: "David Kim",
+        date: "Dec 22, 2025"
+    },
+    {
+        tag: "Engineering",
+        title: "Scaling SCADA data ingestion",
+        excerpt: "Architecture decisions for handling millions of sensor readings per second.",
+        author: "Alex Rivera",
+        date: "Dec 18, 2025"
+    }
+];
+
+const categories = ["All", "Engineering", "Operations", "Compliance"];
+---
+
+<SiteLayout title="Blog" activeNav="blog">
+    <!-- ===== HERO SECTION (Dark) ===== -->
+    <section class="bg-foreground pt-16 lg:pt-24 pb-10 lg:pb-12">
+        <div class="max-w-360 mx-auto px-5 lg:px-20">
+            <div class="flex flex-col items-center text-center gap-4 lg:gap-6">
+                <!-- Tag -->
+                <span class="text-primary text-[10px] lg:text-xs font-semibold font-primary uppercase tracking-widest">
+                    Insights
+                </span>
+                
+                <!-- Title -->
+                <h1 class="text-white text-[28px] lg:text-[52px] font-bold leading-tight lg:leading-[1.15] font-primary max-w-200">
+                    Engineering for critical infrastructure.
+                </h1>
+                
+                <!-- Description -->
+                <p class="text-muted-foreground text-sm lg:text-base font-secondary leading-relaxed lg:leading-[1.7] max-w-150">
+                    Deep dives into grid operations, compliance, and building resilient utility software.
+                </p>
+                
+                <!-- Category Filters -->
+                <div class="flex flex-wrap items-center justify-center gap-2 lg:gap-3 mt-2">
+                    {categories.map((cat, idx) => (
+                        <button
+                            class={`px-3 lg:px-4 py-1.5 lg:py-2 rounded-full text-sm font-secondary transition-colors ${
+                                idx === 0
+                                    ? "bg-primary text-foreground font-medium"
+                                    : "bg-card text-muted-foreground border border-secondary hover:border-primary/50"
+                            }`}
+                        >
+                            {cat}
+                        </button>
+                    ))}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTENT SECTION (Light) ===== -->
+    <section class="bg-background py-10 lg:py-16">
+        <div class="max-w-360 mx-auto px-5 lg:px-20">
+            <div class="flex flex-col gap-8 lg:gap-12">
+                
+                <!-- Featured Article -->
+                <article class="bg-card rounded-xl lg:rounded-2xl border border-secondary overflow-hidden">
+                    <div class="flex flex-col lg:flex-row">
+                        <!-- Featured Image -->
+                        <div class="w-full lg:w-1/2 h-48 lg:h-auto lg:min-h-[400px] bg-gradient-to-br from-secondary to-muted relative">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-20 h-20 lg:w-24 lg:h-24 rounded-full bg-primary/20 flex items-center justify-center">
+                                    <svg 
+                                        width="40" 
+                                        height="40" 
+                                        viewBox="0 0 24 24" 
+                                        fill="none" 
+                                        stroke="currentColor" 
+                                        stroke-width="1.5"
+                                        class="text-primary"
+                                    >
+                                        <path d="M12 2v20M2 12h20" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Featured Content -->
+                        <div class="w-full lg:w-1/2 p-6 lg:p-10 flex flex-col gap-4 lg:gap-6 justify-center">
+                            <span class="bg-primary text-foreground text-xs font-semibold font-secondary px-3 py-1 rounded-full w-fit">
+                                {featuredPost.tag}
+                            </span>
+                            
+                            <h2 class="text-foreground text-lg lg:text-[28px] font-bold leading-tight lg:leading-[1.2] font-primary">
+                                {featuredPost.title}
+                            </h2>
+                            
+                            <p class="text-muted-foreground text-sm lg:text-base font-secondary leading-relaxed">
+                                {featuredPost.excerpt}
+                            </p>
+                            
+                            <div class="flex items-center gap-3 lg:gap-4 text-sm font-secondary">
+                                <span class="text-foreground font-medium">{featuredPost.author}</span>
+                                <span class="text-muted-foreground">{featuredPost.date}</span>
+                                <span class="text-muted-foreground">{featuredPost.readTime}</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
+                    {blogPosts.map((post) => (
+                        <article class="bg-card rounded-xl lg:rounded-2xl border border-secondary overflow-hidden flex flex-col">
+                            <!-- Card Image -->
+                            <div class="h-40 lg:h-48 bg-gradient-to-br from-secondary to-muted relative">
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <div class="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                                        <svg 
+                                            width="24" 
+                                            height="24" 
+                                            viewBox="0 0 24 24" 
+                                            fill="none" 
+                                            stroke="currentColor" 
+                                            stroke-width="1.5"
+                                            class="text-primary"
+                                        >
+                                            <path d="M12 2v20M2 12h20" stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Card Content -->
+                            <div class="p-5 lg:p-6 flex flex-col gap-3 flex-1">
+                                <span class="text-primary text-xs font-semibold font-secondary">
+                                    {post.tag}
+                                </span>
+                                
+                                <h3 class="text-foreground text-base lg:text-lg font-bold leading-snug font-primary">
+                                    {post.title}
+                                </h3>
+                                
+                                <p class="text-muted-foreground text-sm font-secondary leading-relaxed line-clamp-2">
+                                    {post.excerpt}
+                                </p>
+                                
+                                <div class="flex items-center gap-2 text-sm font-secondary mt-auto">
+                                    <span class="text-foreground">{post.author}</span>
+                                    <span class="text-muted-foreground">•</span>
+                                    <span class="text-muted-foreground">{post.date}</span>
+                                </div>
+                            </div>
+                        </article>
+                    ))}
+                </div>
+
+                <!-- Pagination -->
+                <div class="flex items-center justify-center gap-1.5 lg:gap-2">
+                    <button class="w-8 h-8 lg:w-10 lg:h-10 rounded-lg bg-primary text-foreground text-sm font-secondary font-medium flex items-center justify-center">
+                        1
+                    </button>
+                    <button class="w-8 h-8 lg:w-10 lg:h-10 rounded-lg border border-secondary text-muted-foreground text-sm font-secondary hover:border-primary/50 transition-colors flex items-center justify-center">
+                        2
+                    </button>
+                    <button class="w-8 h-8 lg:w-10 lg:h-10 rounded-lg border border-secondary text-muted-foreground text-sm font-secondary hover:border-primary/50 transition-colors flex items-center justify-center">
+                        3
+                    </button>
+                    <span class="w-8 h-8 lg:w-10 lg:h-10 flex items-center justify-center text-muted-foreground text-sm font-secondary">...</span>
+                    <button class="w-8 h-8 lg:w-10 lg:h-10 rounded-lg border border-secondary text-muted-foreground text-sm font-secondary hover:border-primary/50 transition-colors flex items-center justify-center">
+                        10
+                    </button>
+                    <button class="w-8 h-8 lg:w-10 lg:h-10 rounded-lg border border-secondary text-muted-foreground hover:border-primary/50 transition-colors flex items-center justify-center">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NEWSLETTER CTA (Dark) ===== -->
+    <section class="bg-foreground py-16 lg:py-24">
+        <div class="max-w-360 mx-auto px-5 lg:px-20">
+            <div class="flex flex-col items-center text-center gap-4 lg:gap-6 max-w-180 mx-auto">
+                <!-- Tag -->
+                <span class="text-primary text-[10px] lg:text-xs font-semibold font-primary uppercase tracking-widest">
+                    Stay Informed
+                </span>
+                
+                <!-- Title -->
+                <h2 class="text-white text-[22px] lg:text-4xl font-bold leading-tight lg:leading-[1.15] font-primary">
+                    Get the latest insights delivered to your inbox.
+                </h2>
+                
+                <!-- Description -->
+                <p class="text-muted-foreground text-sm lg:text-base font-secondary leading-relaxed">
+                    Join thousands of utility professionals. No spam, just actionable insights.
+                </p>
+                
+                <!-- Email Form -->
+                <form class="w-full max-w-md flex flex-col sm:flex-row gap-3 mt-2" onsubmit="event.preventDefault();">
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        class="flex-1 px-4 py-3 bg-card border border-secondary rounded-lg text-foreground text-sm font-secondary placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
+                    />
+                    <button
+                        type="submit"
+                        class="bg-primary text-foreground text-sm font-semibold font-secondary px-6 py-3 rounded-lg hover:bg-primary/85 transition-colors whitespace-nowrap"
+                    >
+                        Subscribe
+                    </button>
+                </form>
+                
+                <!-- Privacy Note -->
+                <div class="flex items-center gap-2 text-muted-foreground text-xs lg:text-sm font-secondary">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        <path d="m9 12 2 2 4-4" />
+                    </svg>
+                    <span>We respect your privacy. Unsubscribe at any time.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</SiteLayout>
