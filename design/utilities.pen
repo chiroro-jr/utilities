@@ -13541,67 +13541,6 @@
                 },
                 {
                   "type": "frame",
-                  "id": "8nLy9",
-                  "name": "socialSection",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "id": "8XXCn",
-                      "type": "ref",
-                      "ref": "4x7RU",
-                      "width": "fill_container",
-                      "name": "googleBtn",
-                      "descendants": {
-                        "r97g1": {
-                          "enabled": false
-                        },
-                        "7ZVG7": {
-                          "content": "Continue with Google"
-                        }
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "79N2m",
-                  "name": "divider",
-                  "width": "fill_container",
-                  "gap": 16,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "QFjq6",
-                      "name": "line1",
-                      "width": "fill_container",
-                      "height": 1,
-                      "fill": "$--border"
-                    },
-                    {
-                      "type": "text",
-                      "id": "IaPVU",
-                      "name": "orText",
-                      "fill": "$--muted-foreground",
-                      "content": "or",
-                      "fontFamily": "Geist",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "lbECt",
-                      "name": "line2",
-                      "width": "fill_container",
-                      "height": 1,
-                      "fill": "$--border"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
                   "id": "JVnAG",
                   "name": "form",
                   "width": "fill_container",
@@ -13650,6 +13589,67 @@
                         },
                         "J3Z6N": {
                           "content": "Sign In"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "79N2m",
+                  "name": "divider",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QFjq6",
+                      "name": "line1",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$--border"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IaPVU",
+                      "name": "orText",
+                      "fill": "$--muted-foreground",
+                      "content": "or",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lbECt",
+                      "name": "line2",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$--border"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8nLy9",
+                  "name": "socialSection",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "id": "8XXCn",
+                      "type": "ref",
+                      "ref": "4x7RU",
+                      "width": "fill_container",
+                      "name": "googleBtn",
+                      "descendants": {
+                        "r97g1": {
+                          "enabled": false
+                        },
+                        "7ZVG7": {
+                          "content": "Continue with Google"
                         }
                       }
                     }
@@ -13844,67 +13844,6 @@
                 },
                 {
                   "type": "frame",
-                  "id": "vfntl",
-                  "name": "socialSection",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "id": "wn7AB",
-                      "type": "ref",
-                      "ref": "4x7RU",
-                      "width": "fill_container",
-                      "name": "googleBtn",
-                      "descendants": {
-                        "r97g1": {
-                          "enabled": false
-                        },
-                        "7ZVG7": {
-                          "content": "Sign Up with Google"
-                        }
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "EZev1",
-                  "name": "divider",
-                  "width": "fill_container",
-                  "gap": 16,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "Ga1WJ",
-                      "name": "line1",
-                      "width": "fill_container",
-                      "height": 1,
-                      "fill": "$--border"
-                    },
-                    {
-                      "type": "text",
-                      "id": "vcip7",
-                      "name": "orText",
-                      "fill": "$--muted-foreground",
-                      "content": "or",
-                      "fontFamily": "Geist",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "QgWNJ",
-                      "name": "line2",
-                      "width": "fill_container",
-                      "height": 1,
-                      "fill": "$--border"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
                   "id": "UB61Z",
                   "name": "form",
                   "width": "fill_container",
@@ -13992,6 +13931,67 @@
                         },
                         "J3Z6N": {
                           "content": "Sign Up"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EZev1",
+                  "name": "divider",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ga1WJ",
+                      "name": "line1",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$--border"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vcip7",
+                      "name": "orText",
+                      "fill": "$--muted-foreground",
+                      "content": "or",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QgWNJ",
+                      "name": "line2",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$--border"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vfntl",
+                  "name": "socialSection",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "id": "wn7AB",
+                      "type": "ref",
+                      "ref": "4x7RU",
+                      "width": "fill_container",
+                      "name": "googleBtn",
+                      "descendants": {
+                        "r97g1": {
+                          "enabled": false
+                        },
+                        "7ZVG7": {
+                          "content": "Sign Up with Google"
                         }
                       }
                     }

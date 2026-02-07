@@ -78,7 +78,7 @@ export default function MobileNav() {
           {/* CTA buttons */}
           <div className="flex flex-col gap-3 px-5 py-6">
             <a
-              href="#login"
+              href="/signin"
               className="w-full py-3 text-center text-white border border-[#2E2E2E] rounded-lg text-base font-medium font-[var(--font-secondary)] hover:border-[#888] transition-colors"
             >
               Log In
