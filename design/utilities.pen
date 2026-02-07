@@ -12,7 +12,7 @@
       },
       "clip": true,
       "width": 4865,
-      "height": 2781,
+      "height": 3344,
       "fill": "$--background",
       "layout": "none",
       "children": [
@@ -9141,6 +9141,1011 @@
                       "fill": "#666666"
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "eSYNr",
+      "x": 30005,
+      "y": -4377,
+      "name": "Careers Page Mobile",
+      "width": 430,
+      "fill": "$--background",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "yLJi1",
+          "name": "Mobile Nav",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "$--foreground",
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FQDM1",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "oFfm1",
+                  "name": "LogoIcon",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "fA09l",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "W3UE7",
+              "name": "mblogMenuIcon",
+              "width": 24,
+              "height": 24,
+              "layout": "vertical",
+              "gap": 5,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xwyW6",
+                  "name": "mblogLine1",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "qnTkA",
+                  "name": "mblogLine2",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "ldKaR",
+                  "name": "mblogLine3",
+                  "width": 14,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cdG0H",
+          "name": "Mobile Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "J2tZx",
+              "name": "mobileHeroTitle",
+              "fill": "$--foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Join Our Team",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "iZLDF",
+              "name": "mobileHeroSub",
+              "fill": "$--muted-foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We're building something extraordinary. Join us in shaping the future of utilities.",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "p0BW7",
+              "name": "mobileHeroDesc",
+              "fill": "$--foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Open positions across design, engineering, and product. Remote-first. Impact-driven.",
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "id": "2fPUu",
+              "type": "ref",
+              "ref": "ZGI9Z",
+              "width": "fill_container",
+              "name": "mobileHeroCta",
+              "descendants": {
+                "oNDwn": {
+                  "enabled": false
+                },
+                "J3Z6N": {
+                  "content": "View Open Positions"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rmXPT",
+          "name": "Mobile Open Positions",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "WdXLr",
+              "name": "mobilePosHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4tzKT",
+                  "name": "mobilePosTitle",
+                  "fill": "$--foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Open Positions",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 32,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "HplBW",
+                  "name": "mobilePosDesc",
+                  "fill": "$--muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Find your next role. We're always looking for talented individuals.",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sXR4R",
+              "name": "mobileJobsContainer",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NuDAD",
+                  "name": "mJob1",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FTNSH",
+                      "name": "mJob1Title",
+                      "fill": "$--foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Senior Frontend Engineer",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CXZia",
+                      "name": "mJob1Meta",
+                      "fill": "$--muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Remote • Full-time • Engineering",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "7XHvq",
+                      "type": "ref",
+                      "ref": "ZETEA",
+                      "width": "fill_container",
+                      "name": "mJob1Btn",
+                      "descendants": {
+                        "q5Hn5": {
+                          "content": "Apply Now"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yKC1D",
+                  "name": "mJob2",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KN6uX",
+                      "name": "mJob2Title",
+                      "fill": "$--foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Product Designer",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BCrPB",
+                      "name": "mJob2Meta",
+                      "fill": "$--muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Remote • Full-time • Design",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "37jbP",
+                      "type": "ref",
+                      "ref": "ZETEA",
+                      "width": "fill_container",
+                      "name": "mJob2Btn",
+                      "descendants": {
+                        "q5Hn5": {
+                          "content": "Apply Now"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AWjig",
+                  "name": "mJob3",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Xq5DP",
+                      "name": "mJob3Title",
+                      "fill": "$--foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Backend Engineer",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J8RMb",
+                      "name": "mJob3Meta",
+                      "fill": "$--muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Remote • Full-time • Engineering",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "wxygb",
+                      "type": "ref",
+                      "ref": "ZETEA",
+                      "width": "fill_container",
+                      "name": "mJob3Btn",
+                      "descendants": {
+                        "q5Hn5": {
+                          "content": "Apply Now"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1C46H",
+                  "name": "mJob4",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9NQZ4",
+                      "name": "mJob4Title",
+                      "fill": "$--foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Product Manager",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "amsMn",
+                      "name": "mJob4Meta",
+                      "fill": "$--muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Remote • Full-time • Product",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "M0Kq4",
+                      "type": "ref",
+                      "ref": "ZETEA",
+                      "width": "fill_container",
+                      "name": "mJob4Btn",
+                      "descendants": {
+                        "q5Hn5": {
+                          "content": "Apply Now"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Egb6L",
+          "name": "Mobile Benefits",
+          "width": "fill_container",
+          "fill": "$--foreground",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "8dgcn",
+              "name": "mBenefitsHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oSysW",
+                  "name": "mBenefitsTitle",
+                  "fill": "$--background",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Why Work With Us",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 32,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "1pjwu",
+                  "name": "mBenefitsDesc",
+                  "fill": "$--secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We believe in creating an environment where you can do your best work.",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bhmgm",
+              "name": "mBenefitsList",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "66GBD",
+                  "name": "mBenefit1",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aMYyw",
+                      "name": "mBenefit1Title",
+                      "fill": "$--background",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Remote First",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rTtxi",
+                      "name": "mBenefit1Desc",
+                      "fill": "$--secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Work from anywhere in the world. We believe in results, not locations.",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gtt89",
+                  "name": "mBenefit2",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8TpAL",
+                      "name": "mBenefit2Title",
+                      "fill": "$--background",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Health & Wellness",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hvdcI",
+                      "name": "mBenefit2Desc",
+                      "fill": "$--secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Comprehensive health coverage, mental health support, and wellness stipends.",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ffMIx",
+                  "name": "mBenefit3",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PjMmK",
+                      "name": "mBenefit3Title",
+                      "fill": "$--background",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Growth & Learning",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M1z36",
+                      "name": "mBenefit3Desc",
+                      "fill": "$--secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Annual learning budget, conference attendance, and dedicated time for skill development.",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Csskw",
+                  "name": "mBenefit4",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KXS7s",
+                      "name": "mBenefit4Title",
+                      "fill": "$--background",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Competitive Compensation",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l6xfW",
+                      "name": "mBenefit4Desc",
+                      "fill": "$--secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Salary benchmarks against top tech companies, equity, and performance bonuses.",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pLiEY",
+          "name": "Mobile CTA",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            24
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "vIZNR",
+              "name": "mCtaHeadline",
+              "fill": "$--foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Ready to join us?",
+              "textAlign": "center",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "PKhJr",
+              "name": "mCtaSubline",
+              "fill": "$--muted-foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Take the next step in your career. We'd love to hear from you.",
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "9pNCf",
+              "name": "mCtaButtons",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "id": "sXLRX",
+                  "type": "ref",
+                  "ref": "ZGI9Z",
+                  "width": "fill_container",
+                  "name": "mPrimaryBtn",
+                  "descendants": {
+                    "oNDwn": {
+                      "enabled": false
+                    },
+                    "J3Z6N": {
+                      "content": "View All Positions"
+                    }
+                  }
+                },
+                {
+                  "id": "jKKMh",
+                  "type": "ref",
+                  "ref": "89sf2",
+                  "width": "fill_container",
+                  "name": "mSecondaryBtn",
+                  "descendants": {
+                    "kRU0p": {
+                      "enabled": false
+                    },
+                    "17mNX": {
+                      "content": "Contact Us"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vaxJg",
+          "name": "Mobile Footer",
+          "width": "fill_container",
+          "fill": "$--foreground",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$--secondary"
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "UG02t",
+              "name": "mFooterBrand",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EAmk9",
+                  "name": "Logo",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "TkDJP",
+                      "name": "LogoIcon",
+                      "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                      "fill": "$--primary",
+                      "width": 32,
+                      "height": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "kRxld",
+                      "name": "logoText",
+                      "fill": "#FFFFFF",
+                      "content": "UTILITIES",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 16,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "sx2E6",
+                  "name": "mFooterTagline",
+                  "fill": "$--muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Modern infrastructure management for utility providers.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "7TvVY",
+              "name": "mFooterLinks",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rqSVI",
+                  "name": "mProductCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HsQi2",
+                      "name": "mProductTitle",
+                      "fill": "$--background",
+                      "content": "Product",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yEw0H",
+                      "name": "mProductFeatures",
+                      "fill": "$--muted-foreground",
+                      "content": "Features",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SgPDb",
+                      "name": "mProductPricing",
+                      "fill": "$--muted-foreground",
+                      "content": "Pricing",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ialfS",
+                      "name": "mProductDocs",
+                      "fill": "$--muted-foreground",
+                      "content": "Documentation",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FzdS9",
+                  "name": "mCompanyCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SUI37",
+                      "name": "mCompanyTitle",
+                      "fill": "$--background",
+                      "content": "Company",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3kha6",
+                      "name": "mCompanyAbout",
+                      "fill": "$--muted-foreground",
+                      "content": "About",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4ZspX",
+                      "name": "mCompanyBlog",
+                      "fill": "$--muted-foreground",
+                      "content": "Blog",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fG1Oq",
+                      "name": "mCompanyCareers",
+                      "fill": "$--muted-foreground",
+                      "content": "Careers",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m4C2t",
+                  "name": "mLegalCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GhZ6o",
+                      "name": "mLegalTitle",
+                      "fill": "$--background",
+                      "content": "Legal",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jzp2s",
+                      "name": "mLegalPrivacy",
+                      "fill": "$--muted-foreground",
+                      "content": "Privacy",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zDTNT",
+                      "name": "mLegalTerms",
+                      "fill": "$--muted-foreground",
+                      "content": "Terms",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TNYQJ",
+                      "name": "mLegalSecurity",
+                      "fill": "$--muted-foreground",
+                      "content": "Security",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rEiCC",
+              "name": "mFooterBottom",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Bo279",
+                  "name": "mFooterDivider",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "$--secondary"
+                },
+                {
+                  "type": "frame",
+                  "id": "cpOnx",
+                  "name": "mFooterSocial",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UVTBW",
+                      "name": "mFooterTwitter",
+                      "fill": "$--muted-foreground",
+                      "content": "Twitter",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yHmt1",
+                      "name": "mFooterLinkedIn",
+                      "fill": "$--muted-foreground",
+                      "content": "LinkedIn",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "96ATB",
+                      "name": "mFooterGitHub",
+                      "fill": "$--muted-foreground",
+                      "content": "GitHub",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "B7dPG",
+                  "name": "mFooterCopyright",
+                  "fill": "#444444",
+                  "content": "© 2026 Utilities Inc. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -27828,7 +28833,7 @@
                   "id": "sIQGV",
                   "name": "navDocs",
                   "fill": "#B8B9B6",
-                  "content": "Docs",
+                  "content": " ",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -33418,6 +34423,1244 @@
                       "content": "GitHub",
                       "fontFamily": "Geist",
                       "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "4B082",
+      "x": 28522,
+      "y": -4377,
+      "name": "Careers Page",
+      "width": 1440,
+      "fill": "$--background",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "GJ57A",
+          "name": "Navigation Header",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "$--foreground",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "TzfAZ",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "pJl8r",
+                  "name": "LogoIcon",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "ocOV6",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XHLQJ",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "35nAI",
+                  "name": "navFeatures",
+                  "fill": "$--secondary",
+                  "content": "Features",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "M9nPn",
+                  "name": "navPricing",
+                  "fill": "$--secondary",
+                  "content": "Pricing",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "WSvrV",
+                  "name": "navAbout",
+                  "fill": "$--secondary",
+                  "content": "About",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "9idUk",
+                  "name": "navBlog",
+                  "fill": "$--secondary",
+                  "content": "Blog",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ey4Qo",
+                  "name": "navCareers",
+                  "fill": "$--primary",
+                  "content": "Careers",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "u7Nhd",
+                  "name": "navDocs",
+                  "fill": "$--secondary",
+                  "content": "Docs",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CfP4v",
+              "name": "navCtaSection",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tUVF4",
+                  "name": "loginText",
+                  "fill": "$--secondary",
+                  "content": "Log In",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "id": "xwRuc",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "width": "fit_content",
+                  "name": "signupBtn",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "Start Free Trial"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mSAZ9",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "1QZHz",
+              "name": "heroHeadline",
+              "fill": "$--foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Join Our Team",
+              "fontFamily": "$--font-primary",
+              "fontSize": 64,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "l9CXS",
+              "name": "heroSubline",
+              "fill": "$--muted-foreground",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "We're building something extraordinary. Join us in shaping the future of utilities.",
+              "fontFamily": "$--font-secondary",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Y5MZB",
+              "name": "heroDesc",
+              "fill": "$--foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Open positions across design, engineering, and product. Remote-first. Impact-driven. Growth-oriented.",
+              "fontFamily": "$--font-secondary",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "id": "hdcI2",
+              "type": "ref",
+              "ref": "ZGI9Z",
+              "width": "fit_content",
+              "name": "heroCta",
+              "x": 120,
+              "y": 321,
+              "descendants": {
+                "oNDwn": {
+                  "enabled": false
+                },
+                "J3Z6N": {
+                  "content": "View Open Positions"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bg63C",
+          "name": "Open Positions",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "aejWI",
+              "name": "sectionHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OHcnL",
+                  "name": "sectionTitle",
+                  "fill": "$--foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Open Positions",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 48,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "hGdFy",
+                  "name": "sectionDesc",
+                  "fill": "$--muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 800,
+                  "content": "Find your next role. We're always looking for talented individuals who share our passion for innovation.",
+                  "fontFamily": "Geist",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fQg9G",
+              "name": "jobsContainer",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FEXJB",
+                  "name": "job1",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 16,
+                  "gap": 24,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OsoDg",
+                      "name": "job1Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FIfvO",
+                          "name": "job1Title",
+                          "fill": "$--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Senior Frontend Engineer",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "g3Hax",
+                          "name": "job1Meta",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "dBN5L",
+                              "name": "job1Location",
+                              "fill": "$--muted-foreground",
+                              "content": "Remote",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "yNPp4",
+                              "name": "job1Type",
+                              "fill": "$--muted-foreground",
+                              "content": "• Full-time",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "STGGM",
+                              "name": "job1Dept",
+                              "fill": "$--muted-foreground",
+                              "content": "• Engineering",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "lMXgF",
+                      "type": "ref",
+                      "ref": "ZETEA",
+                      "width": "fit_content",
+                      "name": "job1Btn",
+                      "descendants": {
+                        "q5Hn5": {
+                          "content": "Apply Now"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6qDDU",
+                  "name": "job2",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 16,
+                  "gap": 24,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "T5Qbz",
+                      "name": "job2Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uCqpD",
+                          "name": "job2Title",
+                          "fill": "$--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Product Designer",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HI58M",
+                          "name": "job2Meta",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pvEUa",
+                              "name": "job2Location",
+                              "fill": "$--muted-foreground",
+                              "content": "Remote",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ZpbxB",
+                              "name": "job2Type",
+                              "fill": "$--muted-foreground",
+                              "content": "• Full-time",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "p8VbO",
+                              "name": "job2Dept",
+                              "fill": "$--muted-foreground",
+                              "content": "• Design",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "9hrsa",
+                      "type": "ref",
+                      "ref": "ZETEA",
+                      "width": "fit_content",
+                      "name": "job2Btn",
+                      "descendants": {
+                        "q5Hn5": {
+                          "content": "Apply Now"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w253Q",
+                  "name": "job3",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 16,
+                  "gap": 24,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "reCdh",
+                      "name": "job3Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YdRUr",
+                          "name": "job3Title",
+                          "fill": "$--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Backend Engineer",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zTpF0",
+                          "name": "job3Meta",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lyviP",
+                              "name": "job3Location",
+                              "fill": "$--muted-foreground",
+                              "content": "Remote",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "iwvhv",
+                              "name": "job3Type",
+                              "fill": "$--muted-foreground",
+                              "content": "• Full-time",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "xJgPv",
+                              "name": "job3Dept",
+                              "fill": "$--muted-foreground",
+                              "content": "• Engineering",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "kGgP5",
+                      "type": "ref",
+                      "ref": "ZETEA",
+                      "width": "fit_content",
+                      "name": "job3Btn",
+                      "descendants": {
+                        "q5Hn5": {
+                          "content": "Apply Now"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z7Alc",
+                  "name": "job4",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 16,
+                  "gap": 24,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "V0cGa",
+                      "name": "job4Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sBRwL",
+                          "name": "job4Title",
+                          "fill": "$--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Product Manager",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nBdvA",
+                          "name": "job4Meta",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "JbBsu",
+                              "name": "job4Location",
+                              "fill": "$--muted-foreground",
+                              "content": "Remote",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "MV6cw",
+                              "name": "job4Type",
+                              "fill": "$--muted-foreground",
+                              "content": "• Full-time",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "SOAUt",
+                              "name": "job4Dept",
+                              "fill": "$--muted-foreground",
+                              "content": "• Product",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "XSsSQ",
+                      "type": "ref",
+                      "ref": "ZETEA",
+                      "width": "fit_content",
+                      "name": "job4Btn",
+                      "descendants": {
+                        "q5Hn5": {
+                          "content": "Apply Now"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TbHWu",
+          "name": "Benefits Section",
+          "width": "fill_container",
+          "fill": "$--foreground",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "XTrwO",
+              "name": "benefitsHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JGdUF",
+                  "name": "benefitsTitle",
+                  "fill": "$--background",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Why Work With Us",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 48,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "j2imh",
+                  "name": "benefitsDesc",
+                  "fill": "$--secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 800,
+                  "content": "We believe in creating an environment where you can do your best work.",
+                  "fontFamily": "Geist",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sVRea",
+              "name": "benefitsGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IaagA",
+                  "name": "leftCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xLCsb",
+                      "name": "benefit1",
+                      "width": "fill_container",
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 16,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0j6t8",
+                          "name": "benefit1Title",
+                          "fill": "$--background",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Remote First",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KkXlQ",
+                          "name": "benefit1Desc",
+                          "fill": "$--secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Work from anywhere in the world. We believe in results, not locations.",
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nulpj",
+                      "name": "benefit2",
+                      "width": "fill_container",
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 16,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DFpqS",
+                          "name": "benefit2Title",
+                          "fill": "$--background",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Health & Wellness",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aiIr1",
+                          "name": "benefit2Desc",
+                          "fill": "$--secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Comprehensive health coverage, mental health support, and wellness stipends.",
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bRyUA",
+                  "name": "rightCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ROSIx",
+                      "name": "benefit3",
+                      "width": "fill_container",
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 16,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GfjOe",
+                          "name": "benefit3Title",
+                          "fill": "$--background",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Growth & Learning",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5OmBG",
+                          "name": "benefit3Desc",
+                          "fill": "$--secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Annual learning budget, conference attendance, and dedicated time for skill development.",
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lORob",
+                      "name": "benefit4",
+                      "width": "fill_container",
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 16,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VUhYs",
+                          "name": "benefit4Title",
+                          "fill": "$--background",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Competitive Compensation",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MyVpF",
+                          "name": "benefit4Desc",
+                          "fill": "$--secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Salary benchmarks against top tech companies, equity, and performance bonuses.",
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Wx5tu",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "MViqv",
+              "name": "ctaHeadline",
+              "fill": "$--foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Ready to join us?",
+              "textAlign": "center",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "4HI7I",
+              "name": "ctaSubline",
+              "fill": "$--muted-foreground",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Take the next step in your career. We'd love to hear from you.",
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "wJ0ur",
+              "name": "ctaButtons",
+              "gap": 16,
+              "children": [
+                {
+                  "id": "9DbBG",
+                  "type": "ref",
+                  "ref": "ZGI9Z",
+                  "width": "fit_content",
+                  "name": "primaryBtn",
+                  "descendants": {
+                    "oNDwn": {
+                      "enabled": false
+                    },
+                    "J3Z6N": {
+                      "content": "View All Positions"
+                    }
+                  }
+                },
+                {
+                  "id": "3VoY6",
+                  "type": "ref",
+                  "ref": "89sf2",
+                  "width": "fit_content",
+                  "name": "secondaryBtn",
+                  "descendants": {
+                    "kRU0p": {
+                      "enabled": false
+                    },
+                    "17mNX": {
+                      "content": "Contact Us"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nbsV1",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$--foreground",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$--secondary"
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            64,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "koKnb",
+              "name": "footerTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wz11e",
+                  "name": "footerBrand",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3hC7O",
+                      "name": "Logo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "Fxjot",
+                          "name": "LogoIcon",
+                          "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                          "fill": "$--primary",
+                          "width": 32,
+                          "height": 32
+                        },
+                        {
+                          "type": "text",
+                          "id": "dTBPr",
+                          "name": "logoText",
+                          "fill": "#FFFFFF",
+                          "content": "UTILITIES",
+                          "fontFamily": "$--font-primary",
+                          "fontSize": 16,
+                          "fontWeight": "600",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "aiN1z",
+                      "name": "footerTagline",
+                      "fill": "$--muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "Modern infrastructure management for utility providers.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NFvnl",
+                  "name": "footerLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yH0vG",
+                      "name": "productCol",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XIVos",
+                          "name": "productTitle",
+                          "fill": "$--background",
+                          "content": "Product",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dCbED",
+                          "name": "productFeatures",
+                          "fill": "$--muted-foreground",
+                          "content": "Features",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "68xYi",
+                          "name": "productPricing",
+                          "fill": "$--muted-foreground",
+                          "content": "Pricing",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "icp94",
+                          "name": "productDocs",
+                          "fill": "$--muted-foreground",
+                          "content": "Documentation",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ETzxB",
+                      "name": "companyCol",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "C1Vyl",
+                          "name": "companyTitle",
+                          "fill": "$--background",
+                          "content": "Company",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MyJEv",
+                          "name": "companyAbout",
+                          "fill": "$--muted-foreground",
+                          "content": "About",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Jw6MH",
+                          "name": "companyBlog",
+                          "fill": "$--muted-foreground",
+                          "content": "Blog",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OYfgQ",
+                          "name": "companyCareers",
+                          "fill": "$--muted-foreground",
+                          "content": "Careers",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Wb0cl",
+                      "name": "legalCol",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Q3Dax",
+                          "name": "legalTitle",
+                          "fill": "$--background",
+                          "content": "Legal",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "o9Tvd",
+                          "name": "legalPrivacy",
+                          "fill": "$--muted-foreground",
+                          "content": "Privacy",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wp3Ai",
+                          "name": "legalTerms",
+                          "fill": "$--muted-foreground",
+                          "content": "Terms",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "O3EAY",
+                          "name": "legalSecurity",
+                          "fill": "$--muted-foreground",
+                          "content": "Security",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ifYKW",
+              "name": "footerDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$--secondary"
+            },
+            {
+              "type": "frame",
+              "id": "kx84a",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5Z1uF",
+                  "name": "footerCopyright",
+                  "fill": "#444444",
+                  "content": "© 2026 Utilities Inc. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "DlzOd",
+                  "name": "footerSocial",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "52ZNg",
+                      "name": "footerTwitter",
+                      "fill": "$--muted-foreground",
+                      "content": "Twitter",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Kbsuj",
+                      "name": "footerLinkedIn",
+                      "fill": "$--muted-foreground",
+                      "content": "LinkedIn",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zQvdm",
+                      "name": "footerGitHub",
+                      "fill": "$--muted-foreground",
+                      "content": "GitHub",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
                       "fontWeight": "normal"
                     }
                   ]
