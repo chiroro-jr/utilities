@@ -1,0 +1,48 @@
+---
+import BaseLayout from "./base-layout.astro";
+
+interface Props {
+    title: string;
+    tagline?: string;
+    taglineSub?: string;
+}
+
+const {
+    title,
+    tagline = "The simplest way to\nmanage your utilities",
+    taglineSub = "Monitor meters, track outages, and optimize your infrastructure in real-time",
+} = Astro.props;
+---
+
+<BaseLayout title={title}>
+    <div class="min-h-screen lg:h-screen flex">
+        <!-- Form Panel -->
+        <div
+            class="flex-1 h-full bg-background flex items-center justify-center px-6 py-12 lg:px-20"
+        >
+            <div class="w-full max-w-105 flex flex-col gap-8">
+                <slot />
+            </div>
+        </div>
+
+        <!-- Brand Panel -->
+        <div class="hidden h-full lg:flex lg:flex-1 bg-primary p-12 flex-col justify-between">
+            <div class="flex flex-col gap-4">
+                <h2
+                    class="text-foreground text-4xl font-bold leading-[1.2] font-primary whitespace-pre-line"
+                >
+                    {tagline}
+                </h2>
+                <p class="text-foreground/80 text-base leading-relaxed font-secondary">
+                    {taglineSub}
+                </p>
+            </div>
+
+            <div
+                class="w-full h-100 bg-card rounded-2xl shadow-[0_20px_40px_rgba(0,0,0,0.2)] flex items-center justify-center"
+            >
+                <span class="text-muted-foreground text-sm font-primary">Dashboard Preview</span>
+            </div>
+        </div>
+    </div>
+</BaseLayout>
