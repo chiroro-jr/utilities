@@ -4,7 +4,7 @@ import MobileNav from "@/components/MobileNav";
 
 interface Props {
     title: string;
-    activeNav?: "features" | "pricing" | "about" | "docs";
+    activeNav?: "features" | "pricing" | "about" | "docs" | "careers";
 }
 
 const { title, activeNav } = Astro.props;
@@ -44,6 +44,7 @@ const navLinkClass = (nav: string) => {
                 <a href="/features" class={navLinkClass("features")}>Features</a>
                 <a href="#pricing" class={navLinkClass("pricing")}>Pricing</a>
                 <a href="/about" class={navLinkClass("about")}>About</a>
+                <a href="/careers" class={navLinkClass("careers")}>Careers</a>
                 <a href="#docs" class={navLinkClass("docs")}>Docs</a>
             </nav>
 
@@ -151,7 +152,7 @@ const navLinkClass = (nav: string) => {
                         </li>
                         <li>
                             <a
-                                href="#careers"
+                                href="/careers"
                                 class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Careers</a
                             >
