@@ -8862,15 +8862,33 @@
                   "gap": 16,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "6Xk8a",
-                      "name": "brandLogo",
-                      "fill": "#FFFFFF",
-                      "content": "UTILITIES",
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
-                      "letterSpacing": 2
+                      "type": "frame",
+                      "id": "iD36g",
+                      "name": "Logo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "HlJ5S",
+                          "name": "LogoIcon",
+                          "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                          "fill": "$--primary",
+                          "width": 32,
+                          "height": 32
+                        },
+                        {
+                          "type": "text",
+                          "id": "JqxkX",
+                          "name": "logoText",
+                          "fill": "#FFFFFF",
+                          "content": "UTILITIES",
+                          "fontFamily": "$--font-primary",
+                          "fontSize": 16,
+                          "fontWeight": "600",
+                          "letterSpacing": 2
+                        }
+                      ]
                     },
                     {
                       "type": "text",
@@ -19415,14 +19433,33 @@
                   "gap": 16,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "WuWKO",
-                      "name": "footerLogo",
-                      "fill": "#FFFFFF",
-                      "content": "UTILITIES",
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 18,
-                      "fontWeight": "bold"
+                      "type": "frame",
+                      "id": "4mHK0",
+                      "name": "Logo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "43Ej4",
+                          "name": "LogoIcon",
+                          "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                          "fill": "$--primary",
+                          "width": 32,
+                          "height": 32
+                        },
+                        {
+                          "type": "text",
+                          "id": "3S42c",
+                          "name": "logoText",
+                          "fill": "#FFFFFF",
+                          "content": "UTILITIES",
+                          "fontFamily": "$--font-primary",
+                          "fontSize": 16,
+                          "fontWeight": "600",
+                          "letterSpacing": 2
+                        }
+                      ]
                     },
                     {
                       "type": "text",
@@ -22089,14 +22126,33 @@
               "gap": 12,
               "children": [
                 {
-                  "type": "text",
-                  "id": "UaF3e",
-                  "name": "logo",
-                  "fill": "#FFFFFF",
-                  "content": "UTILITIES",
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 16,
-                  "fontWeight": "bold"
+                  "type": "frame",
+                  "id": "tLtbV",
+                  "name": "Logo",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "cCtSZ",
+                      "name": "LogoIcon",
+                      "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                      "fill": "$--primary",
+                      "width": 32,
+                      "height": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "Rrfao",
+                      "name": "logoText",
+                      "fill": "#FFFFFF",
+                      "content": "UTILITIES",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 16,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
                 },
                 {
                   "type": "text",
@@ -24019,14 +24075,33 @@
               "gap": 12,
               "children": [
                 {
-                  "type": "text",
-                  "id": "mJRmY",
-                  "name": "mBrandLogo",
-                  "fill": "#FFFFFF",
-                  "content": "UTILITIES",
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 16,
-                  "fontWeight": "bold"
+                  "type": "frame",
+                  "id": "safic",
+                  "name": "Logo",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "4DTGN",
+                      "name": "LogoIcon",
+                      "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                      "fill": "$--primary",
+                      "width": 32,
+                      "height": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "VMQBs",
+                      "name": "logoText",
+                      "fill": "#FFFFFF",
+                      "content": "UTILITIES",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 16,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
                 },
                 {
                   "type": "text",
@@ -25704,15 +25779,33 @@
                   "gap": 16,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "altDO",
-                      "name": "brandLogo",
-                      "fill": "#FFFFFF",
-                      "content": "UTILITIES",
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
-                      "letterSpacing": 2
+                      "type": "frame",
+                      "id": "Zgk0W",
+                      "name": "Logo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "oDkA0",
+                          "name": "LogoIcon",
+                          "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                          "fill": "$--primary",
+                          "width": 32,
+                          "height": 32
+                        },
+                        {
+                          "type": "text",
+                          "id": "d2Tef",
+                          "name": "logoText",
+                          "fill": "#FFFFFF",
+                          "content": "UTILITIES",
+                          "fontFamily": "$--font-primary",
+                          "fontSize": 16,
+                          "fontWeight": "600",
+                          "letterSpacing": 2
+                        }
+                      ]
                     },
                     {
                       "type": "text",
@@ -27365,14 +27458,33 @@
               "gap": 12,
               "children": [
                 {
-                  "type": "text",
-                  "id": "KMafJ",
-                  "name": "mBrandLogo",
-                  "fill": "#FFFFFF",
-                  "content": "UTILITIES",
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 16,
-                  "fontWeight": "bold"
+                  "type": "frame",
+                  "id": "2BsDI",
+                  "name": "Logo",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "xkAJj",
+                      "name": "LogoIcon",
+                      "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                      "fill": "$--primary",
+                      "width": 32,
+                      "height": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "WdcDh",
+                      "name": "logoText",
+                      "fill": "#FFFFFF",
+                      "content": "UTILITIES",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 16,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
                 },
                 {
                   "type": "text",
@@ -28698,14 +28810,33 @@
                   "gap": 16,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "ESRaG",
-                      "name": "footerLogo",
-                      "fill": "#FFFFFF",
-                      "content": "UTILITIES",
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 16,
-                      "fontWeight": "bold"
+                      "type": "frame",
+                      "id": "hRGQM",
+                      "name": "Logo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "kwLi4",
+                          "name": "LogoIcon",
+                          "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                          "fill": "$--primary",
+                          "width": 32,
+                          "height": 32
+                        },
+                        {
+                          "type": "text",
+                          "id": "X8P4t",
+                          "name": "logoText",
+                          "fill": "#FFFFFF",
+                          "content": "UTILITIES",
+                          "fontFamily": "$--font-primary",
+                          "fontSize": 16,
+                          "fontWeight": "600",
+                          "letterSpacing": 2
+                        }
+                      ]
                     },
                     {
                       "type": "text",
