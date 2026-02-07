@@ -19725,14 +19725,33 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "text",
-              "id": "VxvGK",
-              "name": "mLogo",
-              "fill": "#FFFFFF",
-              "content": "UTILITIES",
-              "fontFamily": "JetBrains Mono",
-              "fontSize": 14,
-              "fontWeight": "bold"
+              "type": "frame",
+              "id": "h5sIG",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "AirUx",
+                  "name": "LogoIcon",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "pbsxv",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
             },
             {
               "type": "frame",
@@ -22391,14 +22410,33 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "text",
-              "id": "3uMBN",
-              "name": "mLogo",
-              "fill": "#FFFFFF",
-              "content": "UTILITIES",
-              "fontFamily": "JetBrains Mono",
-              "fontSize": 14,
-              "fontWeight": "bold"
+              "type": "frame",
+              "id": "EZnkh",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "AQojM",
+                  "name": "LogoIcon",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "yhUkF",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
             },
             {
               "type": "icon_font",
@@ -25960,14 +25998,33 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "text",
-              "id": "dtuRM",
-              "name": "mLogo",
-              "fill": "#FFFFFF",
-              "content": "UTILITIES",
-              "fontFamily": "JetBrains Mono",
-              "fontSize": 14,
-              "fontWeight": "bold"
+              "type": "frame",
+              "id": "11ZAS",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "rYE7o",
+                  "name": "LogoIcon",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "asiw8",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
             },
             {
               "type": "frame",
@@ -27556,6 +27613,2604 @@
                       "iconFontName": "github",
                       "iconFontFamily": "lucide",
                       "fill": "#666666"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "f18UQ",
+      "x": 24508,
+      "y": -4377,
+      "name": "Pricing Page",
+      "width": 1440,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "zQqll",
+          "name": "headerDesktop",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#111111",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "fgNt7",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "gyPMQ",
+                  "name": "LogoIcon",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "QNP2q",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NjZQp",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WXwcF",
+                  "name": "navFeatures",
+                  "fill": "#B8B9B6",
+                  "content": "Features",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "VycmQ",
+                  "name": "navPricing",
+                  "fill": "#FF8400",
+                  "content": "Pricing",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "zIHil",
+                  "name": "navAbout",
+                  "fill": "#B8B9B6",
+                  "content": "About",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "sIQGV",
+                  "name": "navDocs",
+                  "fill": "#B8B9B6",
+                  "content": "Docs",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m0QNX",
+              "name": "ctaSection",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LbjJR",
+                  "name": "loginBtn",
+                  "fill": "#B8B9B6",
+                  "content": "Log In",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "id": "RFDvp",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "name": "signupBtn",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "Start Free Trial"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "V6B0Y",
+          "name": "heroDesktop",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            120,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GhycC",
+              "name": "heroHeaderDesktop",
+              "width": 900,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ChMk3",
+                  "name": "heroTagDesktop",
+                  "fill": "#FF8400",
+                  "content": "PRICING",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "E4oSb",
+                  "name": "heroTitleDesktop",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 900,
+                  "content": "Simple pricing for critical infrastructure.",
+                  "lineHeight": 1.1,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 52,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "2muiY",
+                  "name": "heroDescDesktop",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Transparent pricing that scales with your grid. No hidden fees, no surprises. Start with our free tier and upgrade as your operations grow.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "go75k",
+          "name": "pricingSection",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Xdx73",
+              "name": "pricingToggleContainer",
+              "width": "fill_container",
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WKS88",
+                  "name": "pricingToggleLeft",
+                  "fill": "#111111",
+                  "content": "Monthly",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "id": "Ccp6E",
+                  "type": "ref",
+                  "ref": "wk1O8",
+                  "name": "pricingToggleSwitch"
+                },
+                {
+                  "type": "text",
+                  "id": "opxiU",
+                  "name": "pricingToggleRight",
+                  "fill": "#666666",
+                  "content": "Annual (Save 20%)",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Pmmpg",
+              "name": "pricingCards",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zlAMd",
+                  "name": "starterCard",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OUzya",
+                      "name": "starterHeader",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KsrL8",
+                          "name": "starterName",
+                          "fill": "#111111",
+                          "content": "Starter",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 20,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hAlCJ",
+                          "name": "starterDesc",
+                          "fill": "#666666",
+                          "content": "Perfect for small utilities getting started",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZpiIt",
+                      "name": "starterPriceRow",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tkuok",
+                          "name": "starterPrice",
+                          "fill": "#111111",
+                          "content": "$0",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 48,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RSsPo",
+                          "name": "starterPeriod",
+                          "fill": "#666666",
+                          "content": "/month",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "8vhcE",
+                      "type": "ref",
+                      "ref": "4x7RU",
+                      "width": "fill_container",
+                      "name": "starterBtn",
+                      "descendants": {
+                        "r97g1": {
+                          "enabled": false
+                        },
+                        "7ZVG7": {
+                          "content": "Get Started Free"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eu8Bo",
+                      "name": "starterFeatures",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LNN4S",
+                          "name": "starterFeature1",
+                          "fill": "#111111",
+                          "content": "✓ Up to 5 team members",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ys8Jc",
+                          "name": "starterFeature2",
+                          "fill": "#111111",
+                          "content": "✓ 3 active projects",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "G3rU4",
+                          "name": "starterFeature3",
+                          "fill": "#111111",
+                          "content": "✓ Basic grid monitoring",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ppcsl",
+                          "name": "starterFeature4",
+                          "fill": "#111111",
+                          "content": "✓ Email support",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TQUg0",
+                          "name": "starterFeature5",
+                          "fill": "#111111",
+                          "content": "✓ Community access",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lLgcC",
+                  "name": "proCard",
+                  "width": "fill_container",
+                  "fill": "#111111",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#FF8400"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rFUkh",
+                      "name": "proBadgeRow",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0rWTf",
+                          "name": "proName",
+                          "fill": "#FFFFFF",
+                          "content": "Professional",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 20,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9oe9s",
+                          "name": "proBadge",
+                          "fill": "#FF8400",
+                          "cornerRadius": 999,
+                          "padding": [
+                            4,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "6i3Dc",
+                              "name": "badgeText",
+                              "fill": "#111111",
+                              "content": "Popular",
+                              "fontFamily": "Geist",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "nWXW8",
+                      "name": "proDesc",
+                      "fill": "#B8B9B6",
+                      "content": "For growing teams managing multiple grids",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K9vfr",
+                      "name": "proPriceRow",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3dmJH",
+                          "name": "proPrice",
+                          "fill": "#FFFFFF",
+                          "content": "$299",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 48,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lBLCo",
+                          "name": "proPeriod",
+                          "fill": "#B8B9B6",
+                          "content": "/month",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "USY9g",
+                      "type": "ref",
+                      "ref": "ZETEA",
+                      "width": "fill_container",
+                      "name": "proBtn",
+                      "descendants": {
+                        "mRGd3": {
+                          "enabled": false
+                        },
+                        "q5Hn5": {
+                          "content": "Start Free Trial"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eKtUx",
+                      "name": "proFeatures",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "b0IRs",
+                          "name": "proFeature1",
+                          "fill": "#FFFFFF",
+                          "content": "✓ Unlimited team members",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bUc6z",
+                          "name": "proFeature2",
+                          "fill": "#FFFFFF",
+                          "content": "✓ Unlimited projects",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SQb3F",
+                          "name": "proFeature3",
+                          "fill": "#FFFFFF",
+                          "content": "✓ Advanced grid analytics",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hLm09",
+                          "name": "proFeature4",
+                          "fill": "#FFFFFF",
+                          "content": "✓ Priority email & chat support",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "7kVEi",
+                          "name": "proFeature5",
+                          "fill": "#FFFFFF",
+                          "content": "✓ API access",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "i2i75",
+                          "name": "proFeature6",
+                          "fill": "#FFFFFF",
+                          "content": "✓ Compliance reporting",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wJWyL",
+                          "name": "proFeature7",
+                          "fill": "#FFFFFF",
+                          "content": "✓ Custom integrations",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NR3WW",
+                  "name": "enterpriseCard",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DKtie",
+                      "name": "enterpriseHeader",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vkcvK",
+                          "name": "enterpriseName",
+                          "fill": "#111111",
+                          "content": "Enterprise",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 20,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "E503f",
+                          "name": "enterpriseDesc",
+                          "fill": "#666666",
+                          "content": "For large utilities requiring custom solutions",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OQ7Xh",
+                      "name": "enterprisePriceRow",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DQg2x",
+                          "name": "enterprisePrice",
+                          "fill": "#111111",
+                          "content": "Custom",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 48,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "piKaI",
+                      "type": "ref",
+                      "ref": "4x7RU",
+                      "width": "fill_container",
+                      "name": "enterpriseBtn",
+                      "descendants": {
+                        "r97g1": {
+                          "enabled": false
+                        },
+                        "7ZVG7": {
+                          "content": "Contact Sales"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mdPMq",
+                      "name": "enterpriseFeatures",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bMkYh",
+                          "name": "enterpriseFeature1",
+                          "fill": "#111111",
+                          "content": "✓ Everything in Professional",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z1snb",
+                          "name": "enterpriseFeature2",
+                          "fill": "#111111",
+                          "content": "✓ Dedicated account manager",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "C4I9N",
+                          "name": "enterpriseFeature3",
+                          "fill": "#111111",
+                          "content": "✓ SLA guarantees",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Uf6v7",
+                          "name": "enterpriseFeature4",
+                          "fill": "#111111",
+                          "content": "✓ On-premise deployment",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ctebf",
+                          "name": "enterpriseFeature5",
+                          "fill": "#111111",
+                          "content": "✓ Custom security audits",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XA46A",
+                          "name": "enterpriseFeature6",
+                          "fill": "#111111",
+                          "content": "✓ 24/7 phone support",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qZ6vv",
+                          "name": "enterpriseFeature7",
+                          "fill": "#111111",
+                          "content": "✓ Training & onboarding",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Gklyx",
+          "name": "faqSection",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "rNELE",
+              "name": "faqHeader",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DURU5",
+                  "name": "faqTag",
+                  "fill": "#FF8400",
+                  "content": "FAQ",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "a8Gql",
+                  "name": "faqTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Common questions about pricing.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "hNsfe",
+                  "name": "faqDesc",
+                  "fill": "#B8B9B6",
+                  "content": "Everything you need to know about our pricing and billing.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UTx8q",
+              "name": "faqAccordion",
+              "width": 800,
+              "layout": "vertical",
+              "children": [
+                {
+                  "id": "NXH33",
+                  "type": "ref",
+                  "ref": "DFcCn",
+                  "width": "fill_container",
+                  "name": "faq1",
+                  "descendants": {
+                    "ckp1f": {
+                      "content": "Can I change plans at any time?",
+                      "fill": "#FFFFFF"
+                    }
+                  }
+                },
+                {
+                  "id": "ga8oD",
+                  "type": "ref",
+                  "ref": "DFcCn",
+                  "width": "fill_container",
+                  "name": "faq2",
+                  "descendants": {
+                    "ckp1f": {
+                      "content": "What happens when I exceed my team limit?",
+                      "fill": "#FFFFFF"
+                    }
+                  }
+                },
+                {
+                  "id": "ZhA8b",
+                  "type": "ref",
+                  "ref": "DFcCn",
+                  "width": "fill_container",
+                  "name": "faq3",
+                  "descendants": {
+                    "ckp1f": {
+                      "content": "Do you offer refunds?",
+                      "fill": "#FFFFFF"
+                    }
+                  }
+                },
+                {
+                  "id": "hmk7F",
+                  "type": "ref",
+                  "ref": "DFcCn",
+                  "width": "fill_container",
+                  "name": "faq4",
+                  "descendants": {
+                    "ckp1f": {
+                      "content": "Is there a free trial for Professional?",
+                      "fill": "#FFFFFF"
+                    }
+                  }
+                },
+                {
+                  "id": "Bb74j",
+                  "type": "ref",
+                  "ref": "DFcCn",
+                  "width": "fill_container",
+                  "name": "faq5",
+                  "descendants": {
+                    "ckp1f": {
+                      "content": "What payment methods do you accept?",
+                      "fill": "#FFFFFF"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zfRH1",
+          "name": "ctaSection",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "wbTEY",
+              "name": "ctaHeader",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8YWwo",
+                  "name": "ctaTag",
+                  "fill": "#FF8400",
+                  "content": "GET STARTED",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "UEFkP",
+                  "name": "ctaTitle",
+                  "fill": "#111111",
+                  "content": "Ready to power your grid operations?",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "hZigN",
+                  "name": "ctaDesc",
+                  "fill": "#666666",
+                  "content": "Join hundreds of utilities already using our platform to manage critical infrastructure.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "S5G9Z",
+              "name": "ctaActions",
+              "gap": 16,
+              "children": [
+                {
+                  "id": "xQkp2",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "name": "ctaPrimary",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "Start Free Trial"
+                    }
+                  }
+                },
+                {
+                  "id": "dbCHc",
+                  "type": "ref",
+                  "ref": "4x7RU",
+                  "name": "ctaSecondary",
+                  "descendants": {
+                    "r97g1": {
+                      "enabled": false
+                    },
+                    "7ZVG7": {
+                      "content": "Contact Sales"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OBvUE",
+              "name": "ctaNote",
+              "fill": "#FFFFFF",
+              "cornerRadius": 999,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "gap": 12,
+              "padding": [
+                16,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "JYXW3",
+                  "name": "ctaNoteIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "sparkles",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FF8400"
+                },
+                {
+                  "type": "text",
+                  "id": "rcZ2h",
+                  "name": "ctaNoteText",
+                  "fill": "#111111",
+                  "content": "No credit card required. 14-day free trial.",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3ul2H",
+          "name": "footerDesktop",
+          "width": "fill_container",
+          "fill": "#111111",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#1A1A1A"
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            64,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "WGGfw",
+              "name": "footerTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mbkzB",
+                  "name": "footerBrand",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ESRaG",
+                      "name": "footerLogo",
+                      "fill": "#FFFFFF",
+                      "content": "UTILITIES",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "isiO3",
+                      "name": "footerTagline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "Modern infrastructure management for utility providers.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p29lr",
+                  "name": "footerLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KJe1p",
+                      "name": "footerProduct",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "6YQRr",
+                          "name": "footerProductTitle",
+                          "fill": "#FFFFFF",
+                          "content": "Product",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YxN6o",
+                          "name": "footerProduct1",
+                          "fill": "#666666",
+                          "content": "Features",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "azHxM",
+                          "name": "footerProduct2",
+                          "fill": "#666666",
+                          "content": "Pricing",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "0QGjY",
+                          "name": "footerProduct3",
+                          "fill": "#666666",
+                          "content": "Documentation",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vJYRK",
+                          "name": "footerProduct4",
+                          "fill": "#666666",
+                          "content": "API Reference",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cJhK9",
+                      "name": "footerCompany",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Glwhq",
+                          "name": "footerCompanyTitle",
+                          "fill": "#FFFFFF",
+                          "content": "Company",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "A050R",
+                          "name": "footerCompany1",
+                          "fill": "#666666",
+                          "content": "About",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "2Hmys",
+                          "name": "footerCompany2",
+                          "fill": "#666666",
+                          "content": "Blog",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z1CYP",
+                          "name": "footerCompany3",
+                          "fill": "#666666",
+                          "content": "Careers",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZzxVV",
+                          "name": "footerCompany4",
+                          "fill": "#666666",
+                          "content": "Contact",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "71fTH",
+                      "name": "footerLegal",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "H5nLy",
+                          "name": "footerLegalTitle",
+                          "fill": "#FFFFFF",
+                          "content": "Legal",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LVfY5",
+                          "name": "footerLegal1",
+                          "fill": "#666666",
+                          "content": "Privacy",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yvXA2",
+                          "name": "footerLegal2",
+                          "fill": "#666666",
+                          "content": "Terms",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "c48V7",
+                          "name": "footerLegal3",
+                          "fill": "#666666",
+                          "content": "Security",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oXnqs",
+                          "name": "footerLegal4",
+                          "fill": "#666666",
+                          "content": "Compliance",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eEpfI",
+              "name": "footerDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#2E2E2E"
+            },
+            {
+              "type": "frame",
+              "id": "wgqFy",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JPPxs",
+                  "name": "footerCopyright",
+                  "fill": "#444444",
+                  "content": "© 2026 Utilities Inc. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "8UAum",
+                  "name": "footerSocial",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kl6Wn",
+                      "name": "footerSocial1",
+                      "fill": "#666666",
+                      "content": "Twitter",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cIDQk",
+                      "name": "footerSocial2",
+                      "fill": "#666666",
+                      "content": "LinkedIn",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FwFPk",
+                      "name": "footerSocial3",
+                      "fill": "#666666",
+                      "content": "GitHub",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "bWT7L",
+      "x": 26038,
+      "y": -4377,
+      "name": "Pricing Page Mobile",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "yJFyP",
+          "name": "headerMobile",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#111111",
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "bX8UG",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "uxhdS",
+                  "name": "LogoIcon",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "Y3Zdx",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4UXsB",
+              "name": "mMenuIcon",
+              "width": 24,
+              "height": 24,
+              "layout": "vertical",
+              "gap": 5,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jjpPq",
+                  "name": "mLine1",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "d1llP",
+                  "name": "mLine2",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "ALOo5",
+                  "name": "mLine3",
+                  "width": 14,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "p03bQ",
+          "name": "heroMobile",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XWg4q",
+              "name": "heroHeaderMobile",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VqqRY",
+                  "name": "heroTagMobile",
+                  "fill": "#FF8400",
+                  "content": "PRICING",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "9z7ev",
+                  "name": "heroTitleMobile",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Simple pricing for critical infrastructure.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 28,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "Ogg3b",
+                  "name": "heroDescMobile",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Transparent pricing that scales with your grid. Start free and upgrade as you grow.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "v9dxl",
+          "name": "mPricingSection",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            20
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "U3qAO",
+              "name": "mPricingToggleContainer",
+              "width": 356,
+              "gap": 12,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "0kcKU",
+                  "name": "mPricingToggleLeft",
+                  "fill": "#111111",
+                  "content": "Monthly",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "id": "ngeQE",
+                  "type": "ref",
+                  "ref": "wk1O8",
+                  "name": "mPricingToggleSwitch"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "3eIO2",
+              "name": "mPricingToggleRight",
+              "fill": "#666666",
+              "content": "Annual (Save 20%)",
+              "fontFamily": "Geist",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "umTjG",
+              "name": "mStarterCard",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XwQku",
+                  "name": "mStarterHeader",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZYI05",
+                      "name": "mStarterName",
+                      "fill": "#111111",
+                      "content": "Starter",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xOA7g",
+                      "name": "mStarterDesc",
+                      "fill": "#666666",
+                      "content": "Perfect for small utilities",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5UNEv",
+                  "name": "mStarterPriceRow",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8hveX",
+                      "name": "mStarterPrice",
+                      "fill": "#111111",
+                      "content": "$0",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 36,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jbzMU",
+                      "name": "mStarterPeriod",
+                      "fill": "#666666",
+                      "content": "/month",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "0T5WH",
+                  "type": "ref",
+                  "ref": "4x7RU",
+                  "width": "fill_container",
+                  "name": "mStarterBtn",
+                  "descendants": {
+                    "r97g1": {
+                      "enabled": false
+                    },
+                    "7ZVG7": {
+                      "content": "Get Started Free"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "mj2t9",
+                  "name": "mStarterFeatures",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JJXut",
+                      "name": "mStarterFeature1",
+                      "fill": "#111111",
+                      "content": "✓ Up to 5 team members",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ooOWB",
+                      "name": "mStarterFeature2",
+                      "fill": "#111111",
+                      "content": "✓ 3 active projects",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "usjFu",
+                      "name": "mStarterFeature3",
+                      "fill": "#111111",
+                      "content": "✓ Basic grid monitoring",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ebzSc",
+                      "name": "mStarterFeature4",
+                      "fill": "#111111",
+                      "content": "✓ Email support",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2DrPA",
+              "name": "mProCard",
+              "width": "fill_container",
+              "fill": "#111111",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 2,
+                "fill": "#FF8400"
+              },
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dfGn3",
+                  "name": "mProBadgeRow",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "I8dvS",
+                      "name": "mProName",
+                      "fill": "#FFFFFF",
+                      "content": "Professional",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "S6y3J",
+                      "name": "mProBadge",
+                      "fill": "#FF8400",
+                      "cornerRadius": 999,
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y4s3E",
+                          "name": "mBadgeText",
+                          "fill": "#111111",
+                          "content": "Popular",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "nezgR",
+                  "name": "mProDesc",
+                  "fill": "#B8B9B6",
+                  "content": "For growing teams",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "IfGqd",
+                  "name": "mProPriceRow",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mzupT",
+                      "name": "mProPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$299",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 36,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lVj14",
+                      "name": "mProPeriod",
+                      "fill": "#B8B9B6",
+                      "content": "/month",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "FYxVw",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "width": "fill_container",
+                  "name": "mProBtn",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "Start Free Trial"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "fXiyf",
+                  "name": "mProFeatures",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dR08V",
+                      "name": "mProFeature1",
+                      "fill": "#FFFFFF",
+                      "content": "✓ Unlimited team members",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Wh17v",
+                      "name": "mProFeature2",
+                      "fill": "#FFFFFF",
+                      "content": "✓ Unlimited projects",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jZkes",
+                      "name": "mProFeature3",
+                      "fill": "#FFFFFF",
+                      "content": "✓ Advanced analytics",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Abhs6",
+                      "name": "mProFeature4",
+                      "fill": "#FFFFFF",
+                      "content": "✓ Priority support",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G74Ol",
+                      "name": "mProFeature5",
+                      "fill": "#FFFFFF",
+                      "content": "✓ API access",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4fNvu",
+              "name": "mEnterpriseCard",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ejver",
+                  "name": "mEnterpriseHeader",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z543b",
+                      "name": "mEnterpriseName",
+                      "fill": "#111111",
+                      "content": "Enterprise",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FPURK",
+                      "name": "mEnterpriseDesc",
+                      "fill": "#666666",
+                      "content": "For large utilities",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fIomf",
+                  "name": "mEnterprisePriceRow",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8ZxCp",
+                      "name": "mEnterprisePrice",
+                      "fill": "#111111",
+                      "content": "Custom",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 36,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "id": "7Toz4",
+                  "type": "ref",
+                  "ref": "4x7RU",
+                  "width": "fill_container",
+                  "name": "mEnterpriseBtn",
+                  "descendants": {
+                    "r97g1": {
+                      "enabled": false
+                    },
+                    "7ZVG7": {
+                      "content": "Contact Sales"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "12SMc",
+                  "name": "mEnterpriseFeatures",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "onvEY",
+                      "name": "mEnterpriseFeature1",
+                      "fill": "#111111",
+                      "content": "✓ Everything in Pro",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mM5Oy",
+                      "name": "mEnterpriseFeature2",
+                      "fill": "#111111",
+                      "content": "✓ Dedicated manager",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YD1bg",
+                      "name": "mEnterpriseFeature3",
+                      "fill": "#111111",
+                      "content": "✓ SLA guarantees",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wUbLi",
+                      "name": "mEnterpriseFeature4",
+                      "fill": "#111111",
+                      "content": "✓ On-premise option",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "w87yW",
+                      "name": "mEnterpriseFeature5",
+                      "fill": "#111111",
+                      "content": "✓ 24/7 phone support",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "WC5ac",
+              "fill": "#CCCCCC",
+              "width": 44,
+              "height": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bM3G5",
+          "name": "mFaqSection",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nJaMc",
+              "name": "mFaqHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KBR7z",
+                  "name": "mFaqTag",
+                  "fill": "#FF8400",
+                  "content": "FAQ",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "bULDN",
+                  "name": "mFaqTitle",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Common questions about pricing.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 22,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "1iW7f",
+                  "name": "mFaqDesc",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Everything you need to know about pricing and billing.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ozrFX",
+              "name": "mFaqAccordion",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "id": "zjmXk",
+                  "type": "ref",
+                  "ref": "DFcCn",
+                  "width": "fill_container",
+                  "name": "mFaq1",
+                  "descendants": {
+                    "ckp1f": {
+                      "content": "Can I change plans?",
+                      "fill": "#FFFFFF"
+                    }
+                  }
+                },
+                {
+                  "id": "n95G4",
+                  "type": "ref",
+                  "ref": "DFcCn",
+                  "width": "fill_container",
+                  "name": "mFaq2",
+                  "descendants": {
+                    "ckp1f": {
+                      "content": "What about team limits?",
+                      "fill": "#FFFFFF"
+                    }
+                  }
+                },
+                {
+                  "id": "yPiSb",
+                  "type": "ref",
+                  "ref": "DFcCn",
+                  "width": "fill_container",
+                  "name": "mFaq3",
+                  "descendants": {
+                    "ckp1f": {
+                      "content": "Do you offer refunds?",
+                      "fill": "#FFFFFF"
+                    }
+                  }
+                },
+                {
+                  "id": "X3XzP",
+                  "type": "ref",
+                  "ref": "DFcCn",
+                  "width": "fill_container",
+                  "name": "mFaq4",
+                  "descendants": {
+                    "ckp1f": {
+                      "content": "Is there a free trial?",
+                      "fill": "#FFFFFF"
+                    }
+                  }
+                },
+                {
+                  "id": "uk3zc",
+                  "type": "ref",
+                  "ref": "DFcCn",
+                  "width": "fill_container",
+                  "name": "mFaq5",
+                  "descendants": {
+                    "ckp1f": {
+                      "content": "Payment methods?",
+                      "fill": "#FFFFFF"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "y1sYP",
+          "name": "mCtaSection",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "reldM",
+              "name": "mCtaHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ANxY5",
+                  "name": "mCtaTag",
+                  "fill": "#FF8400",
+                  "content": "GET STARTED",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "aVWN5",
+                  "name": "mCtaTitle",
+                  "fill": "#111111",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ready to power your grid operations?",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 22,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "o5CsI",
+                  "name": "mCtaDesc",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Join hundreds of utilities using our platform.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XAFUd",
+              "name": "mCtaActions",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "id": "AqdUO",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "width": "fill_container",
+                  "name": "mCtaPrimary",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "Start Free Trial"
+                    }
+                  }
+                },
+                {
+                  "id": "s4Ixn",
+                  "type": "ref",
+                  "ref": "4x7RU",
+                  "width": "fill_container",
+                  "name": "mCtaSecondary",
+                  "descendants": {
+                    "r97g1": {
+                      "enabled": false
+                    },
+                    "7ZVG7": {
+                      "content": "Contact Sales"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4YAVR",
+              "name": "mCtaNote",
+              "fill": "#FFFFFF",
+              "cornerRadius": 999,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "gap": 10,
+              "padding": [
+                12,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "JmVJ6",
+                  "name": "mCtaNoteIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "sparkles",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FF8400"
+                },
+                {
+                  "type": "text",
+                  "id": "Ef4E0",
+                  "name": "mCtaNoteText",
+                  "fill": "#111111",
+                  "content": "No credit card required.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uaY95",
+          "name": "mFooter",
+          "width": "fill_container",
+          "fill": "#111111",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#1A1A1A"
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "al3fa",
+              "name": "mFooterBrand",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jYWrJ",
+                  "name": "mFooterLogo",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "NQNCe",
+                  "name": "mFooterTagline",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Modern infrastructure management for utility providers.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ydzcy",
+              "name": "mLinkColumns",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "grZqo",
+                  "name": "mFooterProduct",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nskOa",
+                      "name": "mFooterProductTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Product",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "frSuD",
+                      "name": "mFooterProduct1",
+                      "fill": "#666666",
+                      "content": "Features",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hDiJ7",
+                      "name": "mFooterProduct2",
+                      "fill": "#666666",
+                      "content": "Pricing",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iYHzB",
+                      "name": "mFooterProduct3",
+                      "fill": "#666666",
+                      "content": "Documentation",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5dpT8",
+                  "name": "mFooterCompany",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RJJ4w",
+                      "name": "mFooterCompanyTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Company",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bx7Qf",
+                      "name": "mFooterCompany1",
+                      "fill": "#666666",
+                      "content": "About",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2QMcg",
+                      "name": "mFooterCompany2",
+                      "fill": "#666666",
+                      "content": "Blog",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6arZ3",
+                      "name": "mFooterCompany3",
+                      "fill": "#666666",
+                      "content": "Careers",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m57aw",
+                  "name": "mFooterLegal",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5ayxf",
+                      "name": "mFooterLegalTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Legal",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cK3ss",
+                      "name": "mFooterLegal1",
+                      "fill": "#666666",
+                      "content": "Privacy",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "45C8B",
+                      "name": "mFooterLegal2",
+                      "fill": "#666666",
+                      "content": "Terms",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "htPHN",
+                      "name": "mFooterLegal3",
+                      "fill": "#666666",
+                      "content": "Security",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LHl4D",
+              "name": "mFooterDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#2E2E2E"
+            },
+            {
+              "type": "frame",
+              "id": "IoUGN",
+              "name": "mFooterBottom",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LldAE",
+                  "name": "mFooterCopyright",
+                  "fill": "#444444",
+                  "content": "© 2026 Utilities Inc. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "GSCUi",
+                  "name": "mFooterSocial",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PyOtk",
+                      "name": "mFooterSocial1",
+                      "fill": "#666666",
+                      "content": "Twitter",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ztmDH",
+                      "name": "mFooterSocial2",
+                      "fill": "#666666",
+                      "content": "LinkedIn",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "x7MlB",
+                      "name": "mFooterSocial3",
+                      "fill": "#666666",
+                      "content": "GitHub",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
