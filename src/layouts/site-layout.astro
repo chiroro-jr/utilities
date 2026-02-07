@@ -19,7 +19,7 @@ const navLinkClass = (nav: string) => {
 
 <BaseLayout title={title}>
     <!-- ===== HEADER ===== -->
-    <header class="bg-foreground sticky top-0 z-40">
+    <header class="bg-foreground fixed top-0 left-0 right-0 z-40">
         <div class="max-w-360 mx-auto flex items-center justify-between px-5 lg:px-16 py-4 lg:py-5">
             <!-- Logo -->
             <a href="/" class="flex items-center gap-2.5">
@@ -65,6 +65,9 @@ const navLinkClass = (nav: string) => {
             <MobileNav client:load />
         </div>
     </header>
+
+    <!-- Spacer for fixed header -->
+    <div class="h-14 lg:h-[72px]"></div>
 
     <!-- Page Content -->
     <slot />
