@@ -11,7 +11,7 @@ const { title, activeNav } = Astro.props;
 
 const navLinkClass = (nav: string) => {
     const isActive = activeNav === nav;
-    return isActive 
+    return isActive
         ? "text-primary text-sm font-medium font-secondary"
         : "text-muted-foreground text-sm font-medium font-secondary hover:text-white transition-colors";
 };
@@ -46,7 +46,6 @@ const navLinkClass = (nav: string) => {
                 <a href="/about" class={navLinkClass("about")}>About</a>
                 <a href="/blog" class={navLinkClass("blog")}>Blog</a>
                 <a href="/careers" class={navLinkClass("careers")}>Careers</a>
-                <a href="#docs" class={navLinkClass("docs")}>Docs</a>
             </nav>
 
             <!-- Desktop CTA -->
@@ -123,13 +122,6 @@ const navLinkClass = (nav: string) => {
                                 >Integrations</a
                             >
                         </li>
-                        <li>
-                            <a
-                                href="#changelog"
-                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
-                                >Changelog</a
-                            >
-                        </li>
                     </ul>
                 </div>
 
@@ -191,13 +183,6 @@ const navLinkClass = (nav: string) => {
                                 href="#security"
                                 class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
                                 >Security</a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                href="#compliance"
-                                class="text-muted-foreground text-sm font-secondary hover:text-white transition-colors"
-                                >Compliance</a
                             >
                         </li>
                     </ul>
