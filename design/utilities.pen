@@ -30350,6 +30350,3083 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "vtxHy",
+      "x": 26528,
+      "y": -4377,
+      "name": "Blog Page",
+      "width": 1440,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "5y4dI",
+          "name": "blogHeaderDesktop",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#111111",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "08qom",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "76Wpr",
+                  "name": "LogoIcon",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "dURPQ",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3W4SQ",
+              "name": "blogNavLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5bur4",
+                  "name": "blogNavFeatures",
+                  "fill": "#B8B9B6",
+                  "content": "Features",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "dgszB",
+                  "name": "blogNavPricing",
+                  "fill": "#B8B9B6",
+                  "content": "Pricing",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "K7t5r",
+                  "name": "blogNavAbout",
+                  "fill": "#B8B9B6",
+                  "content": "About",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RL05J",
+                  "name": "blogNavBlog",
+                  "fill": "#FF8400",
+                  "content": "Blog",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "7W3FW",
+                  "name": "blogNavDocs",
+                  "fill": "#B8B9B6",
+                  "content": "Docs",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dcq32",
+              "name": "blogCtaSection",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QN3DF",
+                  "name": "blogLoginBtn",
+                  "fill": "#B8B9B6",
+                  "content": "Log In",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "id": "IrLNb",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "name": "blogSignupBtn",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "Start Free Trial"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "N4n0p",
+          "name": "blogHero",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "cIeSu",
+              "name": "blogHeroHeader",
+              "width": 800,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qNE2L",
+                  "name": "blogHeroTag",
+                  "fill": "#FF8400",
+                  "content": "INSIGHTS",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "WVoZg",
+                  "name": "blogHeroTitle",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 800,
+                  "content": "Engineering for critical infrastructure.",
+                  "lineHeight": 1.1,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 52,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "DRYFx",
+                  "name": "blogHeroDesc",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Deep dives into grid operations, compliance, and building resilient utility software.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RGksF",
+              "name": "blogCategoryFilter",
+              "gap": 12,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "28c3m",
+                  "name": "blogCatAll",
+                  "fill": "#FF8400",
+                  "cornerRadius": 999,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3FDJ2",
+                      "name": "blogCatAllText",
+                      "fill": "#111111",
+                      "content": "All",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Dy0ut",
+                  "name": "blogCatEngineering",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mCyJ9",
+                      "name": "blogCatEngineeringText",
+                      "fill": "#B8B9B6",
+                      "content": "Engineering",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e1ct2",
+                  "name": "blogCatOperations",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FxYHZ",
+                      "name": "blogCatOperationsText",
+                      "fill": "#B8B9B6",
+                      "content": "Operations",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1UHwB",
+                  "name": "blogCatCompliance",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pW32s",
+                      "name": "blogCatComplianceText",
+                      "fill": "#B8B9B6",
+                      "content": "Compliance",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gH3aF",
+          "name": "blogContentSection",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "QmasS",
+              "name": "blogFeaturedCard",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "beZjd",
+                  "name": "blogFeaturedImage",
+                  "rotation": -3.975693351829396e-16,
+                  "width": "fill_container",
+                  "height": 400,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#1A1A1A",
+                        "position": 0
+                      },
+                      {
+                        "color": "#2E2E2E",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": [
+                    "$--radius-m",
+                    0,
+                    0,
+                    "$--radius-m"
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Qd8ZH",
+                  "name": "blogFeaturedContent",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "O6Keg",
+                      "name": "blogFeaturedTag",
+                      "fill": "#FF8400",
+                      "cornerRadius": 999,
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GxYzx",
+                          "name": "blogFeaturedTagText",
+                          "fill": "#111111",
+                          "content": "Engineering",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "WLKZJ",
+                      "name": "blogFeaturedTitle",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "How we reduced grid outage response time by 73% with predictive analytics",
+                      "lineHeight": 1.2,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 28,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qd7NO",
+                      "name": "blogFeaturedExcerpt",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A deep dive into our machine learning pipeline for outage prediction, from data collection to real-time alerting in control rooms.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "9f6kM",
+                      "name": "blogFeaturedMeta",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yq5cQ",
+                          "name": "blogFeaturedAuthor",
+                          "fill": "#111111",
+                          "content": "Sarah Chen",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xVLwg",
+                          "name": "blogFeaturedDate",
+                          "fill": "#666666",
+                          "content": "January 15, 2026",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZzyTe",
+                          "name": "blogFeaturedReadTime",
+                          "fill": "#666666",
+                          "content": "12 min read",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kAQj4",
+              "name": "blogGridRow1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8qRZ2",
+                  "name": "blogCard1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DiaAB",
+                      "name": "blogCard1Image",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#2E2E2E",
+                            "position": 0
+                          },
+                          {
+                            "color": "#1A1A1A",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": [
+                        16,
+                        16,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "I5YZ0",
+                      "name": "blogCard1Content",
+                      "width": 411,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "QB4WD",
+                          "name": "blogCard1Tag",
+                          "fill": "#FF8400",
+                          "content": "Operations",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OkxM5",
+                          "name": "blogCard1Title",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "The 5-minute rule: How utilities handle critical alerts",
+                          "lineHeight": 1.3,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4o56U",
+                          "name": "blogCard1Excerpt",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Best practices for setting up alert thresholds that reduce noise without missing critical events.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FSRZC",
+                          "name": "blogCard1Meta",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CDa4W",
+                              "name": "blogCard1Author",
+                              "fill": "#111111",
+                              "content": "Mike Ross",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "tEgnb",
+                              "name": "blogCard1Date",
+                              "fill": "#666666",
+                              "content": "Jan 12, 2026",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Xv2lg",
+                  "name": "blogCard2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AZpBz",
+                      "name": "blogCard2Image",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#3D3D3D",
+                            "position": 0
+                          },
+                          {
+                            "color": "#1A1A1A",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": [
+                        16,
+                        16,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Zk12w",
+                      "name": "blogCard2Content",
+                      "width": 408,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Vx4oZ",
+                          "name": "blogCard2Tag",
+                          "fill": "#FF8400",
+                          "content": "Compliance",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "0anFj",
+                          "name": "blogCard2Title",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "NERC CIP compliance in the cloud era",
+                          "lineHeight": 1.3,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pdkzW",
+                          "name": "blogCard2Excerpt",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Navigating cybersecurity standards while modernizing legacy infrastructure.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "iOEL9",
+                          "name": "blogCard2Meta",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "5VgOF",
+                              "name": "blogCard2Author",
+                              "fill": "#111111",
+                              "content": "Lisa Park",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "pFt49",
+                              "name": "blogCard2Date",
+                              "fill": "#666666",
+                              "content": "Jan 8, 2026",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Sp98y",
+                  "name": "blogCard3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VxMqd",
+                      "name": "blogCard3Image",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1A1A1A",
+                            "position": 0
+                          },
+                          {
+                            "color": "#3D3D3D",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": [
+                        16,
+                        16,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DGUnx",
+                      "name": "blogCard3Content",
+                      "width": 409,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vOcOV",
+                          "name": "blogCard3Tag",
+                          "fill": "#FF8400",
+                          "content": "Engineering",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mJx5f",
+                          "name": "blogCard3Title",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Building real-time sync for distributed field crews",
+                          "lineHeight": 1.3,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "usRo0",
+                          "name": "blogCard3Excerpt",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "How we designed offline-first architecture that keeps field teams connected.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "oiYpe",
+                          "name": "blogCard3Meta",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tgg38",
+                              "name": "blogCard3Author",
+                              "fill": "#111111",
+                              "content": "James Wu",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Om7tZ",
+                              "name": "blogCard3Date",
+                              "fill": "#666666",
+                              "content": "Jan 5, 2026",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ovlDh",
+              "name": "blogGridRow2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KrsOT",
+                  "name": "blogCard4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FYgtm",
+                      "name": "blogCard4Image",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#2A2A2A",
+                            "position": 0
+                          },
+                          {
+                            "color": "#1A1A1A",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": [
+                        16,
+                        16,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "48ZDd",
+                      "name": "blogCard4Content",
+                      "width": 409,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Z5E4R",
+                          "name": "blogCard4Tag",
+                          "fill": "#FF8400",
+                          "content": "Operations",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "1LIkA",
+                          "name": "blogCard4Title",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Winter storm preparedness: A field operations guide",
+                          "lineHeight": 1.3,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qJ9u7",
+                          "name": "blogCard4Excerpt",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Lessons learned from coordinating crews during extreme weather events.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TFVxd",
+                          "name": "blogCard4Meta",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xOu8R",
+                              "name": "blogCard4Author",
+                              "fill": "#111111",
+                              "content": "Emma Torres",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "RTRxk",
+                              "name": "blogCard4Date",
+                              "fill": "#666666",
+                              "content": "Dec 28, 2025",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JEruH",
+                  "name": "blogCard5",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yAdc2",
+                      "name": "blogCard5Image",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1A1A1A",
+                            "position": 0
+                          },
+                          {
+                            "color": "#2E2E2E",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": [
+                        16,
+                        16,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pUkVJ",
+                      "name": "blogCard5Content",
+                      "width": 409,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y7dh3",
+                          "name": "blogCard5Tag",
+                          "fill": "#FF8400",
+                          "content": "Compliance",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "k1oai",
+                          "name": "blogCard5Title",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Automating compliance reporting at scale",
+                          "lineHeight": 1.3,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UMImJ",
+                          "name": "blogCard5Excerpt",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "How we reduced report generation from days to minutes with automated data pipelines.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jhgS3",
+                          "name": "blogCard5Meta",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XECBU",
+                              "name": "blogCard5Author",
+                              "fill": "#111111",
+                              "content": "David Kim",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "HrsRR",
+                              "name": "blogCard5Date",
+                              "fill": "#666666",
+                              "content": "Dec 22, 2025",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bjr3U",
+                  "name": "blogCard6",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E0E0E0"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DqH4t",
+                      "name": "blogCard6Image",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1A1A1A",
+                            "position": 0
+                          },
+                          {
+                            "color": "#3D3D3D",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": [
+                        16,
+                        16,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WfKD6",
+                      "name": "blogCard6Content",
+                      "width": 411,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D1NCD",
+                          "name": "blogCard6Tag",
+                          "fill": "#FF8400",
+                          "content": "Engineering",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5hREr",
+                          "name": "blogCard6Title",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Scaling SCADA data ingestion",
+                          "lineHeight": 1.3,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xTL8f",
+                          "name": "blogCard6Excerpt",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Architecture decisions for handling millions of sensor readings per second.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kg7Ug",
+                          "name": "blogCard6Meta",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "20Prm",
+                              "name": "blogCard6Author",
+                              "fill": "#111111",
+                              "content": "Alex Rivera",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "unt32",
+                              "name": "blogCard6Date",
+                              "fill": "#666666",
+                              "content": "Dec 18, 2025",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9Vmn6",
+              "name": "blogPagination",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "G2Ky7",
+                  "type": "ref",
+                  "ref": "oT0d2",
+                  "name": "blogPage1"
+                },
+                {
+                  "id": "yuHzg",
+                  "type": "ref",
+                  "ref": "Doslm",
+                  "name": "blogPage2",
+                  "descendants": {
+                    "y7IIq": {
+                      "content": "2"
+                    }
+                  }
+                },
+                {
+                  "id": "Y3Wlm",
+                  "type": "ref",
+                  "ref": "Doslm",
+                  "name": "blogPage3",
+                  "descendants": {
+                    "y7IIq": {
+                      "content": "3"
+                    }
+                  }
+                },
+                {
+                  "id": "4sMOr",
+                  "type": "ref",
+                  "ref": "Irk3I",
+                  "name": "blogEllipsis"
+                },
+                {
+                  "id": "eXJfA",
+                  "type": "ref",
+                  "ref": "Doslm",
+                  "name": "blogPage10",
+                  "descendants": {
+                    "y7IIq": {
+                      "content": "10"
+                    }
+                  }
+                },
+                {
+                  "type": "icon_font",
+                  "id": "knUcM",
+                  "name": "blogNextArrow",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "#666666"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "r6h3R",
+          "name": "blogCtaSection",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "xbqTH",
+              "name": "blogCtaHeader",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nQJCk",
+                  "name": "blogCtaTag",
+                  "fill": "#FF8400",
+                  "content": "STAY INFORMED",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "BP7ao",
+                  "name": "blogCtaTitle",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Get the latest insights delivered to your inbox.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "yfmJw",
+                  "name": "blogCtaDesc",
+                  "fill": "#B8B9B6",
+                  "content": "Join thousands of utility professionals. No spam, just actionable insights.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MG894",
+              "name": "blogNewsletterForm",
+              "gap": 12,
+              "children": [
+                {
+                  "id": "CbOny",
+                  "type": "ref",
+                  "ref": "592AB",
+                  "width": 320,
+                  "name": "blogEmailInput",
+                  "descendants": {
+                    "KbqaX": {
+                      "enabled": false
+                    },
+                    "FU4Re": {
+                      "content": "Enter your email"
+                    }
+                  }
+                },
+                {
+                  "id": "4ncXA",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "name": "blogSubscribeBtn",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "Subscribe"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iQ0UQ",
+              "name": "blogCtaNote",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "ka7Y1",
+                  "name": "blogCtaNoteIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "shield-check",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FF8400"
+                },
+                {
+                  "type": "text",
+                  "id": "TCDrs",
+                  "name": "blogCtaNoteText",
+                  "fill": "#B8B9B6",
+                  "content": "We respect your privacy. Unsubscribe at any time.",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JAC1N",
+          "name": "blogFooter",
+          "width": "fill_container",
+          "fill": "#111111",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#1A1A1A"
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            64,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "QYbZx",
+              "name": "blogFooterTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WSYiq",
+                  "name": "blogFooterBrand",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NYnYK",
+                      "name": "Logo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "gWmLQ",
+                          "name": "LogoIcon",
+                          "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                          "fill": "$--primary",
+                          "width": 32,
+                          "height": 32
+                        },
+                        {
+                          "type": "text",
+                          "id": "xcW0Z",
+                          "name": "logoText",
+                          "fill": "#FFFFFF",
+                          "content": "UTILITIES",
+                          "fontFamily": "$--font-primary",
+                          "fontSize": 16,
+                          "fontWeight": "600",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "tvuEU",
+                      "name": "blogFooterTagline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "Modern infrastructure management for utility providers.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tDqlW",
+                  "name": "blogFooterLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dfJER",
+                      "name": "blogFooterProduct",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FtQWY",
+                          "name": "blogFooterProductTitle",
+                          "fill": "#FFFFFF",
+                          "content": "Product",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OcUcE",
+                          "name": "blogFooterProduct1",
+                          "fill": "#666666",
+                          "content": "Features",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DzyIw",
+                          "name": "blogFooterProduct2",
+                          "fill": "#666666",
+                          "content": "Pricing",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "snTci",
+                          "name": "blogFooterProduct3",
+                          "fill": "#666666",
+                          "content": "Documentation",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qdiqJ",
+                          "name": "blogFooterProduct4",
+                          "fill": "#666666",
+                          "content": "API Reference",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JmiGl",
+                      "name": "blogFooterCompany",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FOFgS",
+                          "name": "blogFooterCompanyTitle",
+                          "fill": "#FFFFFF",
+                          "content": "Company",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ccu05",
+                          "name": "blogFooterCompany1",
+                          "fill": "#666666",
+                          "content": "About",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8ujwY",
+                          "name": "blogFooterCompany2",
+                          "fill": "#FF8400",
+                          "content": "Blog",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "isiNj",
+                          "name": "blogFooterCompany3",
+                          "fill": "#666666",
+                          "content": "Careers",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZEzUM",
+                          "name": "blogFooterCompany4",
+                          "fill": "#666666",
+                          "content": "Contact",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lnnNi",
+                      "name": "blogFooterLegal",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kWkcL",
+                          "name": "blogFooterLegalTitle",
+                          "fill": "#FFFFFF",
+                          "content": "Legal",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GBI5u",
+                          "name": "blogFooterLegal1",
+                          "fill": "#666666",
+                          "content": "Privacy",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QczZO",
+                          "name": "blogFooterLegal2",
+                          "fill": "#666666",
+                          "content": "Terms",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "2vRYp",
+                          "name": "blogFooterLegal3",
+                          "fill": "#666666",
+                          "content": "Security",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "1V62G",
+                          "name": "blogFooterLegal4",
+                          "fill": "#666666",
+                          "content": "Compliance",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eHoLh",
+              "name": "blogFooterDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#2E2E2E"
+            },
+            {
+              "type": "frame",
+              "id": "so0nm",
+              "name": "blogFooterBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "0HYMa",
+                  "name": "blogFooterCopyright",
+                  "fill": "#444444",
+                  "content": "© 2026 Utilities Inc. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "aHcDG",
+                  "name": "blogFooterSocial",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DYSdR",
+                      "name": "blogFooterSocial1",
+                      "fill": "#666666",
+                      "content": "Twitter",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7FyKs",
+                      "name": "blogFooterSocial2",
+                      "fill": "#666666",
+                      "content": "LinkedIn",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5nbWo",
+                      "name": "blogFooterSocial3",
+                      "fill": "#666666",
+                      "content": "GitHub",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "0cLaW",
+      "x": 28032,
+      "y": -4377,
+      "name": "Blog Page Mobile",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "HnJb8",
+          "name": "mblogHeader",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#111111",
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "NPjt1",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "69Qja",
+                  "name": "LogoIcon",
+                  "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                  "fill": "$--primary",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "kMIj4",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "UTILITIES",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r39LA",
+              "name": "mblogMenuIcon",
+              "width": 24,
+              "height": 24,
+              "layout": "vertical",
+              "gap": 5,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "V18GW",
+                  "name": "mblogLine1",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "ncIJR",
+                  "name": "mblogLine2",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "Xn7Tg",
+                  "name": "mblogLine3",
+                  "width": 14,
+                  "height": 2,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ebab1",
+          "name": "mblogHero",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "sV4eA",
+              "name": "mblogHeroHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WC2sa",
+                  "name": "mblogHeroTag",
+                  "fill": "#FF8400",
+                  "content": "INSIGHTS",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "0ugDI",
+                  "name": "mblogHeroTitle",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Engineering for critical infrastructure.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 28,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "Aufju",
+                  "name": "mblogHeroDesc",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Deep dives into grid operations, compliance, and resilient utility software.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z6v8m",
+              "name": "mblogCategoryFilter",
+              "width": "fill_container",
+              "gap": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oGmxG",
+                  "name": "mblogCatAll",
+                  "fill": "#FF8400",
+                  "cornerRadius": 999,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JYYxW",
+                      "name": "mblogCatAllText",
+                      "fill": "#111111",
+                      "content": "All",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t1JEU",
+                  "name": "mblogCatEng",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MHWBE",
+                      "name": "mblogCatEngText",
+                      "fill": "#B8B9B6",
+                      "content": "Engineering",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5mwQU",
+                  "name": "mblogCatOps",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2E2E2E"
+                  },
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dTboK",
+                      "name": "mblogCatOpsText",
+                      "fill": "#B8B9B6",
+                      "content": "Operations",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BwsU4",
+          "name": "mblogContentSection",
+          "width": "fill_container",
+          "fill": "#F2F3F0",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            32,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "t5rtT",
+              "name": "mblogFeaturedCard",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2W3F5",
+                  "name": "mblogFeaturedImage",
+                  "width": "fill_container",
+                  "height": 200,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#1A1A1A",
+                        "position": 0
+                      },
+                      {
+                        "color": "#2E2E2E",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": [
+                    12,
+                    12,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wMtR3",
+                  "name": "mblogFeaturedContent",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Xi82U",
+                      "name": "mblogFeaturedTag",
+                      "fill": "#FF8400",
+                      "cornerRadius": 999,
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3RI4X",
+                          "name": "mblogFeaturedTagText",
+                          "fill": "#111111",
+                          "content": "Engineering",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "p1xLF",
+                      "name": "mblogFeaturedTitle",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "How we reduced grid outage response time by 73% with predictive analytics",
+                      "lineHeight": 1.3,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4mWr1",
+                      "name": "mblogFeaturedExcerpt",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A deep dive into our machine learning pipeline for outage prediction.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qsne8",
+                      "name": "mblogFeaturedMeta",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qgSt1",
+                          "name": "mblogFeaturedAuthor",
+                          "fill": "#111111",
+                          "content": "Sarah Chen",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GV1Mf",
+                          "name": "mblogFeaturedDate",
+                          "fill": "#666666",
+                          "content": "Jan 15, 2026",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yeRdY",
+              "name": "mblogCard1",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ETV7c",
+                  "name": "mblogCard1Image",
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#2E2E2E",
+                        "position": 0
+                      },
+                      {
+                        "color": "#1A1A1A",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": [
+                    12,
+                    12,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h8lZW",
+                  "name": "mblogCard1Content",
+                  "width": 347,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9pomL",
+                      "name": "mblogCard1Tag",
+                      "fill": "#FF8400",
+                      "content": "Operations",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "9UByf",
+                      "name": "mblogCard1Title",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The 5-minute rule: How utilities handle critical alerts",
+                      "lineHeight": 1.3,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IbaCL",
+                      "name": "mblogCard1Meta",
+                      "fill": "#666666",
+                      "content": "Mike Ross • Jan 12, 2026",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xoFNm",
+              "name": "mblogCard2",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vAVyd",
+                  "name": "mblogCard2Image",
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#3D3D3D",
+                        "position": 0
+                      },
+                      {
+                        "color": "#1A1A1A",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": [
+                    12,
+                    12,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rbR2e",
+                  "name": "mblogCard2Content",
+                  "width": 350,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MLj1r",
+                      "name": "mblogCard2Tag",
+                      "fill": "#FF8400",
+                      "content": "Compliance",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NLaMF",
+                      "name": "mblogCard2Title",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "NERC CIP compliance in the cloud era",
+                      "lineHeight": 1.3,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IMwH4",
+                      "name": "mblogCard2Meta",
+                      "fill": "#666666",
+                      "content": "Lisa Park • Jan 8, 2026",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "6S5Om",
+              "name": "mblogCard3",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JoyGU",
+                  "name": "mblogCard3Image",
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#1A1A1A",
+                        "position": 0
+                      },
+                      {
+                        "color": "#3D3D3D",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": [
+                    12,
+                    12,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nHh2K",
+                  "name": "mblogCard3Content",
+                  "width": 349,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "avaQH",
+                      "name": "mblogCard3Tag",
+                      "fill": "#FF8400",
+                      "content": "Engineering",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "diMjc",
+                      "name": "mblogCard3Title",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Building real-time sync for distributed field crews",
+                      "lineHeight": 1.3,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "96BnN",
+                      "name": "mblogCard3Meta",
+                      "fill": "#666666",
+                      "content": "James Wu • Jan 5, 2026",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WnxUJ",
+              "name": "mblogCard4",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4IvV9",
+                  "name": "mblogCard4Image",
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#2A2A2A",
+                        "position": 0
+                      },
+                      {
+                        "color": "#1A1A1A",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": [
+                    12,
+                    12,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HemvZ",
+                  "name": "mblogCard4Content",
+                  "width": 349,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DWTrw",
+                      "name": "mblogCard4Tag",
+                      "fill": "#FF8400",
+                      "content": "Operations",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7e7l7",
+                      "name": "mblogCard4Title",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Winter storm preparedness: A field operations guide",
+                      "lineHeight": 1.3,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mxb2s",
+                      "name": "mblogCard4Meta",
+                      "fill": "#666666",
+                      "content": "Emma Torres • Dec 28, 2025",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XLkKH",
+              "name": "mblogPagination",
+              "width": "fill_container",
+              "gap": 6,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "9XpIi",
+                  "type": "ref",
+                  "ref": "oT0d2",
+                  "width": 36,
+                  "height": 36,
+                  "name": "mblogPage1"
+                },
+                {
+                  "id": "ibro8",
+                  "type": "ref",
+                  "ref": "Doslm",
+                  "width": 36,
+                  "height": 36,
+                  "name": "mblogPage2",
+                  "descendants": {
+                    "y7IIq": {
+                      "content": "2"
+                    }
+                  }
+                },
+                {
+                  "id": "fcXRi",
+                  "type": "ref",
+                  "ref": "Doslm",
+                  "width": 36,
+                  "height": 36,
+                  "name": "mblogPage3",
+                  "descendants": {
+                    "y7IIq": {
+                      "content": "3"
+                    }
+                  }
+                },
+                {
+                  "id": "N8wff",
+                  "type": "ref",
+                  "ref": "Irk3I",
+                  "width": 36,
+                  "height": 36,
+                  "name": "mblogEllipsis"
+                },
+                {
+                  "id": "nC9aT",
+                  "type": "ref",
+                  "ref": "Doslm",
+                  "width": 36,
+                  "height": 36,
+                  "name": "mblogPage10",
+                  "descendants": {
+                    "y7IIq": {
+                      "content": "10"
+                    }
+                  }
+                },
+                {
+                  "type": "icon_font",
+                  "id": "OBw8T",
+                  "name": "mblogNextArrow",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "#666666"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kGqIV",
+          "name": "mblogCtaSection",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZNNuY",
+              "name": "mblogCtaHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UH3Nm",
+                  "name": "mblogCtaTag",
+                  "fill": "#FF8400",
+                  "content": "STAY INFORMED",
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "ie8fb",
+                  "name": "mblogCtaTitle",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Get the latest insights delivered to your inbox.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 22,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "C58BA",
+                  "name": "mblogCtaDesc",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Join thousands of utility professionals. No spam.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Cesb0",
+              "name": "mblogNewsletterForm",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "id": "bAf8X",
+                  "type": "ref",
+                  "ref": "592AB",
+                  "width": "fill_container",
+                  "name": "mblogEmailInput",
+                  "descendants": {
+                    "KbqaX": {
+                      "enabled": false
+                    },
+                    "FU4Re": {
+                      "content": "Enter your email"
+                    }
+                  }
+                },
+                {
+                  "id": "7GGZX",
+                  "type": "ref",
+                  "ref": "ZETEA",
+                  "width": "fill_container",
+                  "name": "mblogSubscribeBtn",
+                  "descendants": {
+                    "mRGd3": {
+                      "enabled": false
+                    },
+                    "q5Hn5": {
+                      "content": "Subscribe"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EG5V9",
+              "name": "mblogCtaNote",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "SXYOB",
+                  "name": "mblogCtaNoteIcon",
+                  "width": 14,
+                  "height": 14,
+                  "iconFontName": "shield-check",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FF8400"
+                },
+                {
+                  "type": "text",
+                  "id": "Ujo02",
+                  "name": "mblogCtaNoteText",
+                  "fill": "#B8B9B6",
+                  "content": "We respect your privacy. Unsubscribe anytime.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "y7kbY",
+          "name": "mblogFooter",
+          "width": "fill_container",
+          "fill": "#111111",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#1A1A1A"
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "m9W1m",
+              "name": "mblogFooterBrand",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gaN0P",
+                  "name": "Logo",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "wx6bF",
+                      "name": "LogoIcon",
+                      "geometry": "M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60-60-26.863-60-60 26.863-60 60-60z m6.976 32.692c-2.497-6.331-11.456-6.331-13.953 0l-4.546 11.55c-0.762 1.933-2.293 3.464-4.226 4.226l-11.55 4.546c-6.331 2.497-6.331 11.456 0 13.953l11.55 4.546c1.933 0.762 3.464 2.293 4.226 4.226l4.546 11.55c2.497 6.331 11.456 6.331 13.953 0l4.546-11.55c0.762-1.933 2.293-3.464 4.226-4.226l11.55-4.546c6.331-2.497 6.331-11.456 0-13.953l-11.55-4.546c-1.933-0.762-3.464-2.293-4.226-4.226l-4.546-11.55z",
+                      "fill": "$--primary",
+                      "width": 32,
+                      "height": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "csREV",
+                      "name": "logoText",
+                      "fill": "#FFFFFF",
+                      "content": "UTILITIES",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 16,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "pn4rC",
+                  "name": "mblogFooterTagline",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Modern infrastructure management for utility providers.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d4pcu",
+              "name": "mblogLinkColumns",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZaXsW",
+                  "name": "mblogFooterProduct",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uoLRv",
+                      "name": "mblogFooterProductTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Product",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lMeex",
+                      "name": "mblogFooterProduct1",
+                      "fill": "#666666",
+                      "content": "Features",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0iOPL",
+                      "name": "mblogFooterProduct2",
+                      "fill": "#666666",
+                      "content": "Pricing",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y0p9R",
+                      "name": "mblogFooterProduct3",
+                      "fill": "#666666",
+                      "content": "Documentation",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QNMzk",
+                  "name": "mblogFooterCompany",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j5C0t",
+                      "name": "mblogFooterCompanyTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Company",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eTF9g",
+                      "name": "mblogFooterCompany1",
+                      "fill": "#666666",
+                      "content": "About",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kCbtJ",
+                      "name": "mblogFooterCompany2",
+                      "fill": "#FF8400",
+                      "content": "Blog",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6bBUr",
+                      "name": "mblogFooterCompany3",
+                      "fill": "#666666",
+                      "content": "Careers",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7qojG",
+                  "name": "mblogFooterLegal",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "w4AyU",
+                      "name": "mblogFooterLegalTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Legal",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "waETw",
+                      "name": "mblogFooterLegal1",
+                      "fill": "#666666",
+                      "content": "Privacy",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W7Guw",
+                      "name": "mblogFooterLegal2",
+                      "fill": "#666666",
+                      "content": "Terms",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yQ507",
+                      "name": "mblogFooterLegal3",
+                      "fill": "#666666",
+                      "content": "Security",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5pwIE",
+              "name": "mblogFooterDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#2E2E2E"
+            },
+            {
+              "type": "frame",
+              "id": "a7xkK",
+              "name": "mblogFooterBottom",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "f11kG",
+                  "name": "mblogFooterCopyright",
+                  "fill": "#444444",
+                  "content": "© 2026 Utilities Inc. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "0Roxl",
+                  "name": "mblogFooterSocial",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cffXB",
+                      "name": "mblogFooterSocial1",
+                      "fill": "#666666",
+                      "content": "Twitter",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f5x66",
+                      "name": "mblogFooterSocial2",
+                      "fill": "#666666",
+                      "content": "LinkedIn",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MTszC",
+                      "name": "mblogFooterSocial3",
+                      "fill": "#666666",
+                      "content": "GitHub",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {
